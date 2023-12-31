@@ -14,6 +14,10 @@ My name is Devin. I specialize in engineering advanced generative AI workflows t
 
 Yes, that has been possible to do with just ChatGPT. The tool timeout threshold of 60 seconds, resets with each new tool call, allowing highly complex responses if you know how.
 
+**Contact**: devinpellegrino@gmail.com
+
+**Site**: [nerority.com](https://www.nerority.com)
+
 # Introducing the Lineup...
 
 ## Automated DALL-E Prompt Variation Testing with Fine-Grain Control
