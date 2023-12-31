@@ -14,7 +14,7 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 
 ## Automated High-Quality Document Analysis
 
-**Description**: Properly understanding and summarizing both the holistic and granular aspects of long and/or complex document has been a standing frustration with ChatGPT. This GPT automates an advanced workflow, that leverages RAG search and the python tool to complete highly detailed and valuable analysis of complex documents. This has been incredibly difficult to generalize for any document as well as get a workflow this advanced to properly execute every time. That has recently been solved.
+**Description**: Getting the AI to properly understand and summarize both the holistic and granular aspects of long and/or complex documents has been a standing frustration with ChatGPT. This GPT automates an advanced workflow, that leverages RAG search and the python tool to complete highly detailed and valuable analysis of complex documents. This has been incredibly difficult to automate with accuracy, I am proud to have solved this issue.
 
 **Input**: Uploaded Document
 
@@ -41,25 +41,9 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 5. **Tailored Resume Creation (Python Tool)**
 6. **Word Document Creation (Python Tool)**
 
-### Perfected Prompt Template AI Program
+### Advanced Automated DALL-E Prompt Refinement with Fine-Grain Control
 
-**Description**:
-
-**Input**:
-
-**Workflow**:
-
-### Hyper-Dimensional Scientific Theory Synthesizer
-
-**Description**:
-
-**Input**:
-
-**Workflow**:
-
-### Optimized DALL-E Prompt Generation
-
-**Description**:
+**Description**: This is an excellent GPT for image generation. This GPT compeltes an advanced workflow leveraging multiple tools to automate approach to a 
 
 **Input**:
 
@@ -74,6 +58,22 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 **Workflow**:
 
 ### Botanical Growth Cycle Visualizer
+
+**Description**:
+
+**Input**:
+
+**Workflow**:
+
+### Perfected Prompt Template AI Program
+
+**Description**:
+
+**Input**:
+
+**Workflow**:
+
+### Hyper-Dimensional Scientific Theory Synthesizer
 
 **Description**:
 
