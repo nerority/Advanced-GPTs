@@ -30,26 +30,25 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 
 **Description**: This GPT automates tailored resume creation for target positions after building a user profile. It meticulously analyzes user-uploaded career documents, maps out professional trajectories, and crafts tailored resumes targeted towards specific job opportunities. This GPT leverages a sophisticated workflow integrating RAG Search, Python tooling, and Browser capabilities, orchestrated by ChatGPT's master model. It excels in understanding complex career narratives and aligning them with current market trends.
 
-**Input**: 
-- User-uploaded career-related documents (e.g., resumes, cover letters, professional portfolios).
+**Input**: User-uploaded career-related documents (e.g., resumes, cover letters, professional portfolios).
 
 **Workflow (Single Response)**: 
-1. **Career Information Analysis (RAG Search)**
-2. **User Profile Knowledge Distillation (Python Tool)**
-3. **Career Progression Mapping (Python Tool)**
-4. **Job Market Research (Browser Tool)**
-5. **Tailored Resume Creation (Python Tool)**
-6. **Word Document Creation (Python Tool)**
+- Career Information Analysis (RAG Search)
+- User Profile Knowledge Distillation (Python Tool)
+- Career Progression Mapping (Python Tool)
+- Job Market Research (Browser Tool)
+- Tailored Resume Creation (Python Tool)
+- Word Document Creation (Python Tool)
 
-### Advanced Automated DALL-E Prompt Refinement with Fine-Grain Control
+## Advanced Automated DALL-E Prompt Refinement with Fine-Grain Control
 
-**Description**: This is an excellent GPT for image generation. This GPT compeltes an advanced workflow leveraging multiple tools to automate approach to a 
+**Description**: This is an excellent GPT for image generation. This GPT completes an advanced workflow leveraging multiple tools to automate approach to a "perfect" prompt. Has fine-grain control for easy navigation.
 
-**Input**:
+**Input**: User Description of Desired Image
 
 **Workflow**:
 
-### Automated Infinite Progression with Explicit Control
+## Automated Infinite Progression with Explicit Control
 
 **Description**:
 
@@ -57,7 +56,7 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 
 **Workflow**:
 
-### Botanical Growth Cycle Visualizer
+## Botanical Growth Cycle Visualizer
 
 **Description**:
 
@@ -65,7 +64,7 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 
 **Workflow**:
 
-### Perfected Prompt Template AI Program
+## Perfected Prompt Template AI Program
 
 **Description**:
 
@@ -73,7 +72,7 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 
 **Workflow**:
 
-### Hyper-Dimensional Scientific Theory Synthesizer
+## Hyper-Dimensional Scientific Theory Synthesizer
 
 **Description**:
 
