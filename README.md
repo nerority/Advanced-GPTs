@@ -18,7 +18,7 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 
 **Input**: User Description of Desired Image
 
-```!executeWorkflow [description of desired image]"```
+```!executeWorkflow [description of desired image]```
 
 **Workflow (Single Response)**:
 - Prompt Set Design (Python Tool)
