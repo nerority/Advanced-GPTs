@@ -23,7 +23,7 @@ Yes, that has been possible to do with just ChatGPT. The tool timeout threshold 
 **Workflow (Single Response)**:
 - Prompt Set Design (Python Tool)
 - **Image Gen Loop** (DallE-3 x5)
-- Image Analysis (Python)
+- Image Analysis (Python Tool)
 - Prompt Synthesis and Results
 
 ![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/8719e944-b102-43b9-af40-939c13c80930)
