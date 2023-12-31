@@ -12,7 +12,7 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 
 # Introducing the Lineup...
 
-## Automated DALL-E Prompt Refinement with Fine-Grain Control
+## Automated DALL-E Prompt Variation Testing with Fine-Grain Control
 
 **Description**: This is an excellent GPT for image generation. This GPT completes an advanced workflow leveraging multiple tools to automate approach to a "perfect" prompt. Has fine-grain control for easy navigation.
 
