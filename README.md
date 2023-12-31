@@ -1,8 +1,8 @@
-Advanced Workflow GPTs *by Nerority*
+# Advanced Workflow GPTs *by Nerority*
 
-![Nerority](https://github.com/nerority/Advanced-GPTs/assets/80237923/e99891a8-9645-4e9b-a22c-7fca73177882)# 
+*Showcase of my Custom GPTs, featuring advanced workflows and operational logic.*
 
-*Showcase of my custom GPTs, featuring advanced workflows and operational logic.*
+![Nerority](https://github.com/nerority/Advanced-GPTs/assets/80237923/e99891a8-9645-4e9b-a22c-7fca73177882)
 
 My name is Devin. I specialize in engineering advanced generative AI workflows that leverage meta-functionality control. I have been mastering prompt engineering as a hobby for a long time now, and am able to design GPT's to do pretty much anything.
 
