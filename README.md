@@ -52,22 +52,6 @@ Yes, that has been possible to do with just ChatGPT. The tool timeout threshold 
 ![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/bfe4e112-9834-467e-aed1-78d464a97699)
 ![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/b777048a-02ac-4417-b53b-aca0ade71f30)
 
-## Botanical Growth Cycle Visualizer
-
-**Description**: This GPT is a specialized educational agent designed for high-quality visualizations of the growth cycle of a user selected plant species. 
-
-**Input**: User-Specified Plant Species
-
-```!executeWorkflow [plant species]```
-
-**Workflow**:
-- Data Synthesis and Planning (Python Tool)
-- **Image Gen Loop** (DallE-3 x6)
-- Recap and Exploration
-
-![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/206aea78-19d1-45f8-a20c-d5be5a04b053)
-![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/3a3da544-e5a5-487a-8e43-66d2da6b440f)
-
 ## Automated High-Quality Document Analysis
 
 **Description**: Getting the AI to properly understand and summarize both the holistic and granular aspects of long and/or complex documents has been a standing frustration with ChatGPT. This GPT automates an advanced workflow, that leverages RAG search and the python tool to achieve highly-detailed and valuable analysis of complex documents. This has been incredibly difficult to automate with accuracy, I am proud to have now solved this issue.
@@ -105,6 +89,22 @@ Command `S` to start.
 - Word Document Creation (Python Tool)
 
 ![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/cebc20a1-bfed-40c0-a532-75c49efae374)
+
+## Botanical Growth Cycle Visualizer
+
+**Description**: This GPT is a specialized educational agent designed for high-quality visualizations of the growth cycle of a user selected plant species. 
+
+**Input**: User-Specified Plant Species
+
+```!executeWorkflow [plant species]```
+
+**Workflow**:
+- Data Synthesis and Planning (Python Tool)
+- **Image Gen Loop** (DallE-3 x6)
+- Recap and Exploration
+
+![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/206aea78-19d1-45f8-a20c-d5be5a04b053)
+![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/3a3da544-e5a5-487a-8e43-66d2da6b440f)
 
 # In Progress..
 
