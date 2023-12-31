@@ -2,7 +2,7 @@
 
 *Showcase of my custom GPTs, featuring advanced workflows and operational context.*
 
-My name is Devin. I specialize in engineering advanced AI workflows that leverage meta-functionality control. I have been mastering prompt engineering for almost 2 years now as a hobby, but I am now able to get GPT's to do pretty much anything.
+My name is Devin. I specialize in engineering advanced AI workflows that leverage meta-functionality control. I have been mastering prompt engineering as a hobby for a long time now, and am able to design GPT's to do pretty much anything.
 
 - Did you know you can perfectly control >5 minutes of AI tool chaining with >30 different tool calls in the same response, with 100% accuracy? 
 - Did you know you can have ChatGPT generate >10 Dalle Images in a single response, with perfect control?
