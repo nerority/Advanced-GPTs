@@ -12,7 +12,7 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 
 # Introducing the GPTs
 
-### Automated High-Quality Document Analysis
+## Automated High-Quality Document Analysis
 
 **Description**: Properly understanding and summarizing both the holistic and granular aspects of long and/or complex document has been a standing frustration with ChatGPT. This GPT automates an advanced workflow, that leverages RAG search and the python tool to complete highly detailed and valuable analysis of complex documents. This has been incredibly difficult to generalize for any document as well as get a workflow this advanced to properly execute every time. That has recently been solved.
 
@@ -24,13 +24,22 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 - Compilation
 - Save as File
 
-### Automated Career Profile Analyst and Resume Tailor
+**Note**: There is a hard time-out of ~ 8-10 minutes no matter what. Due to the complexity of this workflow, it can sometimes timeout before finishing. When this happens, simply enter "P" in the next input to re-establish the workflow where it left off.
 
-**Description**:
+## Automated Career Profile Analyst and Resume Tailoring for Target Positions
 
-**Input**:
+**Description**: This GPT automates tailored resume creation for target positions after building a user profile. It meticulously analyzes user-uploaded career documents, maps out professional trajectories, and crafts tailored resumes targeted towards specific job opportunities. This GPT leverages a sophisticated workflow integrating RAG Search, Python tooling, and Browser capabilities, orchestrated by ChatGPT's master model. It excels in understanding complex career narratives and aligning them with current market trends.
 
-**Workflow**:
+**Input**: 
+- User-uploaded career-related documents (e.g., resumes, cover letters, professional portfolios).
+
+**Workflow (Single Response)**: 
+1. **Career Information Analysis (RAG Search)**
+2. **User Profile Knowledge Distillation (Python Tool)**
+3. **Career Progression Mapping (Python Tool)**
+4. **Job Market Research (Browser Tool)**
+5. **Tailored Resume Creation (Python Tool)**
+6. **Word Document Creation (Python Tool)**
 
 ### Perfected Prompt Template AI Program
 
