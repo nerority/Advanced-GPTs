@@ -14,7 +14,7 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 
 ## Automated DALL-E Prompt Variation Testing with Fine-Grain Control
 
-**Description**: This is an excellent GPT for image generation. This GPT completes an advanced workflow leveraging multiple tools to automate approach to a "perfect" prompt. Has fine-grain control for easy navigation.
+**Description**: This is an excellent GPT for image generation ideation and mass testing of an idea. This GPT achieves an advanced workflow leveraging multiple tools to automate mass-testing of prompt variations of an idea. Initially uses the python tool to detail 5 DallE prompts with different strategies for visualization. Generates one-by-one, runs all images through the image understanding model to grade renderings and prompt versions. Has fine-grain control for easy navigation.
 
 **Input**: User Description of Desired Image
 
