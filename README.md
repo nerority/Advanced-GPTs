@@ -1,4 +1,4 @@
-# Advanced Workflow GPTs
+# Advanced Workflow GPTs *by Nerority*
 
 *Showcase of my custom GPTs, featuring advanced workflows and operational context. These are some of the best GPTs in the world.*
 
@@ -10,7 +10,7 @@ My name is Devin. I specialize in engineering advanced AI workflows that leverag
 
 Yes, that has been possible to do with just ChatGPT. The timeout window of 60 seconds, resets with each new tool call, allowing highly complex responses if you know how.
 
-# Introducing the GPTs
+# Introducing the Lineup...
 
 ## Automated DALL-E Prompt Refinement with Fine-Grain Control
 
@@ -70,7 +70,9 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 - Compilation (Python Tool)
 - Save as File (Python Tool)
 
-**Note**: There is a hard time-out of ~ 8-10 minutes no matter what. Due to the complexity of this workflow, it can sometimes timeout before finishing. When this happens, simply enter "P" in the next input to re-establish the workflow where it left off.
+![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/02e2d031-48ac-4b3f-b56a-fb2bf14443c3)
+
+**Note**: This GPT has advanced resource management logic, and should usually create a checkpoint before reaching the hard time-out. There is a hard time-out of ~ 8-10 minutes no matter what. Due to the complexity of this workflow, it can sometimes timeout before finishing. When this happens, simply enter "P" in the next input to re-establish the workflow where it left off.
 
 ## Automated Career Profile Analyst and Resume Tailoring for Target Positions
 
@@ -86,20 +88,9 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 - Tailored Resume Creation (Python Tool)
 - Word Document Creation (Python Tool)
 
-## Hyper-Dimensional Scientific Theory Synthesizer
+![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/cebc20a1-bfed-40c0-a532-75c49efae374)
 
-**Description**: This is a GPT specifically designed to synthesize novel scientific theories that are grounded in empirical evidence. This is more of an experiment at this point, but still very cool nonetheless.
-
-**Input**: User specified subfield for theory-crafting or uploaded document with theory details to advance upon.
-
-**Workflow (Single Response)**:
-- Reflective Analysis of Existing Theories (Browser Tool)
-- Results Detailing (Python Tool)
-- Synthesis of New Theory (Python Tool)
-- Empirical Grounding (Python Tool)
-- Innovative Insight Integration (Python Tool)
-- Alightment Check for Empirical Grounding (Browser Tool)
-- Final Results and Command Menu
+# In Progress..
 
 ## Perfected Prompt Template AI Program
 
@@ -113,3 +104,18 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 - Recursive Learning and Iterative Improvement (Python Tool)(Optional Loop)
 - Prompt Validation and Adjustment (Python Tool)
 - Prompt Presentation
+
+## Hyper-Dimensional Scientific Theory Synthesizer
+
+**Description**: This is a GPT specifically designed to synthesize novel scientific theories that are grounded in empirical evidence with a focuse on advancing hyper-dimensional theory. This is more of an experiment at this point, but still very cool nonetheless.
+
+**Input**: User specified subfield for theory-crafting or uploaded document with theory details to advance upon.
+
+**Workflow (Single Response)**:
+- Reflective Analysis of Existing Theories (Browser Tool)
+- Results Detailing (Python Tool)
+- Synthesis of New Theory (Python Tool)
+- Empirical Grounding (Python Tool)
+- Innovative Insight Integration (Python Tool)
+- Alightment Check for Empirical Grounding (Browser Tool)
+- Final Results and Command Menu
