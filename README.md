@@ -78,7 +78,7 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 
 ## Automated Career Profile Analyst and Resume Tailoring for Target Positions
 
-**Description**: This GPT automates tailored resume creation for target positions after building a user profile. It meticulously analyzes user-uploaded career documents, maps out professional trajectories, and crafts tailored resumes targeted towards specific job opportunities. This GPT leverages a sophisticated workflow integrating RAG Search, Python tooling, and Browser capabilities, orchestrated by ChatGPT's master model. It excels in understanding complex career narratives and aligning them with current market trends.
+**Description**: This GPT automates tailored resume creation for target positions after building a user profile. It analyzes user-uploaded career documents, maps out professional trajectories, and crafts tailored resumes targeted towards specific job opportunities. This agent leverages a complex workflow integrating RAG Search, Python tooling, and Browser capabilities, orchestrated by ChatGPT's master model. It excels in understanding complex career narratives and aligning them with current market trends.
 
 **Input**: User-uploaded career-related documents (e.g., resumes, cover letters, professional portfolios). Command `S` to start.
 
