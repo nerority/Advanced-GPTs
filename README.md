@@ -12,7 +12,7 @@ My name is Devin. I specialize in engineering advanced generative AI workflows t
 - Did you know you can have ChatGPT generate >10 DallE-3 Images in a single response, with perfect control?
 - Did you know you can have ChatGPT generate prompts for DallE-3 in the python tool, generate each of them one by one with DallE-3, pull them through the image understanding model to accurately critique the generated images, and then determine the best prompt variation for an idea, all in the same single response?
 
-Yes, that has been possible to do with just ChatGPT. The tool timeout threshold of 60 seconds, resets with each new tool call, allowing highly complex responses if you know how.
+Yes, that has been possible to do with ChatGPT alone. The tool timeout threshold of 60 seconds, resets with each new tool call, allowing highly complex responses if you know how.
 
 **Contact**: devinpellegrino@gmail.com
 
