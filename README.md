@@ -18,6 +18,8 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 
 **Input**: User Description of Desired Image
 
+```!executeWorkflow [description of desired image]"```
+
 **Workflow (Single Response)**:
 - Prompt Set Design (Python Tool)
 - **Image Gen Loop** (DallE-3 x5)
@@ -48,6 +50,8 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 
 **Input**: User Specified Plant Species
 
+```!executeWorkflow [plant species]```
+
 **Workflow**:
 - Data Synthesis and Planning (Python Tool)
 - **Image Gen Loop** (DallE-3 x6)
@@ -60,7 +64,7 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 
 **Description**: Getting the AI to properly understand and summarize both the holistic and granular aspects of long and/or complex documents has been a standing frustration with ChatGPT. This GPT automates an advanced workflow, that leverages RAG search and the python tool to complete highly detailed and valuable analysis of complex documents. This has been incredibly difficult to automate with accuracy, I am proud to have solved this issue.
 
-**Input**: Uploaded Document
+**Input**: Uploaded Document. Command `S` to start.
 
 **Workflow**: 
 - Generate ToC (Python Tool)
@@ -76,7 +80,7 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 
 **Description**: This GPT automates tailored resume creation for target positions after building a user profile. It meticulously analyzes user-uploaded career documents, maps out professional trajectories, and crafts tailored resumes targeted towards specific job opportunities. This GPT leverages a sophisticated workflow integrating RAG Search, Python tooling, and Browser capabilities, orchestrated by ChatGPT's master model. It excels in understanding complex career narratives and aligning them with current market trends.
 
-**Input**: User-uploaded career-related documents (e.g., resumes, cover letters, professional portfolios).
+**Input**: User-uploaded career-related documents (e.g., resumes, cover letters, professional portfolios). Command `S` to start.
 
 **Workflow (Single Response)**: 
 - Career Information Analysis (RAG Search)
