@@ -26,6 +26,8 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 
 ![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/8719e944-b102-43b9-af40-939c13c80930)
 ![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/fdcaa8a4-d993-40d5-ab65-5ae84d43628d)
+![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/b366793c-6c2f-46ef-971b-38a8d684ef3d)
+
 
 ## Automated Infinite Visual Progression with Explicit Control
 
@@ -39,6 +41,8 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 - **Image Gen Loop** (DallE-3 x5)
 
 ![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/bfe4e112-9834-467e-aed1-78d464a97699)
+![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/b777048a-02ac-4417-b53b-aca0ade71f30)
+![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/663eaf15-ba03-4ae5-a9d4-b78d5ca8e40d)
 
 ## Botanical Growth Cycle Visualizer
 
