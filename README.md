@@ -25,6 +25,7 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 - Prompt Synthesis and Results
 
 ![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/8719e944-b102-43b9-af40-939c13c80930)
+![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/3fcdd011-9402-4326-93a1-ea58f81034dd)
 
 ## Automated Infinite Visual Progression with Explicit Control
 
