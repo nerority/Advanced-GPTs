@@ -19,10 +19,10 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 **Input**: Uploaded Document
 
 **Workflow**: 
-- Generate ToC
-- **Loop**: RAG Search & Python Logic Synthesis
-- Compilation
-- Save as File
+- Generate ToC (Python Tool)
+- **Analysis Loop** (RAG Search & Python Tool)
+- Compilation (Python Tool)
+- Save as File (Python Tool)
 
 **Note**: There is a hard time-out of ~ 8-10 minutes no matter what. Due to the complexity of this workflow, it can sometimes timeout before finishing. When this happens, simply enter "P" in the next input to re-establish the workflow where it left off.
 
@@ -40,21 +40,28 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 - Tailored Resume Creation (Python Tool)
 - Word Document Creation (Python Tool)
 
-## Advanced Automated DALL-E Prompt Refinement with Fine-Grain Control
+## Automated DALL-E Prompt Refinement with Fine-Grain Control
 
 **Description**: This is an excellent GPT for image generation. This GPT completes an advanced workflow leveraging multiple tools to automate approach to a "perfect" prompt. Has fine-grain control for easy navigation.
 
 **Input**: User Description of Desired Image
 
-**Workflow**:
+**Workflow (Single Response)**:
+- Prompt Set Design (Python Tool)
+- **Image Gen Loop** (DallE-3 x5)
+- Image Analysis (Python)
+- Prompt Synthesis and Results
 
-## Automated Infinite Progression with Explicit Control
+## Automated Infinite Visual Progression with Explicit Control
 
-**Description**:
+**Description**: This GPT was originally build by me as a joke, however it wound up working so well, I decided to make a full fletched GPT built around this purpose. This results are nothing short of amazing. This GPT allows you to begin an infinite "progression" of a certain thing, that gradually progresses the image in a specified direction. Every response loops 5 times with DallE to complete 5 progressions. There is an extensive command and hotkey menu that is perfectly understood by the AI to allow seamless control of the progression in any way you desire. Super fun to use.
 
-**Input**:
+**Input**: Enter this command with the details filled out to begin the progression.
 
-**Workflow**:
+```!executeInfiniteProgression [description of base image, dimension to progress, direction, starting point, rate]```
+
+**Workflow (Single Response)**:
+- **Image Gen Loop** (DallE-3 x5)
 
 ## Botanical Growth Cycle Visualizer
 
