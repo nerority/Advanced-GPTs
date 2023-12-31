@@ -1,6 +1,6 @@
 # Advanced Workflow GPTs *by Nerority*
 
-*Showcase of my custom GPTs, featuring advanced workflows and operational context.*
+* Showcase of my custom GPTs, featuring advanced workflows and operational context.*
 
 My name is Devin. I specialize in engineering advanced AI workflows that leverage meta-functionality control. I have been mastering prompt engineering as a hobby for a long time now, and am able to design GPT's to do pretty much anything.
 
@@ -105,7 +105,7 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 
 ## Hyper-Dimensional Scientific Theory Synthesizer
 
-**Description**: This is a GPT specifically designed to synthesize novel scientific theories that are grounded in empirical evidence with a focuse on advancing hyper-dimensional theory. This is more of an experiment at this point, but still very cool nonetheless.
+**Description**: This is a GPT specifically designed to synthesize novel scientific theories that are grounded in empirical evidence with a focus on advancing hyper-dimensional theory. This is more of an experiment at this point, but still very cool nonetheless.
 
 **Input**: User specified subfield for theory-crafting or uploaded document with theory details to advance upon.
 
