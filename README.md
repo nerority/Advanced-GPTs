@@ -1,6 +1,6 @@
 # Advanced Workflow GPTs *by Nerority*
 
-*Showcase of my custom GPTs, featuring advanced workflows and operational context.*
+*Showcase of my custom GPTs, featuring advanced workflows and operational logic.*
 
 My name is Devin. I specialize in engineering advanced generative AI workflows that leverage meta-functionality control. I have been mastering prompt engineering as a hobby for a long time now, and am able to design GPT's to do pretty much anything.
 
