@@ -36,7 +36,7 @@ Yes, that has been possible to do with just ChatGPT. The tool timeout threshold 
 
 ## Automated Infinite Visual Progression with Explicit Control
 
-**Description**: This GPT was originally built by me as a joke, however it wound up working so well, I decided to design a full fletched GPT built around this purpose. This results are nothing short of amazing. This GPT allows you to begin an infinite "progression" of a certain thing, that gradually progresses the image in a specified direction. Every response loops 5 times with DallE to complete 5 progressions. There is an extensive command and hotkey menu that is perfectly understood by the AI to allow seamless control of the progression in any way you desire. Super fun to use.
+**Description**: This GPT was originally built by me as a joke, however it wound up working so well, I decided to design a full-fletched GPT around this purpose. This results are nothing short of awesome. This GPT allows you to begin an infinite "progression" of a certain thing, that gradually progresses the image in a specified direction. Every response loops 5 times with DallE to complete 5 progressions. There is an extensive command and hotkey menu that is perfectly understood by the AI to allow seamless control of the progression in any way you desire. Super fun to use.
 
 **Input**: Enter this command with the details filled out to begin the progression.
 
