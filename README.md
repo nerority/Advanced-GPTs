@@ -52,6 +52,8 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 - Image Analysis (Python)
 - Prompt Synthesis and Results
 
+![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/daeec7ab-b5d8-46a5-8b9a-b77d8d4217e5)
+
 ## Automated Infinite Visual Progression with Explicit Control
 
 **Description**: This GPT was originally build by me as a joke, however it wound up working so well, I decided to make a full fletched GPT built around this purpose. This results are nothing short of amazing. This GPT allows you to begin an infinite "progression" of a certain thing, that gradually progresses the image in a specified direction. Every response loops 5 times with DallE to complete 5 progressions. There is an extensive command and hotkey menu that is perfectly understood by the AI to allow seamless control of the progression in any way you desire. Super fun to use.
@@ -63,6 +65,8 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 **Workflow (Single Response)**:
 - **Image Gen Loop** (DallE-3 x5)
 
+![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/bfe4e112-9834-467e-aed1-78d464a97699)
+
 ## Botanical Growth Cycle Visualizer
 
 **Description**: This GPT is a specialized educational agent designed for high-quality visualizations of the growth cycle of a user selected plant species. 
@@ -73,6 +77,8 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 - Data Synthesis and Planning (Python Tool)
 - **Image Gen Loop** (DallE-3 x6)
 - Recap and Exploration
+
+![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/206aea78-19d1-45f8-a20c-d5be5a04b053)
 
 ## Hyper-Dimensional Scientific Theory Synthesizer
 
