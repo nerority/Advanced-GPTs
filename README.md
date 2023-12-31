@@ -51,7 +51,7 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 - Recap and Exploration
 
 ![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/206aea78-19d1-45f8-a20c-d5be5a04b053)
-![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/5013fdcc-9d3a-49e7-ab51-cd7fc58b4795)
+![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/3a3da544-e5a5-487a-8e43-66d2da6b440f)
 
 ## Automated High-Quality Document Analysis
 
