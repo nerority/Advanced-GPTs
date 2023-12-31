@@ -1,4 +1,6 @@
-# Advanced Workflow GPTs *by Nerority*
+Advanced Workflow GPTs *by Nerority*
+
+![Nerority](https://github.com/nerority/Advanced-GPTs/assets/80237923/e99891a8-9645-4e9b-a22c-7fca73177882)# 
 
 *Showcase of my custom GPTs, featuring advanced workflows and operational logic.*
 
