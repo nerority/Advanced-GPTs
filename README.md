@@ -65,24 +65,39 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 
 ## Botanical Growth Cycle Visualizer
 
-**Description**:
+**Description**: This GPT is a specialized educational agent designed for high-quality visualizations of the growth cycle of a user selected plant species. 
 
-**Input**:
-
-**Workflow**:
-
-## Perfected Prompt Template AI Program
-
-**Description**:
-
-**Input**:
+**Input**: User Specified Plant Species
 
 **Workflow**:
+- Data Synthesis and Planning (Python Tool)
+- **Image Gen Loop** (DallE-3 x6)
+- Recap and Exploration
 
 ## Hyper-Dimensional Scientific Theory Synthesizer
 
-**Description**:
+**Description**: This is a GPT specifically designed to synthesize novel scientific theories that are grounded in empirical evidence. This is more of an experiment at this point, but still very cool nonetheless.
 
-**Input**:
+**Input**: User specified subfield for theory-crafting or uploaded document with theory details to advance upon.
+
+**Workflow (Single Response)**:
+- Reflective Analysis of Existing Theories (Browser Tool)
+- Results Detailing (Python Tool)
+- Synthesis of New Theory (Python Tool)
+- Empirical Grounding (Python Tool)
+- Innovative Insight Integration (Python Tool)
+- Alightment Check for Empirical Grounding (Browser Tool)
+- Final Results and Command Menu
+
+## Perfected Prompt Template AI Program
+
+**Description**: This is specialized GPT intended to streamline conversation management with long and complex generative AI chats. It is designed to parse conversational context with in depth understanding, and design high-quality prompts that are designed to improve upon the process detailed in the conversation.
+
+**Input**: Uploaded document with conversation details
 
 **Workflow**:
+- Initial Understanding (RAG)
+- Logic Synthesis and Refinement (Python Tool)
+- Recursive Learning and Iterative Improvement (Python Tool)(Optional Loop)
+- Prompt Validation and Adjustment (Python Tool)
+- Prompt Presentation
