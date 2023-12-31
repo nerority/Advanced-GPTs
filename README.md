@@ -12,6 +12,47 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 
 # Introducing the GPTs
 
+## Automated DALL-E Prompt Refinement with Fine-Grain Control
+
+**Description**: This is an excellent GPT for image generation. This GPT completes an advanced workflow leveraging multiple tools to automate approach to a "perfect" prompt. Has fine-grain control for easy navigation.
+
+**Input**: User Description of Desired Image
+
+**Workflow (Single Response)**:
+- Prompt Set Design (Python Tool)
+- **Image Gen Loop** (DallE-3 x5)
+- Image Analysis (Python)
+- Prompt Synthesis and Results
+
+![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/8719e944-b102-43b9-af40-939c13c80930)
+
+## Automated Infinite Visual Progression with Explicit Control
+
+**Description**: This GPT was originally build by me as a joke, however it wound up working so well, I decided to make a full fletched GPT built around this purpose. This results are nothing short of amazing. This GPT allows you to begin an infinite "progression" of a certain thing, that gradually progresses the image in a specified direction. Every response loops 5 times with DallE to complete 5 progressions. There is an extensive command and hotkey menu that is perfectly understood by the AI to allow seamless control of the progression in any way you desire. Super fun to use.
+
+**Input**: Enter this command with the details filled out to begin the progression.
+
+```!executeInfiniteProgression [description of base image, dimension to progress, direction, starting point, rate]```
+
+**Workflow (Single Response)**:
+- **Image Gen Loop** (DallE-3 x5)
+
+![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/bfe4e112-9834-467e-aed1-78d464a97699)
+
+## Botanical Growth Cycle Visualizer
+
+**Description**: This GPT is a specialized educational agent designed for high-quality visualizations of the growth cycle of a user selected plant species. 
+
+**Input**: User Specified Plant Species
+
+**Workflow**:
+- Data Synthesis and Planning (Python Tool)
+- **Image Gen Loop** (DallE-3 x6)
+- Recap and Exploration
+
+![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/206aea78-19d1-45f8-a20c-d5be5a04b053)
+![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/5013fdcc-9d3a-49e7-ab51-cd7fc58b4795)
+
 ## Automated High-Quality Document Analysis
 
 **Description**: Getting the AI to properly understand and summarize both the holistic and granular aspects of long and/or complex documents has been a standing frustration with ChatGPT. This GPT automates an advanced workflow, that leverages RAG search and the python tool to complete highly detailed and valuable analysis of complex documents. This has been incredibly difficult to automate with accuracy, I am proud to have solved this issue.
@@ -39,46 +80,6 @@ Yes, that has been possible to do with just ChatGPT. The timeout window of 60 se
 - Job Market Research (Browser Tool)
 - Tailored Resume Creation (Python Tool)
 - Word Document Creation (Python Tool)
-
-## Automated DALL-E Prompt Refinement with Fine-Grain Control
-
-**Description**: This is an excellent GPT for image generation. This GPT completes an advanced workflow leveraging multiple tools to automate approach to a "perfect" prompt. Has fine-grain control for easy navigation.
-
-**Input**: User Description of Desired Image
-
-**Workflow (Single Response)**:
-- Prompt Set Design (Python Tool)
-- **Image Gen Loop** (DallE-3 x5)
-- Image Analysis (Python)
-- Prompt Synthesis and Results
-
-![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/daeec7ab-b5d8-46a5-8b9a-b77d8d4217e5)
-
-## Automated Infinite Visual Progression with Explicit Control
-
-**Description**: This GPT was originally build by me as a joke, however it wound up working so well, I decided to make a full fletched GPT built around this purpose. This results are nothing short of amazing. This GPT allows you to begin an infinite "progression" of a certain thing, that gradually progresses the image in a specified direction. Every response loops 5 times with DallE to complete 5 progressions. There is an extensive command and hotkey menu that is perfectly understood by the AI to allow seamless control of the progression in any way you desire. Super fun to use.
-
-**Input**: Enter this command with the details filled out to begin the progression.
-
-```!executeInfiniteProgression [description of base image, dimension to progress, direction, starting point, rate]```
-
-**Workflow (Single Response)**:
-- **Image Gen Loop** (DallE-3 x5)
-
-![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/bfe4e112-9834-467e-aed1-78d464a97699)
-
-## Botanical Growth Cycle Visualizer
-
-**Description**: This GPT is a specialized educational agent designed for high-quality visualizations of the growth cycle of a user selected plant species. 
-
-**Input**: User Specified Plant Species
-
-**Workflow**:
-- Data Synthesis and Planning (Python Tool)
-- **Image Gen Loop** (DallE-3 x6)
-- Recap and Exploration
-
-![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/206aea78-19d1-45f8-a20c-d5be5a04b053)
 
 ## Hyper-Dimensional Scientific Theory Synthesizer
 
