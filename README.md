@@ -67,6 +67,7 @@ Yes, that has been possible to do with just ChatGPT. The tool timeout threshold 
 **Input**: User-Uploaded Document
 
 Command `S` to start.
+
 Command `P` to resume workflow from last checkpoint.
 
 **Workflow**: 
