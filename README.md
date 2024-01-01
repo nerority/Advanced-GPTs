@@ -128,16 +128,6 @@ sequenceDiagram
     PythonTool->>User: Save as File
 ```
 
-In this diagram:
-
-- The **User** initiates the process by asking the Python Tool to generate the Table of Contents (ToC).
-- The Python Tool enters an **Analysis Loop**, where it interacts with the RAG Search for data analysis.
-- Within this loop, the Python Tool sends a request to the RAG Search, and the RAG Search returns the analysis results.
-- After exiting the loop, the Python Tool performs the **Compilation**.
-- Finally, the Python Tool completes the process by saving the output as a file, which is then made available to the User.
-
-This sequence diagram provides a clear representation of the order of operations and the interactions between the different tools in your workflow. To view this diagram, you would use a platform or tool that supports Mermaid diagrams, particularly sequence diagrams.
-
 **Note**: This GPT has advanced resource management logic, and will create a checkpoint just before reaching the hard time-out. There is a hard time-out of ~ 8-10 minutes no matter what. Due to the complexity of this workflow, it can sometimes timeout before finishing. When this happens, simply enter "P" in the next input to re-establish the workflow where it left off.
 
 <p align="center">
