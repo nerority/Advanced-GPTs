@@ -124,8 +124,10 @@ Command `S` to start.
 - **Image Gen Loop** (DallE-3 x6)
 - Recap and Exploration
 
-<img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/206aea78-19d1-45f8-a20c-d5be5a04b053" width="400" height="1500">
-<img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3a3da544-e5a5-487a-8e43-66d2da6b440f" width="400" height="1500">
+<p align="left">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/e63917ed-a231-48bf-853a-5a0d0fe209d5" width="400" height="1500">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/228a4129-846c-4031-833c-ca443e9b29c3" width="400" height="1500">
+</p>
 
 ## Automated Prompt Refinement
 
