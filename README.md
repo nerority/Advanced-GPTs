@@ -92,9 +92,10 @@ sequenceDiagram
         PythonTool->>DallE: Request Image Generation
         DallE-->>PythonTool: Return Generated Image
     end
-    PythonTool->>PythonTool: Image Analysis
-    PythonTool->>ChatGPT: Analysis Results
+    PythonTool->>PythonTool: Compilation
+    PythonTool->>ChatGPT: Present Results
     ChatGPT->>User: Prompt Synthesis and Results
+    ChatGPT->>User: Command Menu
 ```
 
 <p align="center">
@@ -150,18 +151,22 @@ Command `S` to start.
 ```mermaid
 sequenceDiagram
     participant User
+    participant ChatGPT
     participant RAG as RAG Search
-    participant Python as Python Tool
+    participant PythonTool as Python Tool
     participant Browser as Browser Tool
 
-    User->>RAG: Career Information Analysis
-    RAG-->>Python: Data from RAG Search
-    Python->>Python: User Profile Knowledge Distillation
-    Python->>Python: Career Progression Mapping
-    Python-->>Browser: Request Job Market Data
-    Browser-->>Python: Respond with Job Market Data
-    Python->>Python: Tailored Resume Creation
-    Python->>User: Word Document Creation
+    User->>ChatGPT: User Document Upload
+    ChatGPT->>RAG: Career Information Analysis
+    RAG-->>PythonTool: Analysis Results
+    PythonTool->>PythonTool: User Profile Knowledge Distillation
+    PythonTool->>PythonTool: Career Progression Mapping
+    PythonTool->>Browser: Job Market Research
+    Browser-->>PythonTool: Market Data
+    PythonTool->>PythonTool: Tailored Resume Creation
+    PythonTool->>PythonTool: Word Document Creation
+    PythonTool->>ChatGPT: Resume Compiled
+    ChatGPT->>User: Resume Presentation
 ```
 
 <p align="center">
