@@ -20,7 +20,7 @@ Want me to build your dream GPT? Get in touch.
 
 **Site**: [nerority.com](https://www.nerority.com)
 
-# The Lineup...
+# The Lineup
 
 ## Automated DALL-E Prompt Variation Testing with Fine-Grain Control
 
