@@ -174,5 +174,11 @@ Command `S` to start.
 - Synthesis of the Final Prompt
 
 <p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/85059a22-ed95-474a-b6ff-fb01a0d46f2a" width="40%" height="100%">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3faf4c7e-fe9d-419b-aa32-1c012013a556" width="40%" height="100%">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/4799f739-ba0b-48c5-8396-f8c09c0b256f" width="40%" height="100%">
+</p>
+
+<p align="center" style="display: flex; align-items: flex-start;">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3faf4c7e-fe9d-419b-aa32-1c012013a556" style="width: 40%; height: auto;">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/4799f739-ba0b-48c5-8396-f8c09c0b256f" style="width: 40%; height: auto;">
 </p>
