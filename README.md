@@ -100,7 +100,7 @@ Command `S` to start.
 
 ```!executeWorkflow [plant species]```
 
-**Workflow**:
+**Workflow (Single Response)**
 - Data Synthesis and Planning (Python Tool)
 - **Image Gen Loop** (DallE-3 x6)
 - Recap and Exploration
@@ -108,32 +108,20 @@ Command `S` to start.
 ![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/206aea78-19d1-45f8-a20c-d5be5a04b053)
 ![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/3a3da544-e5a5-487a-8e43-66d2da6b440f)
 
-# In Progress..
+## Automated Prompt Refinement Specialist
 
-## Perfected Prompt Template AI Program
+**Description**: This GPT is designed to achieve a multi-step process for taking an unrefined input prompt into its refined form for GPT-4. The prompt is transformed into its JSON form, which is then run through numerous passes including analysis, enhancement, optimization, categorization, before being synthesized in its final form. This refinement process work excellently for complex tasks and creating consistently understood prompts. Also is a great way to convert random thoughts into well-structured prompts.
 
-**Description**: This is specialized GPT intended to streamline conversation management with long and complex generative AI chats. It is designed to parse conversational context with in depth understanding, and design high-quality prompts that are designed to improve upon the process detailed in the conversation.
+**Input**: User-Provided Prompt to Refine
 
-**Input**: Uploaded document with conversation details
+```!executeWorkflow [prompt for analysis]```
 
-**Workflow**:
-- Initial Understanding (RAG)
-- Logic Synthesis and Refinement (Python Tool)
-- Recursive Learning and Iterative Improvement (Python Tool)(Optional Loop)
-- Prompt Validation and Adjustment (Python Tool)
-- Prompt Presentation
+**Workflow (Single Response)**
+- Prompt Transformation to JSON (Python Tool)
+- Prompt Analysis (Python Tool)
+- Prompt Enhacement (Python Tool)
+- Prompt Optimization (Python Tool)
+- Prompt Categorization (Python Tool)
+- Synthesis of the Final Prompt
 
-## Hyper-Dimensional Scientific Theory Synthesizer
-
-**Description**: This is a GPT specifically designed to synthesize novel scientific theories that are grounded in empirical evidence with a focus on advancing hyper-dimensional theory. This is more of an experiment at this point, but still very cool nonetheless.
-
-**Input**: User specified subfield for theory-crafting or uploaded document with theory details to advance upon.
-
-**Workflow (Single Response)**:
-- Reflective Analysis of Existing Theories (Browser Tool)
-- Results Detailing (Python Tool)
-- Synthesis of New Theory (Python Tool)
-- Empirical Grounding (Python Tool)
-- Innovative Insight Integration (Python Tool)
-- Alightment Check for Empirical Grounding (Browser Tool)
-- Final Results and Command Menu
+![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/85059a22-ed95-474a-b6ff-fb01a0d46f2a)
