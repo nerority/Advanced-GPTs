@@ -48,8 +48,23 @@ Want me to build your dream GPT? Get in touch.
 
 ```!executeInfiniteProgression [description of base image, dimension to progress, direction, starting point, rate]```
 
+
 **Workflow (Single Response)**:
+
 - **Image Gen Loop** (DallE-3 x5)
+- Operational Status and Command Menu
+
+**Control**
+
+```!addDimension [dimension, direction, starting point, progression rate]```
+
+```!removeDimension [dimension]```
+
+```!invertDirection [dimension]```
+
+```!adjustRate [dimension, new progression rate]```
+
+```!updateBase [context]```
 
 ![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/bfe4e112-9834-467e-aed1-78d464a97699)
 ![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/b777048a-02ac-4417-b53b-aca0ade71f30)
