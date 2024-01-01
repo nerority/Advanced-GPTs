@@ -1,4 +1,11 @@
-# Advanced Workflow GPTs *by Nerority*
+<div align="center">
+  <h1>Advanced Workflow GPTs <i>by Nerority</i></h1>
+  <img src="https://skillicons.dev/icons?i=react,vite,ts" alt="Icons" />
+  <br/>
+  <a href="https://www.linkedin.com/in/devin-pellegrino-gt/"><kbd>🔵 LinkedIn</kbd></a>
+  <a href="https://nerority.com"><kbd>🟢 Website</kbd></a>
+</div>
+<br/><br/>
 
 *Under Active Construction*
 
