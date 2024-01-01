@@ -27,7 +27,9 @@ Want me to build your dream GPT? Get in touch.
 
 **Site**: [nerority.com](https://www.nerority.com)
 
-# The Lineup
+<div align="center">
+<h1>The Lineup</h1>
+</div>
 
 ## Automated Infinite Visual Progression with Fine-Grain Control
 
