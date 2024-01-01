@@ -76,8 +76,8 @@ Want me to build your dream GPT? Get in touch.
 - Prompt Synthesis and Results
 
 <p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3d8e7799-1f9a-4383-b1cb-49bf3d7bce70" width="45%" height="1500">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/6deb9790-33a1-4a45-bdc9-0a806d0bb959" width="45%" height="1500">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3d8e7799-1f9a-4383-b1cb-49bf3d7bce70" width="40%" height="1500">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/6deb9790-33a1-4a45-bdc9-0a806d0bb959" width="40%" height="1500">
 </p>
 
 ## Automated High-Quality Document Analysis
@@ -153,8 +153,8 @@ Command `S` to start.
 - Recap and Exploration
 
 <p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/e63917ed-a231-48bf-853a-5a0d0fe209d5" width="400" height="1500">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/228a4129-846c-4031-833c-ca443e9b29c3" width="400" height="1500">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/e63917ed-a231-48bf-853a-5a0d0fe209d5" width="40%" height="1500">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/228a4129-846c-4031-833c-ca443e9b29c3" width="40%" height="1500">
 </p>
 
 ## Automated Prompt Refinement
@@ -172,11 +172,6 @@ Command `S` to start.
 - Prompt Optimization (Python Tool)
 - Prompt Categorization (Python Tool)
 - Synthesis of the Final Prompt
-
-<p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3faf4c7e-fe9d-419b-aa32-1c012013a556" width="40%" height="100%">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/4799f739-ba0b-48c5-8396-f8c09c0b256f" width="40%" height="100%">
-</p>
 
 <p align="center" style="display: flex; align-items: flex-start;">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3faf4c7e-fe9d-419b-aa32-1c012013a556" style="width: 40%; height: auto;">
