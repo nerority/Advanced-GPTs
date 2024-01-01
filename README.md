@@ -56,9 +56,9 @@ Want me to build your dream GPT? Get in touch.
 ```!updateBase [context]```
 
 <p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/c4502ac9-e05f-48af-b724-050d7fbdac8c" alt="First" width="250" height="3000">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/0a8c0673-8018-497c-8c58-e35402c39c95" alt="Second" width="250" height="3000">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/fcca86b4-183f-408d-85cf-830290422196" alt="Second" width="250" height="3000">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/c4502ac9-e05f-48af-b724-050d7fbdac8c" alt="First" width="30%" height="3000">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/0a8c0673-8018-497c-8c58-e35402c39c95" alt="Second" width="30%" height="3000">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/fcca86b4-183f-408d-85cf-830290422196" alt="Second" width="30%" height="3000">
 </p>
 
 ## Automated DALL-E Prompt Variation Testing
@@ -76,8 +76,8 @@ Want me to build your dream GPT? Get in touch.
 - Prompt Synthesis and Results
 
 <p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3d8e7799-1f9a-4383-b1cb-49bf3d7bce70" width="400" height="1500">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/6deb9790-33a1-4a45-bdc9-0a806d0bb959" width="400" height="1500">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3d8e7799-1f9a-4383-b1cb-49bf3d7bce70" width="45%" height="1500">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/6deb9790-33a1-4a45-bdc9-0a806d0bb959" width="45%" height="1500">
 </p>
 
 ## Automated High-Quality Document Analysis
@@ -135,8 +135,8 @@ Command `S` to start.
 - Word Document Creation (Python Tool)
 
 <p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/78d062bf-4b65-45a3-ade9-b63c1e149588" width="40%" height="50%">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/16bbb2fa-4117-475d-9ec7-a8b3b504eff6" width="40%" height="50%">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/78d062bf-4b65-45a3-ade9-b63c1e149588" width="40%" height="100%">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/16bbb2fa-4117-475d-9ec7-a8b3b504eff6" width="40%" height="100%">
 </p>
 
 ## Botanical Growth Cycle Visualizer
@@ -152,7 +152,7 @@ Command `S` to start.
 - **Image Gen Loop** (DallE-3 x6)
 - Recap and Exploration
 
-<p align="left">
+<p align="center">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/e63917ed-a231-48bf-853a-5a0d0fe209d5" width="400" height="1500">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/228a4129-846c-4031-833c-ca443e9b29c3" width="400" height="1500">
 </p>
@@ -173,4 +173,6 @@ Command `S` to start.
 - Prompt Categorization (Python Tool)
 - Synthesis of the Final Prompt
 
-![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/85059a22-ed95-474a-b6ff-fb01a0d46f2a)
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/85059a22-ed95-474a-b6ff-fb01a0d46f2a" width="40%" height="100%">
+</p>
