@@ -70,39 +70,6 @@ sequenceDiagram
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/fcca86b4-183f-408d-85cf-830290422196" alt="Second" width="30%" height="3000">
 </p>
 
-## Automated DALL-E Prompt Variation Testing
-
-**Description**: This is an excellent GPT for image generation ideation and mass testing of an idea. This GPT achieves an advanced workflow leveraging multiple tools to automate mass-testing of prompt variations of an idea. Initially uses the python tool to detail 5 DallE prompts with different strategies for visualization. Generates one-by-one, runs all images through the image understanding model to grade renderings and prompt versions. Has fine-grain control for easy navigation.
-
-**Input**: User Description of Desired Image
-
-```!executeWorkflow [description of desired image]```
-
-**Workflow (Single Response)**:
-```mermaid
-sequenceDiagram
-    participant User
-    participant ChatGPT
-    participant PythonTool as Python Tool
-    participant DallE
-
-    User->>ChatGPT: User Description Input
-    ChatGPT->>PythonTool: Prompt Set Design
-    loop Image Gen Loop x5
-        PythonTool->>DallE: Request Image Generation
-        DallE-->>PythonTool: Return Generated Image
-    end
-    PythonTool->>PythonTool: Compilation
-    PythonTool->>ChatGPT: Present Results
-    ChatGPT->>User: Prompt Synthesis and Results
-    ChatGPT->>User: Command Menu
-```
-
-<p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3d8e7799-1f9a-4383-b1cb-49bf3d7bce70" width="48%" height="1500">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/6deb9790-33a1-4a45-bdc9-0a806d0bb959" width="48%" height="1500">
-</p>
-
 ## Automated High-Quality Document Analysis
 
 **Description**: Getting the AI to properly understand and summarize both the holistic and granular aspects of long and/or complex documents has been a standing frustration with ChatGPT. This GPT automates an advanced workflow, that leverages RAG search and the python tool to achieve highly-detailed and valuable analysis of complex documents. This has been incredibly difficult to automate with accuracy, I am proud to have now solved this issue.
@@ -172,6 +139,39 @@ sequenceDiagram
 <p align="center">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/78d062bf-4b65-45a3-ade9-b63c1e149588" width="40%" height="100%">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/16bbb2fa-4117-475d-9ec7-a8b3b504eff6" width="40%" height="100%">
+</p>
+
+## Automated DALL-E Prompt Variation Testing
+
+**Description**: This is an excellent GPT for image generation ideation and mass testing of an idea. This GPT achieves an advanced workflow leveraging multiple tools to automate mass-testing of prompt variations of an idea. Initially uses the python tool to detail 5 DallE prompts with different strategies for visualization. Generates one-by-one, runs all images through the image understanding model to grade renderings and prompt versions. Has fine-grain control for easy navigation.
+
+**Input**: User Description of Desired Image
+
+```!executeWorkflow [description of desired image]```
+
+**Workflow (Single Response)**:
+```mermaid
+sequenceDiagram
+    participant User
+    participant ChatGPT
+    participant PythonTool as Python Tool
+    participant DallE
+
+    User->>ChatGPT: User Description Input
+    ChatGPT->>PythonTool: Prompt Set Design
+    loop Image Gen Loop x5
+        PythonTool->>DallE: Request Image Generation
+        DallE-->>PythonTool: Return Generated Image
+    end
+    PythonTool->>PythonTool: Compilation
+    PythonTool->>ChatGPT: Present Results
+    ChatGPT->>User: Prompt Synthesis and Results
+    ChatGPT->>User: Command Menu
+```
+
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3d8e7799-1f9a-4383-b1cb-49bf3d7bce70" width="48%" height="1500">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/6deb9790-33a1-4a45-bdc9-0a806d0bb959" width="48%" height="1500">
 </p>
 
 ## Botanical Growth Cycle Visualizer
