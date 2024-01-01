@@ -39,12 +39,6 @@ Want me to build your dream GPT? Get in touch.
 
 ```!executeInfiniteProgression [description of base image, dimension to progress, direction, starting point, rate]```
 
-
-**Workflow (Single Response)**:
-
-- **Image Gen Loop** (DallE-3 x5)
-- Operational Status and Command Menu
-
 **Control**
 
 ```!addDimension [dimension, direction, starting point, progression rate]```
@@ -56,6 +50,22 @@ Want me to build your dream GPT? Get in touch.
 ```!adjustRate [dimension, new progression rate]```
 
 ```!updateBase [context]```
+
+**Workflow (Single Response)**:
+```mermaid
+sequenceDiagram
+    participant user as User
+    participant ChatGPT
+    participant Dalle as DallE-3
+
+    user->>ChatGPT: User Input
+    loop Image Gen Loop
+        ChatGPT->>Dalle: Request Image Generation
+        Dalle-->>ChatGPT: Return Generated Image
+    end
+    ChatGPT->>user: Operational Status and Command Menu
+
+```
 
 <p align="center">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/c4502ac9-e05f-48af-b724-050d7fbdac8c" alt="First" width="30%" height="3000">
@@ -72,10 +82,20 @@ Want me to build your dream GPT? Get in touch.
 ```!executeWorkflow [description of desired image]```
 
 **Workflow (Single Response)**:
-- Prompt Set Design (Python Tool)
-- **Image Gen Loop** (DallE-3 x5)
-- Image Analysis (Python Tool)
-- Prompt Synthesis and Results
+```mermaid
+sequenceDiagram
+    participant User
+    participant PythonTool as Python Tool
+    participant DallE as DallE-3
+
+    User->>PythonTool: Prompt Set Design
+    loop Image Gen Loop
+        PythonTool->>DallE: Generate Image
+        DallE-->>PythonTool: Return Image
+    end
+    PythonTool->>PythonTool: Image Analysis
+    PythonTool->>User: Prompt Synthesis and Results
+```
 
 <p align="center">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3d8e7799-1f9a-4383-b1cb-49bf3d7bce70" width="48%" height="1500">
