@@ -64,7 +64,6 @@ sequenceDiagram
         Dalle-->>ChatGPT: Return Generated Image
     end
     ChatGPT->>user: Operational Status and Command Menu
-
 ```
 
 <p align="center">
@@ -85,16 +84,19 @@ sequenceDiagram
 ```mermaid
 sequenceDiagram
     participant User
+    participant ChatGPT
     participant PythonTool as Python Tool
-    participant DallE as DallE-3
+    participant DallE
 
-    User->>PythonTool: Prompt Set Design
-    loop Image Gen Loop
-        PythonTool->>DallE: Generate Image
-        DallE-->>PythonTool: Return Image
+    User->>ChatGPT: User Description Input
+    ChatGPT->>PythonTool: Prompt Set Design
+    loop Image Gen Loop x5
+        PythonTool->>DallE: Request Image Generation
+        DallE-->>PythonTool: Return Generated Image
     end
     PythonTool->>PythonTool: Image Analysis
-    PythonTool->>User: Prompt Synthesis and Results
+    PythonTool->>ChatGPT: Analysis Results
+    ChatGPT->>User: Prompt Synthesis and Results
 ```
 
 <p align="center">
