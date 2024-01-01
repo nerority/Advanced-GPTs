@@ -85,14 +85,15 @@ Command `P` to resume workflow from last checkpoint.
 sequenceDiagram
     participant User
     participant ChatGPT
-    participant PythonTool as Python Tool
     participant RAG as RAG Search
+    participant PythonTool as Python Tool
 
     User->>ChatGPT: Upload Document
-    ChatGPT->>PythonTool: Generate ToC
+    ChatGPT->>RAG: Initial Search
+    RAG->>PythonTool: Generate ToC
     loop Analysis Loop
-        PythonTool->>RAG: Send Data for RAG Search
-        RAG-->>PythonTool: Return Analysis Results
+        PythonTool->>RAG: Section Focused Search
+        RAG-->>PythonTool: Analysis of Section
     end
     PythonTool->>PythonTool: Compilation
     PythonTool->>ChatGPT: Save as File
