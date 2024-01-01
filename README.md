@@ -16,8 +16,8 @@
 My name is Devin. I specialize in engineering advanced generative AI workflows that leverage meta-functionality control. I have been mastering prompt engineering as a hobby for a long time now, and am able to design GPT's to do pretty much anything.
 
 - Did you know you can perfectly control >5 minutes of AI tool chaining with >30 different tool calls in the same response, with 100% accuracy? 
-- Did you know you can have ChatGPT generate >10 DallE-3 Images in a single response, with perfect control?
-- Did you know you can have ChatGPT generate prompts for DallE-3 in the python tool, generate each of them one by one with DallE-3, pull them through the image understanding model to accurately critique the generated images, and then determine the best prompt variation for an idea, all in the same single response?
+- Or that you can have ChatGPT generate >10 DallE-3 Images in a single response, with perfect control?
+- How about about having ChatGPT generate prompts for DallE-3 in the python tool, generate each of them one by one with DallE-3, back to the python tool for compilation and display, then to the prompt presentation and commands for next step, all in the same single response?
 
 Yes, that has been possible to do with ChatGPT alone. The tool timeout threshold of 60 seconds, resets with each new tool call, allowing highly complex responses if you know how.
 
