@@ -116,16 +116,19 @@ Command `P` to resume workflow from last checkpoint.
 ```mermaid
 sequenceDiagram
     participant User
+    participant ChatGPT
     participant PythonTool as Python Tool
     participant RAG as RAG Search
 
-    User->>PythonTool: Generate ToC
+    User->>ChatGPT: Upload Document
+    ChatGPT->>PythonTool: Generate ToC
     loop Analysis Loop
-        PythonTool->>RAG: Request Data Analysis
+        PythonTool->>RAG: Send Data for RAG Search
         RAG-->>PythonTool: Return Analysis Results
     end
     PythonTool->>PythonTool: Compilation
-    PythonTool->>User: Save as File
+    PythonTool->>ChatGPT: Save as File
+    ChatGPT->>User: Display Download Link
 ```
 
 **Note**: This GPT has advanced resource management logic, and will create a checkpoint just before reaching the hard time-out. There is a hard time-out of ~ 8-10 minutes no matter what. Due to the complexity of this workflow, it can sometimes timeout before finishing. When this happens, simply enter "P" in the next input to re-establish the workflow where it left off.
