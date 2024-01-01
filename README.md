@@ -55,7 +55,7 @@ Want me to build your dream GPT? Get in touch.
 
 ```!updateBase [context]```
 
-<p align="left">
+<p align="center">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/c4502ac9-e05f-48af-b724-050d7fbdac8c" alt="First" width="250" height="3000">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/0a8c0673-8018-497c-8c58-e35402c39c95" alt="Second" width="250" height="3000">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/fcca86b4-183f-408d-85cf-830290422196" alt="Second" width="250" height="3000">
@@ -75,7 +75,7 @@ Want me to build your dream GPT? Get in touch.
 - Image Analysis (Python Tool)
 - Prompt Synthesis and Results
 
-<p align="left">
+<p align="center">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3d8e7799-1f9a-4383-b1cb-49bf3d7bce70" width="400" height="1500">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/6deb9790-33a1-4a45-bdc9-0a806d0bb959" width="400" height="1500">
 </p>
@@ -91,21 +91,32 @@ Command `S` to start.
 Command `P` to resume workflow from last checkpoint.
 
 **Workflow**: 
-- Generate ToC (Python Tool)
-- **Analysis Loop** (RAG Search & Python Tool)
-- Compilation (Python Tool)
-- Save as File (Python Tool)
 
 ```mermaid
-graph LR
-    A[Prompt Set Design (Python Tool)] --> B[Image Gen Loop (DallE-3 x5)]
-    B --> C[Image Analysis (Python Tool)]
-    C --> D[Prompt Synthesis and Results]
+graph TD
+    A[Start]
+    A -->|Generate ToC| B[Python Tool]
+    B --> C[Analysis Loop]
+    C -->|RAG Search| D[RAG & Python Tool]
+    D -->|Iterative Process| C
+    C --> E[Compile Data]
+    E -->|Python Tool| F[Compilation Complete]
+    F --> G[Save Data]
+    G -->|Python Tool| H[File Saved]
+    H --> I[End]
+
+    style B fill:#f9d5e5,stroke:#333,stroke-width:2px
+    style D fill:#e3eaa7,stroke:#333,stroke-width:2px
+    style E fill:#f9d5e5,stroke:#333,stroke-width:2px
+    style G fill:#f9d5e5,stroke:#333,stroke-width:2px
 ```
 
-![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/02e2d031-48ac-4b3f-b56a-fb2bf14443c3)
+**Note**: This GPT has advanced resource management logic, and will create a checkpoint just before reaching the hard time-out. There is a hard time-out of ~ 8-10 minutes no matter what. Due to the complexity of this workflow, it can sometimes timeout before finishing. When this happens, simply enter "P" in the next input to re-establish the workflow where it left off.
 
-**Note**: This GPT has advanced resource management logic, and should usually create a checkpoint before reaching the hard time-out. There is a hard time-out of ~ 8-10 minutes no matter what. Due to the complexity of this workflow, it can sometimes timeout before finishing. When this happens, simply enter "P" in the next input to re-establish the workflow where it left off.
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/02e2d031-48ac-4b3f-b56a-fb2bf14443c3" width="450" height="1000">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/cbb597cd-2ce9-4104-b1db-ece0f00421c9" width="450" height="1000">
+</p>
 
 ## Automated Career Profile Analyst and Resume Tailoring for Target Positions
 
@@ -123,7 +134,10 @@ Command `S` to start.
 - Tailored Resume Creation (Python Tool)
 - Word Document Creation (Python Tool)
 
-![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/cebc20a1-bfed-40c0-a532-75c49efae374)
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/78d062bf-4b65-45a3-ade9-b63c1e149588" width="40%" height="50%">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/16bbb2fa-4117-475d-9ec7-a8b3b504eff6" width="40%" height="50%">
+</p>
 
 ## Botanical Growth Cycle Visualizer
 
