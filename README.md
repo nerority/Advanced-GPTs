@@ -36,9 +36,8 @@ Want me to build your dream GPT? Get in touch.
 - Image Analysis (Python Tool)
 - Prompt Synthesis and Results
 
-![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/8719e944-b102-43b9-af40-939c13c80930)
-![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/b366793c-6c2f-46ef-971b-38a8d684ef3d)
-
+<img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3d8e7799-1f9a-4383-b1cb-49bf3d7bce70" width="400" height="1500">
+<img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/6deb9790-33a1-4a45-bdc9-0a806d0bb959" width="400" height="1500">
 
 ## Automated Infinite Visual Progression with Explicit Control
 
@@ -66,8 +65,8 @@ Want me to build your dream GPT? Get in touch.
 
 ```!updateBase [context]```
 
-![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/bfe4e112-9834-467e-aed1-78d464a97699)
-![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/b777048a-02ac-4417-b53b-aca0ade71f30)
+<img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/bfe4e112-9834-467e-aed1-78d464a97699" width="400" height="1500">
+<img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/b777048a-02ac-4417-b53b-aca0ade71f30" width="400" height="1500">
 
 ## Automated High-Quality Document Analysis
 
@@ -120,8 +119,8 @@ Command `S` to start.
 - **Image Gen Loop** (DallE-3 x6)
 - Recap and Exploration
 
-![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/206aea78-19d1-45f8-a20c-d5be5a04b053)
-![image](https://github.com/nerority/Advanced-GPTs/assets/80237923/3a3da544-e5a5-487a-8e43-66d2da6b440f)
+<img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/206aea78-19d1-45f8-a20c-d5be5a04b053" width="300" height="150">
+<img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3a3da544-e5a5-487a-8e43-66d2da6b440f" width="300" height="150">
 
 ## Automated Prompt Refinement
 
