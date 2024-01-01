@@ -185,9 +185,22 @@ sequenceDiagram
 ```!executeWorkflow [plant species]```
 
 **Workflow (Single Response)**
-- Data Synthesis and Planning (Python Tool)
-- **Image Gen Loop** (DallE-3 x6)
-- Recap and Exploration
+```mermaid
+sequenceDiagram
+    participant User
+    participant ChatGPT
+    participant PythonTool as Python Tool
+    participant DallE as DallE-3
+
+    User->>ChatGPT: User Input
+    ChatGPT->>PythonTool: Data Synthesis and Planning
+    loop Image Gen Loop (x6)
+        PythonTool->>DallE: Request Image Generation
+        DallE-->>PythonTool: Return Generated Image
+    end
+    PythonTool->>ChatGPT: Compiled Images
+    ChatGPT->>User: Recap and Exploration
+```
 
 <p align="center">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/e63917ed-a231-48bf-853a-5a0d0fe209d5" width="40%" height="1500">
@@ -203,12 +216,21 @@ sequenceDiagram
 ```!executeWorkflow [prompt for analysis]```
 
 **Workflow (Single Response)**
-- Prompt Transformation to JSON (Python Tool)
-- Prompt Analysis (Python Tool)
-- Prompt Enhacement (Python Tool)
-- Prompt Optimization (Python Tool)
-- Prompt Categorization (Python Tool)
-- Synthesis of the Final Prompt
+```mermaid
+sequenceDiagram
+    participant user as User
+    participant ChatGPT
+    participant PythonTool as Python Tool
+
+    user->>ChatGPT: Provide Initial Prompt
+    ChatGPT->>PythonTool: Prompt Transformation to JSON
+    PythonTool->>PythonTool: Prompt Analysis
+    PythonTool->>PythonTool: Prompt Enhancement
+    PythonTool->>PythonTool: Prompt Optimization
+    PythonTool->>PythonTool: Prompt Categorization
+    PythonTool-->>ChatGPT: Synthesis of the Final Prompt
+    ChatGPT->>user: Deliver Final Prompt
+```
 
 <p align="center" style="display: flex; align-items: flex-start;">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3faf4c7e-fe9d-419b-aa32-1c012013a556" style="width: 40%; height: auto;">
