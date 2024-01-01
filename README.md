@@ -22,24 +22,7 @@ Want me to build your dream GPT? Get in touch.
 
 # The Lineup
 
-## Automated DALL-E Prompt Variation Testing with Fine-Grain Control
-
-**Description**: This is an excellent GPT for image generation ideation and mass testing of an idea. This GPT achieves an advanced workflow leveraging multiple tools to automate mass-testing of prompt variations of an idea. Initially uses the python tool to detail 5 DallE prompts with different strategies for visualization. Generates one-by-one, runs all images through the image understanding model to grade renderings and prompt versions. Has fine-grain control for easy navigation.
-
-**Input**: User Description of Desired Image
-
-```!executeWorkflow [description of desired image]```
-
-**Workflow (Single Response)**:
-- Prompt Set Design (Python Tool)
-- **Image Gen Loop** (DallE-3 x5)
-- Image Analysis (Python Tool)
-- Prompt Synthesis and Results
-
-<img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3d8e7799-1f9a-4383-b1cb-49bf3d7bce70" width="400" height="1500">
-<img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/6deb9790-33a1-4a45-bdc9-0a806d0bb959" width="400" height="1500">
-
-## Automated Infinite Visual Progression with Explicit Control
+## Automated Infinite Visual Progression with Fine-Grain Control
 
 **Description**: This GPT was originally built by me as a joke, however it wound up working so well, I decided to design a full-fletched GPT around this purpose. This results are nothing short of awesome. This GPT allows you to begin an infinite "progression" of a certain thing, that gradually progresses the image in a specified direction. Every response loops 5 times with DallE to complete 5 progressions. There is an extensive command and hotkey menu that is perfectly understood by the AI to allow seamless control of the progression in any way you desire. Super fun to use.
 
@@ -65,8 +48,30 @@ Want me to build your dream GPT? Get in touch.
 
 ```!updateBase [context]```
 
-<img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/bfe4e112-9834-467e-aed1-78d464a97699" width="400" height="1500">
-<img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/b777048a-02ac-4417-b53b-aca0ade71f30" width="400" height="1500">
+<p align="left">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/c4502ac9-e05f-48af-b724-050d7fbdac8c" alt="First" width="250" height="3000">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/0a8c0673-8018-497c-8c58-e35402c39c95" alt="Second" width="250" height="3000">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/fcca86b4-183f-408d-85cf-830290422196" alt="Second" width="250" height="3000">
+</p>
+
+## Automated DALL-E Prompt Variation Testing
+
+**Description**: This is an excellent GPT for image generation ideation and mass testing of an idea. This GPT achieves an advanced workflow leveraging multiple tools to automate mass-testing of prompt variations of an idea. Initially uses the python tool to detail 5 DallE prompts with different strategies for visualization. Generates one-by-one, runs all images through the image understanding model to grade renderings and prompt versions. Has fine-grain control for easy navigation.
+
+**Input**: User Description of Desired Image
+
+```!executeWorkflow [description of desired image]```
+
+**Workflow (Single Response)**:
+- Prompt Set Design (Python Tool)
+- **Image Gen Loop** (DallE-3 x5)
+- Image Analysis (Python Tool)
+- Prompt Synthesis and Results
+
+<p align="left">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3d8e7799-1f9a-4383-b1cb-49bf3d7bce70" width="400" height="1500">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/6deb9790-33a1-4a45-bdc9-0a806d0bb959" width="400" height="1500">
+</p>
 
 ## Automated High-Quality Document Analysis
 
@@ -119,8 +124,8 @@ Command `S` to start.
 - **Image Gen Loop** (DallE-3 x6)
 - Recap and Exploration
 
-<img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/206aea78-19d1-45f8-a20c-d5be5a04b053" width="300" height="150">
-<img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3a3da544-e5a5-487a-8e43-66d2da6b440f" width="300" height="150">
+<img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/206aea78-19d1-45f8-a20c-d5be5a04b053" width="400" height="1500">
+<img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3a3da544-e5a5-487a-8e43-66d2da6b440f" width="400" height="1500">
 
 ## Automated Prompt Refinement
 
