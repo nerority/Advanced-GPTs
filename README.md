@@ -93,25 +93,30 @@ Command `S` to start.
 Command `P` to resume workflow from last checkpoint.
 
 **Workflow**: 
-
 ```mermaid
-graph TD
-    A[Start]
-    A -->|Generate ToC| B[Python Tool]
-    B --> C[Analysis Loop]
-    C -->|RAG Search| D[RAG & Python Tool]
-    D -->|Iterative Process| C
-    C --> E[Compile Data]
-    E -->|Python Tool| F[Compilation Complete]
-    F --> G[Save Data]
-    G -->|Python Tool| H[File Saved]
-    H --> I[End]
+sequenceDiagram
+    participant User
+    participant PythonTool as Python Tool
+    participant RAG as RAG Search
 
-    style B fill:#f9d5e5,stroke:#333,stroke-width:2px
-    style D fill:#e3eaa7,stroke:#333,stroke-width:2px
-    style E fill:#f9d5e5,stroke:#333,stroke-width:2px
-    style G fill:#f9d5e5,stroke:#333,stroke-width:2px
+    User->>PythonTool: Generate ToC
+    loop Analysis Loop
+        PythonTool->>RAG: Request Data Analysis
+        RAG-->>PythonTool: Return Analysis Results
+    end
+    PythonTool->>PythonTool: Compilation
+    PythonTool->>User: Save as File
 ```
+
+In this diagram:
+
+- The **User** initiates the process by asking the Python Tool to generate the Table of Contents (ToC).
+- The Python Tool enters an **Analysis Loop**, where it interacts with the RAG Search for data analysis.
+- Within this loop, the Python Tool sends a request to the RAG Search, and the RAG Search returns the analysis results.
+- After exiting the loop, the Python Tool performs the **Compilation**.
+- Finally, the Python Tool completes the process by saving the output as a file, which is then made available to the User.
+
+This sequence diagram provides a clear representation of the order of operations and the interactions between the different tools in your workflow. To view this diagram, you would use a platform or tool that supports Mermaid diagrams, particularly sequence diagrams.
 
 **Note**: This GPT has advanced resource management logic, and will create a checkpoint just before reaching the hard time-out. There is a hard time-out of ~ 8-10 minutes no matter what. Due to the complexity of this workflow, it can sometimes timeout before finishing. When this happens, simply enter "P" in the next input to re-establish the workflow where it left off.
 
@@ -129,12 +134,22 @@ graph TD
 Command `S` to start.
 
 **Workflow (Single Response)**: 
-- Career Information Analysis (RAG Search)
-- User Profile Knowledge Distillation (Python Tool)
-- Career Progression Mapping (Python Tool)
-- Job Market Research (Browser Tool)
-- Tailored Resume Creation (Python Tool)
-- Word Document Creation (Python Tool)
+```mermaid
+sequenceDiagram
+    participant User
+    participant RAG as RAG Search
+    participant Python as Python Tool
+    participant Browser as Browser Tool
+
+    User->>RAG: Career Information Analysis
+    RAG-->>Python: Data from RAG Search
+    Python->>Python: User Profile Knowledge Distillation
+    Python->>Python: Career Progression Mapping
+    Python-->>Browser: Request Job Market Data
+    Browser-->>Python: Respond with Job Market Data
+    Python->>Python: Tailored Resume Creation
+    Python->>User: Word Document Creation
+```
 
 <p align="center">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/78d062bf-4b65-45a3-ade9-b63c1e149588" width="40%" height="100%">
