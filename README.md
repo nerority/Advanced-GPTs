@@ -144,7 +144,7 @@ sequenceDiagram
 
 ## Automated DALL-E Prompt Variation Testing
 
-**Description**: This is an excellent GPT for image generation ideation and mass testing of an idea. This GPT achieves an advanced workflow leveraging multiple tools to automate mass-testing of prompt variations of an idea. Initially uses the python tool to detail 5 DallE prompts with different strategies for visualization. Generates one-by-one, runs all images through the image understanding model to grade renderings and prompt versions. Has fine-grain control for easy navigation.
+**Description**: This is an excellent GPT for image generation ideation and mass testing of an idea. This GPT achieves an advanced workflow leveraging multiple tools to automate mass-testing of prompt variations of an idea. Initially uses the python tool to detail 5 DallE prompts with different strategies for visualization. Generates one-by-one, compiles and presents for display with navigation control.
 
 **Input**: User Description of Desired Image
 
@@ -173,37 +173,6 @@ sequenceDiagram
 <p align="center">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3d8e7799-1f9a-4383-b1cb-49bf3d7bce70" width="48%" height="1500">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/6deb9790-33a1-4a45-bdc9-0a806d0bb959" width="48%" height="1500">
-</p>
-
-## Botanical Growth Cycle Visualizer
-
-**Description**: This GPT is a specialized educational agent designed for high-quality visualizations of the growth cycle of a user selected plant species. 
-
-**Input**: User-Specified Plant Species
-
-```!executeWorkflow [plant species]```
-
-**Workflow (Single Response)**
-```mermaid
-sequenceDiagram
-    participant User
-    participant ChatGPT
-    participant PythonTool as Python Tool
-    participant DallE as DallE-3
-
-    User->>ChatGPT: User Input
-    ChatGPT->>PythonTool: Data Synthesis and Planning
-    loop Image Gen Loop (x6)
-        PythonTool->>DallE: Request Image Generation
-        DallE-->>PythonTool: Return Generated Image
-    end
-    PythonTool->>ChatGPT: Compiled Images
-    ChatGPT->>User: Recap and Exploration
-```
-
-<p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/e63917ed-a231-48bf-853a-5a0d0fe209d5" width="40%" height="1500">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/228a4129-846c-4031-833c-ca443e9b29c3" width="40%" height="1500">
 </p>
 
 ## Automated Prompt Refinement
@@ -269,4 +238,35 @@ sequenceDiagram
 <p align="center" style="display: flex; align-items: flex-start;">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/97051fef-c8c0-48c4-9665-a5952ad4c3ba" style="width: 40%; height: auto;">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/160f0764-53c5-486b-bcb4-d44f15d56b3d" style="width: 40%; height: auto;">
+</p>
+
+## Botanical Growth Cycle Visualizer
+
+**Description**: This GPT is a specialized educational agent designed for high-quality visualizations of the growth cycle of a user selected plant species. 
+
+**Input**: User-Specified Plant Species
+
+```!executeWorkflow [plant species]```
+
+**Workflow (Single Response)**
+```mermaid
+sequenceDiagram
+    participant User
+    participant ChatGPT
+    participant PythonTool as Python Tool
+    participant DallE as DallE-3
+
+    User->>ChatGPT: User Input
+    ChatGPT->>PythonTool: Data Synthesis and Planning
+    loop Image Gen Loop (x6)
+        PythonTool->>DallE: Request Image Generation
+        DallE-->>PythonTool: Return Generated Image
+    end
+    PythonTool->>ChatGPT: Compiled Images
+    ChatGPT->>User: Recap and Exploration
+```
+
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/e63917ed-a231-48bf-853a-5a0d0fe209d5" width="40%" height="1500">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/228a4129-846c-4031-833c-ca443e9b29c3" width="40%" height="1500">
 </p>
