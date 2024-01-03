@@ -142,6 +142,44 @@ sequenceDiagram
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/16bbb2fa-4117-475d-9ec7-a8b3b504eff6" width="40%" height="100%">
 </p>
 
+## Market Trend Analysis and Prediction for Company X
+
+**Description**: This GPT is designed to complete an advanced workflow that achieves a comprehensive market analysis for a user given company. First employs the browser tool to pull real-time information, which then passes through several iterations with the python tool to complete text and semantic analysis on the data. A basic predictive model is build and visualized in the first response, which can then be advanced upon with a simple hotkey in the next response.
+
+**Input**: User-Specified Company
+
+`!start [company]`
+
+**Workflow**:
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant ChatGPT
+    participant PythonTool as Python Tool
+    participant Browser
+
+    User->>ChatGPT: Provide Company
+    ChatGPT->>PythonTool: Initiate Data Analysis Loop
+    loop Data Analysis Loop
+        PythonTool->>Browser: Fetch Financial Reports & News Sentiments
+        Browser-->>PythonTool: Provide Data
+        PythonTool->>PythonTool: Perform Text and Sentiment Analysis
+    end
+    PythonTool->>PythonTool: Identify and Summarize Market Trends
+    loop Impact Assessment Loop
+        PythonTool->>PythonTool: Assess Trend Impact on Stock Prices
+    end
+    PythonTool->>PythonTool: Prepare Insights and Predictions
+    PythonTool-->>ChatGPT: Compiled Data and Analysis
+    ChatGPT->>User: Present Structured Report
+
+```
+
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/708c2caf-e700-4ece-9a54-835ab11bbdc0" width="40%" height="100%">
+</p>
+
 ## Automated DALL-E Prompt Variation Testing
 
 **Description**: This is an excellent GPT for image generation ideation and mass testing of an idea. This GPT achieves an advanced workflow leveraging multiple tools to automate mass-testing of prompt variations of an idea. Initially uses the python tool to detail 5 DallE prompts with different strategies for visualization. Generates one-by-one, compiles and presents for display with navigation control.
