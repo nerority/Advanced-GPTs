@@ -176,8 +176,11 @@ sequenceDiagram
 
 ```
 
+**Note**: Results comparison between no user-provided data, and with a dataset included for Apple Stock Prices in 2023.
+
 <p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/708c2caf-e700-4ece-9a54-835ab11bbdc0" width="40%" height="100%">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/708c2caf-e700-4ece-9a54-835ab11bbdc0" width="48%" height="800">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/a881c549-1761-4b60-adf8-f5c972e26582" width="48%" height="800">
 </p>
 
 ## Automated DALL-E Prompt Variation Testing
