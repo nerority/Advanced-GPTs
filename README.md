@@ -235,3 +235,38 @@ sequenceDiagram
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3faf4c7e-fe9d-419b-aa32-1c012013a556" style="width: 40%; height: auto;">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/4799f739-ba0b-48c5-8396-f8c09c0b256f" style="width: 40%; height: auto;">
 </p>
+
+## Automated Meta-Prompt Refinement
+
+**Description**: This workflow is tailored specifically for the refinement of meta-prompts. Meta-prompts are extremely important for various tasks, and require a different strategy for refinement in comparison to regular prompts. Input prompts undergo a 7-step refinement workflow with a focus on abstraction and active contextualization. Meta-prompts work to establish “operational context” for complex tasks, and thus need to account for various aspects of a response, while intentionally leaving other aspects open-ended.
+
+**Note**: Meta-Prompts can be understood as abstracted instructions that frame context in a way to control how the AI executes actual instructions that proceed.
+
+**Input**: User-Provided Meta-Prompt or Instructions
+
+**Workflow (Single Response)**
+```mermaid
+sequenceDiagram
+    participant User
+    participant ChatGPT
+    participant PythonTool as Python Tool
+
+    User->>ChatGPT: Provide Initial Prompt
+    ChatGPT->>PythonTool: Initiate Refinement Loop
+    loop Each Refinement Step
+        PythonTool->>PythonTool: Step 1: Comprehensive Understanding
+        PythonTool->>PythonTool: Step 2: Adaptive Contextualization
+        PythonTool->>PythonTool: Step 3: Thorough Refinement & Expansion
+        PythonTool->>PythonTool: Step 4: Intelligent Personalization
+        PythonTool->>PythonTool: Step 5: Uptake of AI Innovations
+        PythonTool->>PythonTool: Step 6: Optimization of Efficiency & Precision
+        PythonTool->>PythonTool: Step 7: Proactive Experimentation & Enhancement
+    end
+    PythonTool->>ChatGPT: Synthesize Final Prompt
+    ChatGPT->>User: Deliver Refined Prompt in Code Box
+```
+
+<p align="center" style="display: flex; align-items: flex-start;">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/97051fef-c8c0-48c4-9665-a5952ad4c3ba" style="width: 40%; height: auto;">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/160f0764-53c5-486b-bcb4-d44f15d56b3d" style="width: 40%; height: auto;">
+</p>
