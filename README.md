@@ -316,3 +316,42 @@ sequenceDiagram
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/e63917ed-a231-48bf-853a-5a0d0fe209d5" width="40%" height="1500">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/228a4129-846c-4031-833c-ca443e9b29c3" width="40%" height="1500">
 </p>
+
+---
+
+# Under Construction 
+*Need to design a GPT for Automated Testing and Screens xD*
+
+## Business Contract Analyzer
+
+**Description**: This advanced workflow leverages the full capabilities of RAG Search for detailed content extraction and the Python tool for strategic planning and data synthesis, ensuring a thorough analysis of legal contracts. The process is designed to be efficient and comprehensive, catering to the needs of legal professionals who require in-depth contract analysis.
+
+**Input**: User-uploaded Legal Document for Strategic Analysis
+
+- `!start`
+- `!demo`
+
+### Sequence Diagram
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant ChatGPT
+    participant RAG as RAG Search
+    participant PythonTool as Python Tool
+
+    User->>ChatGPT: Uploads Document
+    ChatGPT->>RAG: Initial Full Document Search
+    RAG-->>ChatGPT: Document Understanding
+    ChatGPT->>PythonTool: Create Strategy for Deeper Searches
+    PythonTool-->>ChatGPT: Deeper Search Strategy
+    loop RAG Search Loop x3
+        ChatGPT->>RAG: Execute Deeper Search (Analyze Contract, Key Clauses, Risk Assessment)
+        RAG-->>PythonTool: Search Results
+        PythonTool->>PythonTool: Synthesize Results in JSON
+    end
+    PythonTool->>ChatGPT: Compile and Synthesize Analysis Report
+    ChatGPT->>User: Present Analysis Report
+```
+
+Placeholder for Screens
