@@ -9,7 +9,7 @@
 
 **1/04/24**: *Under active construction.. 12 more to be added*
 
-** I will be preparing public versions of all GPTs for the store release next week for free **
+**I will be preparing public versions of all GPTs for the store release next week for free. Links posted here likely this weekend.**
 
 *Showcase of my Custom GPTs, featuring advanced workflows and operational logic.*
 
