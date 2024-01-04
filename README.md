@@ -7,7 +7,7 @@
 </div>
 <br/><br/>
 
-*1/4/24: Under active construction.. 12 more to be added*
+**1/04/24**: *Under active construction.. 12 more to be added*
 
 *Showcase of my Custom GPTs, featuring advanced workflows and operational logic.*
 
