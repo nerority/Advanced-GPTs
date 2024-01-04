@@ -9,6 +9,8 @@
 
 **1/04/24**: *Under active construction.. 12 more to be added*
 
+** I will be preparing public versions of all GPTs for the store release next week for free **
+
 *Showcase of my Custom GPTs, featuring advanced workflows and operational logic.*
 
 ![Nerority](https://github.com/nerority/Advanced-GPTs/assets/80237923/e99891a8-9645-4e9b-a22c-7fca73177882)
