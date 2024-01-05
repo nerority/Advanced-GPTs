@@ -328,8 +328,7 @@ sequenceDiagram
 
 **Input**: User-uploaded Legal Document for Strategic Analysis
 
-- `!start`
-- `!demo`
+- `!start` to initiate the document upload and analysis.
 
 ### Sequence Diagram
 
