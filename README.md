@@ -323,41 +323,9 @@ sequenceDiagram
 
 ---
 
-# Under Construction 
+# Under Construction
+
 *Need to design a GPT for Automated Testing and Screens xD*
-
-## 📑 Business Contract Analyzer
-
-**Description**: This advanced workflow leverages the full capabilities of RAG Search for detailed content extraction and the Python tool for strategic planning and data synthesis, ensuring a thorough analysis of legal contracts. The process is designed to be efficient and comprehensive, catering to the needs of legal professionals who require in-depth contract analysis.
-
-**Input**: User-uploaded Legal Document for Strategic Analysis
-
-- `!start` to initiate the document upload and analysis.
-
-### Sequence Diagram
-
-```mermaid
-sequenceDiagram
-    participant User
-    participant ChatGPT
-    participant RAG as RAG Search
-    participant PythonTool as Python Tool
-
-    User->>ChatGPT: Uploads Document
-    ChatGPT->>RAG: Initial Full Document Search
-    RAG-->>ChatGPT: Document Understanding
-    ChatGPT->>PythonTool: Create Strategy for Deeper Searches
-    PythonTool-->>ChatGPT: Deeper Search Strategy
-    loop RAG Search Loop x3
-        ChatGPT->>RAG: Execute Deeper Search (Analyze Contract, Key Clauses, Risk Assessment)
-        RAG-->>PythonTool: Search Results
-        PythonTool->>PythonTool: Synthesize Results in JSON
-    end
-    PythonTool->>ChatGPT: Compile and Synthesize Analysis Report
-    ChatGPT->>User: Present Analysis Report
-```
-
-**Screenshots**: *Placeholder*
 
 ## 🧠 Automated Knowledge Distillation
 
@@ -391,6 +359,39 @@ sequenceDiagram
     end
     PythonTool->>ChatGPT: Compile and Synthesize Knowledge Summary
     ChatGPT->>User: Present Knowledge Summary in Code Box
+```
+
+**Screenshots**: *Placeholder*
+
+## 📑 Business Contract Analyzer
+
+**Description**: This advanced workflow leverages the full capabilities of RAG Search for detailed content extraction and the Python tool for strategic planning and data synthesis, ensuring a thorough analysis of legal contracts. The process is designed to be efficient and comprehensive, catering to the needs of legal professionals who require in-depth contract analysis.
+
+**Input**: User-uploaded Legal Document for Strategic Analysis
+
+- `!start` to initiate the document upload and analysis.
+
+### Sequence Diagram
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant ChatGPT
+    participant RAG as RAG Search
+    participant PythonTool as Python Tool
+
+    User->>ChatGPT: Uploads Document
+    ChatGPT->>RAG: Initial Full Document Search
+    RAG-->>ChatGPT: Document Understanding
+    ChatGPT->>PythonTool: Create Strategy for Deeper Searches
+    PythonTool-->>ChatGPT: Deeper Search Strategy
+    loop RAG Search Loop x3
+        ChatGPT->>RAG: Execute Deeper Search (Analyze Contract, Key Clauses, Risk Assessment)
+        RAG-->>PythonTool: Search Results
+        PythonTool->>PythonTool: Synthesize Results in JSON
+    end
+    PythonTool->>ChatGPT: Compile and Synthesize Analysis Report
+    ChatGPT->>User: Present Analysis Report
 ```
 
 **Screenshots**: *Placeholder*
