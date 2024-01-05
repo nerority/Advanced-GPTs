@@ -169,7 +169,7 @@ This GPT automates tailored resume creation for target positions after building 
 - `!demo` - Demonstrate the workflow for user with AI synthesized data
 - `P` - Resume the workflow from the last saved checkpoint
 - `G` - Synthesize the refined resume with markdown formatting.
-- `J` - Complete additional searches for exact jobs that would be good matches for the user, and created tailored resumes for any good finds.
+- `J` - Complete a new tailored resume based on user provided job description or search
 
 ### Workflow
 
