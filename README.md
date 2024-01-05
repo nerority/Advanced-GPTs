@@ -37,7 +37,7 @@ Want me to build your dream GPT? Get in touch.
 <h1>The Lineup</h1>
 </div>
 
-## Quick Nav
+### Quick Nav
 1. [Automated Infinite Visual Progression with Fine-Grain Control](#automated-infinite-visual-progression-with-fine-grain-control)
 2. [Automated High-Quality Document Analysis](#automated-high-quality-document-analysis)
 3. [Automated Career Profile Analyst and Resume Tailoring for Target Positions](#automated-career-profile-analyst-and-resume-tailoring-for-target-positions)
@@ -54,21 +54,17 @@ Want me to build your dream GPT? Get in touch.
 
 **Description**: This GPT was originally built by me as a joke project, however it wound up working so well, I decided to design a full-fletched GPT around this purpose. The results are nothing short of awesome. This GPT allows you to begin an infinite "progression" of a certain thing, that gradually progresses the image in a specified direction. Every response loops 5 times with DallE to complete 5 progressions. There is an extensive command and hotkey menu that is perfectly understood by the AI to allow seamless control of the progression in any way you desire. Super fun to use.
 
-**Input**: Enter this command with the details filled out to begin the progression.
+**Input**: Enter this command with any degree of detail filled out to begin the progression.
 
-```!executeInfiniteProgression [description of base image, dimension to progress, direction, starting point, rate]```
+- `!executeInfiniteProgression [description of base image, dimension to progress, direction, starting point, rate]`
 
 **Control**
 
-```!addDimension [dimension, direction, starting point, progression rate]```
-
-```!removeDimension [dimension]```
-
-```!invertDirection [dimension]```
-
-```!adjustRate [dimension, new progression rate]```
-
-```!updateBase [context]```
+- `!addDimension [dimension, direction, starting point, progression rate]`
+- `!removeDimension [dimension]`
+- `!invertDirection [dimension]`
+- `!adjustRate [dimension, new progression rate]`
+- `!updateBase [context]`
 
 **Workflow (Single Response)**:
 ```mermaid
