@@ -7,15 +7,19 @@
 </div>
 <br/><br/>
 
-**1/04/24**: *Under active construction.. 12 more to be added*
+Under active construction... 8 pending additions
 
-*I will be preparing public versions of all GPTs for the store release next week for free. Links posted here likely this weekend.*
+**3 New GPTs**: *Automated Knowledge Distillation, Business Contract Analyzer, Advanced Competitive Analysis AI*
+
+*I will be preparing public versions of all GPTs for the store release next week for free. All links will be shared here end of this weekend.*
+
+---
 
 *Showcase of my Custom GPTs, featuring advanced workflows and operational logic.*
 
 ![Nerority](https://github.com/nerority/Advanced-GPTs/assets/80237923/e99891a8-9645-4e9b-a22c-7fca73177882)
 
-My name is Devin. I specialize in engineering advanced generative AI workflows that leverage meta-functionality control. I have been mastering prompt engineering as a hobby for a long time now, and am able to design GPT's to do pretty much anything.
+Hi my name is Devin. I specialize in engineering advanced generative AI workflows that leverage meta-functionality control. I have been mastering prompt engineering as a hobby for a long time now, and am able to design GPT's to do pretty much anything.
 
 - Did you know you can perfectly control >5 minutes of AI tool chaining with >30 different tool calls in the same response, with 100% accuracy? 
 - Or that you can have ChatGPT generate >10 DallE-3 Images in a single response, with perfect control?
@@ -391,7 +395,7 @@ sequenceDiagram
 
 **Screenshots**: *Placeholder*
 
-## 📊 Workflow: Advanced Competitive Analysis and Market Strategy
+## 📊 Advanced Competitive Analysis AI
 
 **Description**: In the realm of business, understanding the competitive landscape is crucial for strategic decision-making. This GPT is specifically tailored for quality real-time competitive analysis of a user defined scope. It serves as an essential tool for comprehensively understanding industry dynamics, competitive positioning, and emerging market trends. By leveraging the combined power of ChatGPT, Python, and the Browser tool, this workflow delivers deep insights into competitors’ strategies and market movements, enabling users to make informed decisions and stay ahead in their respective industries.
 
