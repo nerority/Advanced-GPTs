@@ -54,7 +54,9 @@ Want me to build your dream GPT? Get in touch.
 
 ## Automated Infinite Visual Progression with Fine-Grain Control
 
-**Description**: This GPT was originally built by me as a joke project, however it wound up working so well, I decided to design a full-fletched GPT around this purpose. The results are nothing short of awesome. This GPT allows you to begin an infinite "progression" of a certain thing, that gradually progresses the image in a specified direction. Every response loops 5 times with DallE to complete 5 progressions. There is an extensive command and hotkey menu that is perfectly understood by the AI to allow seamless control of the progression in any way you desire. Super fun to use.
+### Description
+
+This GPT was originally built by me as a joke project, however it wound up working so well, I decided to design a full-fletched GPT around this purpose. The results are nothing short of awesome. This GPT allows you to begin an infinite "progression" of a certain thing, that gradually progresses the image in a specified direction. Every response loops 5 times with DallE to complete 5 progressions. There is an extensive command and hotkey menu that is perfectly understood by the AI to allow seamless control of the progression in any way you desire. Super fun to use.
 
 ### User Commands
 
@@ -73,7 +75,7 @@ Want me to build your dream GPT? Get in touch.
 - `!updateBase [context]`
 - `N` - Proceed with the next set of 5 progressions.
 
-**Workflow (Single Response)**:
+## Workflow (Single Response):
 ```mermaid
 sequenceDiagram
     participant User
