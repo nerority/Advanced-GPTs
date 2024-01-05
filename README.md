@@ -140,7 +140,7 @@ sequenceDiagram
     ChatGPT->>User: Offer User Commands (C, R, E)
 ```
 
-**Note**: This GPT has advanced resource management logic, and will create a checkpoint just before reaching the hard time-out. There is a hard time-out of ~ 8-10 minutes no matter what. Due to the complexity of this workflow, it can sometimes timeout before finishing. When this happens, simply enter "P" in the next input to re-establish the workflow where it left off.
+**Note**: This GPT has advanced resource management logic, and will create a checkpoint just before reaching the hard time-out. There is a hard time-out of ~ 6-8 minutes no matter what. Due to the complexity of this workflow, it will often timeout before finishing. When this happens, simply enter "C" in the next input to re-establish the workflow where it left off. After a recent update by OpenAI, this timeout can sometimes "freeze" the screen with an error, just refresh the page, and even if the prior analysis windows disappeared, just use C and it will pick up where it left off until complete.
 
 <p align="center">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/02e2d031-48ac-4b3f-b56a-fb2bf14443c3" width="45%" height="800">
