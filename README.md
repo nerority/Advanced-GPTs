@@ -159,13 +159,20 @@ sequenceDiagram
 
 ## Automated Career Profile Analyst and Resume Tailoring for Target Positions
 
-**Description**: This GPT automates tailored resume creation for target positions after building a user profile. It analyzes user-uploaded career documents, maps out professional trajectories, and crafts tailored resumes targeted towards specific job opportunities. This agent leverages a complex workflow integrating RAG Search, Python tooling, and Browser capabilities, orchestrated by ChatGPT's master model. It excels in understanding complex career narratives and aligning them with current market trends.
+### Description
 
-**Input**: User-uploaded career-related documents (e.g., resumes, cover letters, professional portfolios).
+This GPT automates tailored resume creation for target positions after building a user profile. It analyzes user-uploaded career documents, maps out professional trajectories, and crafts tailored resumes targeted towards specific job opportunities. This agent leverages a complex workflow integrating RAG Search, Python tooling, and Browser capabilities, orchestrated by ChatGPT's master model. It excels in understanding complex career narratives and aligning them with current market trends.
 
-Command `S` to start.
+### User Commands
 
-**Workflow (Single Response)**: 
+- `!start` - Initiates the advanced workflow based on the uploaded document
+- `!demo` - Demonstrate the workflow for user with AI synthesized data
+- `P` - Resume the workflow from the last saved checkpoint
+- `G` - Synthesize the refined resume with markdown formatting.
+- `J` - Complete additional searches for exact jobs that would be good matches for the user, and created tailored resumes for any good finds.
+
+### Workflow
+
 ```mermaid
 sequenceDiagram
     participant User
@@ -174,17 +181,21 @@ sequenceDiagram
     participant PythonTool as Python Tool
     participant Browser as Browser Tool
 
-    User->>ChatGPT: User Document Upload
-    ChatGPT->>RAG: Career Information Analysis
-    RAG-->>PythonTool: Analysis Results
-    PythonTool->>PythonTool: User Profile Knowledge Distillation
-    PythonTool->>PythonTool: Career Progression Mapping
-    PythonTool->>Browser: Job Market Research
-    Browser-->>PythonTool: Market Data
-    PythonTool->>PythonTool: Tailored Resume Creation
-    PythonTool->>PythonTool: Word Document Creation
-    PythonTool->>ChatGPT: Resume Compiled
-    ChatGPT->>User: Resume Presentation
+    User->>ChatGPT: Uploads Career Documents
+    alt Initial Workflow Execution (S)
+        ChatGPT->>RAG: Analyze Uploaded Documents
+        RAG-->>PythonTool: Extracted Career Information
+        PythonTool->>PythonTool: Create User Profile Knowledge Token
+        PythonTool->>PythonTool: Map Career Progression
+        PythonTool->>Browser: Job Market Research
+        Browser-->>PythonTool: Job Listings and Requirements
+        PythonTool->>PythonTool: Tailor Resume in Markdown
+        PythonTool->>PythonTool: Create Word Document
+    else Resume Workflow (P)
+        PythonTool->>ChatGPT: Resume from Checkpoint
+    end
+    PythonTool->>ChatGPT: Present Final Resume and Command Menu
+    ChatGPT->>User: Display Resume Link, Hotkeys for Navigation
 ```
 
 <p align="center">
