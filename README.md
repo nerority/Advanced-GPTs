@@ -56,9 +56,13 @@ Want me to build your dream GPT? Get in touch.
 
 **Description**: This GPT was originally built by me as a joke project, however it wound up working so well, I decided to design a full-fletched GPT around this purpose. The results are nothing short of awesome. This GPT allows you to begin an infinite "progression" of a certain thing, that gradually progresses the image in a specified direction. Every response loops 5 times with DallE to complete 5 progressions. There is an extensive command and hotkey menu that is perfectly understood by the AI to allow seamless control of the progression in any way you desire. Super fun to use.
 
-**Input**: Enter this command with any degree of detail filled out to begin the progression.
+### User Commands
 
-- `!executeInfiniteProgression [description of base image, dimension to progress, direction, starting point, rate]`
+**Input**:
+
+- `!executeIP[description of base image, dimension to progress, direction, starting point, rate]` - Enter this command with any degree of detail filled out to begin the progression
+- `!demo` - Executes the workflow for ai synthesized data to demonstrate and test the workflow
+- `!commands` - Displays the command menu for the user
 
 **Control**
 
@@ -67,21 +71,27 @@ Want me to build your dream GPT? Get in touch.
 - `!invertDirection [dimension]`
 - `!adjustRate [dimension, new progression rate]`
 - `!updateBase [context]`
+- `N` - Proceed with the next set of 5 progressions.
 
 **Workflow (Single Response)**:
 ```mermaid
 sequenceDiagram
-    participant user as User
+    participant User
     participant ChatGPT
-    participant Dalle as DallE-3
+    participant DallE as DALL-E
 
-    user->>ChatGPT: User Input
-    loop Image Gen Loop
-        ChatGPT->>Dalle: Request Image Generation
-        Dalle-->>ChatGPT: Return Generated Image
+    User->>ChatGPT: Inputs Commands (e.g., !executeIP)
+    ChatGPT->>DallE: Initial Image Generation
+    DallE-->>ChatGPT: Initial Image
+    loop Progressive Visualization Loops
+        ChatGPT->>DallE: Progress Image in Specified Dimensions
+        DallE-->>ChatGPT: Progressed Image
     end
-    ChatGPT->>user: Operational Status
-    ChatGPT->>user: Command Menu
+    ChatGPT-->>ChatGPT: Compile Progression Status
+    ChatGPT->>User: Displays Current Progression Status Menu
+    ChatGPT->>User: Presents User Command Menu
+    User->>ChatGPT: Inputs Next Commands (e.g., N, O, E)
+    Note over ChatGPT: Resource Management and Continuation Setup
 ```
 
 <p align="center">
