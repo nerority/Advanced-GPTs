@@ -60,7 +60,7 @@ Want me to build your dream GPT? Get in touch.
 
 **Input**:
 
-- `!executeIP[description of base image, dimension to progress, direction, starting point, rate]` - Enter this command with any degree of detail filled out to begin the progression
+- `!executeIP[description of base image, dimension to progress, direction, starting point, rate]`
 - `!demo` - Executes the workflow for ai synthesized data to demonstrate and test the workflow
 - `!commands` - Displays the command menu for the user
 
