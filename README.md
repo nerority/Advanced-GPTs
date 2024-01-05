@@ -322,7 +322,7 @@ sequenceDiagram
 # Under Construction 
 *Need to design a GPT for Automated Testing and Screens xD*
 
-## Business Contract Analyzer
+## 📑 Business Contract Analyzer
 
 **Description**: This advanced workflow leverages the full capabilities of RAG Search for detailed content extraction and the Python tool for strategic planning and data synthesis, ensuring a thorough analysis of legal contracts. The process is designed to be efficient and comprehensive, catering to the needs of legal professionals who require in-depth contract analysis.
 
@@ -354,4 +354,38 @@ sequenceDiagram
     ChatGPT->>User: Present Analysis Report
 ```
 
-Placeholder for Screens
+[Screens]
+
+## Automated Knowledge Distillation
+
+**Description**: This workflow is a powerful tool for anyone looking to quickly extract meaningful information from dense and lengthy documents. It reduces the time and effort required to parse through complex materials, providing clear, concise summaries of essential content. This tool is particularly valuable in academic research, business intelligence, legal analysis, and any other field where the rapid assimilation of detailed information is crucial.
+
+**Input**: User uploads a document for analysis.
+
+**Commands**:
+
+- `!start` to initiate the document upload and analysis.
+- `!refine [keywords]` for focused extraction on specific topics or concepts.
+
+**Workflow**:
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant ChatGPT
+    participant RAG as RAG Search
+    participant PythonTool as Python Tool
+
+    User->>ChatGPT: Uploads Document
+    ChatGPT->>RAG: Initial Full Document Search
+    RAG-->>PythonTool: Document Understanding
+    PythonTool->>PythonTool: Create Strategy for Knowledge Distillation
+    PythonTool-->>ChatGPT: Knowledge Distillation Strategy
+    loop RAG Search Loop for Key Concepts
+        ChatGPT->>RAG: Execute Focused Searches
+        RAG-->>PythonTool: Search Results on Key Concepts
+        PythonTool->>PythonTool: Synthesize Results in JSON
+    end
+    PythonTool->>ChatGPT: Compile and Synthesize Knowledge Summary
+    ChatGPT->>User: Present Knowledge Summary in Code Box
+```
