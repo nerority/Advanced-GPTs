@@ -108,9 +108,12 @@ sequenceDiagram
 
 **Input**: User-Uploaded Document
 
-Command `S` to start.
+**User Commands:**
 
-Command `P` to resume workflow from last checkpoint.
+- `!start` - Initiates workflow based on user uploaded document.
+- **`C` -** Re-establish the workflow where it left off.
+- **`R` -** Restart the analysis with a new document.
+- **`E` -** End the current analysis session.
 
 **Workflow**: 
 ```mermaid
@@ -120,16 +123,19 @@ sequenceDiagram
     participant RAG as RAG Search
     participant PythonTool as Python Tool
 
-    User->>ChatGPT: Upload Document
-    ChatGPT->>RAG: Initial Search
-    RAG->>PythonTool: Generate ToC
-    loop Analysis Loop
-        PythonTool->>RAG: Section Focused Search
-        RAG-->>PythonTool: Analysis of Section
+    User->>ChatGPT: Uploads Document
+    ChatGPT->>RAG: Initial Document Analysis
+    RAG-->>PythonTool: Holistic Understanding of Content
+    PythonTool->>PythonTool: Create TOC Skeleton in JSON
+    PythonTool->>ChatGPT: Display TOC
+    loop Detailed Section Analysis
+        ChatGPT->>RAG: Analyze Specific Section
+        RAG-->>PythonTool: Section Insights
+        PythonTool->>PythonTool: Synthesize Insights into TOC
     end
-    PythonTool->>PythonTool: Compilation
-    PythonTool->>ChatGPT: Save as File
-    ChatGPT->>User: Display Download Link
+    PythonTool->>PythonTool: Compile Final Report
+    PythonTool->>ChatGPT: Save and Provide Report Link
+    ChatGPT->>User: Offer User Commands (C, R, E)
 ```
 
 **Note**: This GPT has advanced resource management logic, and will create a checkpoint just before reaching the hard time-out. There is a hard time-out of ~ 8-10 minutes no matter what. Due to the complexity of this workflow, it can sometimes timeout before finishing. When this happens, simply enter "P" in the next input to re-establish the workflow where it left off.
