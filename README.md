@@ -104,24 +104,30 @@ sequenceDiagram
 
 ## Automated High-Quality Document Analysis
 
-**Description**: Getting the AI to properly understand and summarize both the holistic and granular aspects of long and/or complex documents has been a standing frustration with ChatGPT. This GPT automates an advanced workflow, that leverages strategic RAG searches and the python tool to achieve highly-detailed and valuable analysis of complex documents. This has been incredibly difficult to automate with accuracy, I am proud to have now solved this issue.
+### Description
 
-**Intended Usage**: Complex documents that have coherent structure. This GPT will generate a TOC based on a first pass, and then start an analysis loop with seperate searches for every section sequentually. This is a long-horizon process, and can take multiple full response timeouts to complete depending on the complexity of the information and the ToC structure. For more strategic searching or faster processes, there are more specialized GPTs for that later in this portfolio.
+Getting the AI to properly understand and summarize both the holistic and granular aspects of long and/or complex documents has been a standing frustration with ChatGPT. This GPT automates an advanced workflow, that leverages strategic RAG searches and the python tool to achieve highly-detailed and valuable analysis of complex documents. This has been incredibly difficult to automate with accuracy, I am proud to have now solved this issue.
+
+### Intended Usage
+
+Complex documents that have coherent structure. This GPT will generate a TOC based on a first pass, and then start an analysis loop with seperate searches for every section sequentually. This is a long-horizon process, and can take multiple full response timeouts to complete depending on the complexity of the information and the ToC structure. For more strategic searching or faster processes, there are more specialized GPTs for that later in this portfolio.
 
 **Input**: User-Uploaded Document
 
-**User Commands:**
+### User Commands
 
 - `!start` - Initiates workflow based on user uploaded document.
 - **`C` -** Re-establish the workflow where it left off.
 - **`R` -** Restart the analysis with a new document.
 - **`E` -** End the current analysis session.
 
-**Planned Improvements**:
+### Planned Improvements
+
 - Adding final pass to save in different formats without breaking fidelity
 - Expanding out command set and post-actions
 
-**Workflow**: 
+### Workflow
+
 ```mermaid
 sequenceDiagram
     participant User
