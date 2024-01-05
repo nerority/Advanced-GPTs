@@ -353,7 +353,7 @@ sequenceDiagram
     ChatGPT->>User: Present Analysis Report
 ```
 
-[Screens]
+**Screenshots**: *Placeholder*
 
 ## 🧠 Automated Knowledge Distillation
 
@@ -388,3 +388,46 @@ sequenceDiagram
     PythonTool->>ChatGPT: Compile and Synthesize Knowledge Summary
     ChatGPT->>User: Present Knowledge Summary in Code Box
 ```
+
+**Screenshots**: *Placeholder*
+
+## 📊 Workflow: Advanced Competitive Analysis and Market Strategy
+
+**Description**: In the realm of business, understanding the competitive landscape is crucial for strategic decision-making. This GPT is specifically tailored for quality real-time competitive analysis of a user defined scope. It serves as an essential tool for comprehensively understanding industry dynamics, competitive positioning, and emerging market trends. By leveraging the combined power of ChatGPT, Python, and the Browser tool, this workflow delivers deep insights into competitors’ strategies and market movements, enabling users to make informed decisions and stay ahead in their respective industries.
+
+**Input**: Users begin by providing key details such as their industry, main competitors, and specific areas of interest.
+
+Commands:
+
+- `!startAnalysis [industry] [competitors] [interest areas]` to initiate the analysis.
+- `!refineReport` to refine the report based on user feedback.
+
+**Workflow**:
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant ChatGPT
+    participant PythonTool as Python Tool
+    participant Browser
+
+    User->>ChatGPT: Provide Industry, Key Competitors, Areas of Interest
+    ChatGPT->>PythonTool: Plan Data Collection Queries and Prepare for Loop
+    PythonTool-->>ChatGPT: Search Queries and Plan
+    loop Data Collection and Analysis Loop (For each planned search)
+        ChatGPT->>Browser: Search Competitors and Market Trends
+        Browser-->>PythonTool: Gathered Data
+        PythonTool->>PythonTool: Process and Analyze Data
+    end
+    PythonTool->>PythonTool: Identify Patterns and Strategic Insights
+    PythonTool->>PythonTool: Generate Report and Recommendations
+    PythonTool-->>ChatGPT: Compiled Report
+    ChatGPT->>User: Present Final Report in Code Box
+    loop User Feedback Loop
+        User->>ChatGPT: Provide Feedback
+        ChatGPT->>PythonTool: Refine Report Based on Feedback
+    end
+
+```
+
+**Screenshots**: *Placeholder*
