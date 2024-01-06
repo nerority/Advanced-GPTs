@@ -74,7 +74,8 @@ This GPT was originally built by me as a joke project, however it wound up worki
 - `!updateBase [context]`
 - `N` - Proceed with the next set of 5 progressions.
 
-## Workflow (Single Response):
+### Workflow
+
 ```mermaid
 sequenceDiagram
     participant User
