@@ -121,7 +121,7 @@ Make me proud 😎
 
 - `!start` - Initiates the advanced workflow based on the uploaded document
 - `!demo` - Demonstrate the workflow for user with AI synthesized data
-- `P` - Resume the workflow from the last saved checkpoint
+- `C` - Resume the workflow from the last saved checkpoint
 - `G` - Synthesize the refined resume with markdown formatting.
 - `J` - Complete a new tailored resume based on user provided job description or search
 
