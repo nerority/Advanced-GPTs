@@ -199,10 +199,12 @@ sequenceDiagram
     PythonTool->>PythonTool: High-Level Profile Knowledge Distillation
     PythonTool-->>ChatGPT: High-Level Profile
     ChatGPT->>RAG: Detailed Experience Analysis
-    RAG-->>PythonTool: Detailed Experience Mapping
+    RAG-->>PythonTool: Search Results
+    PythonTool->>PythonTool: Detailed Experience Mapping
     PythonTool-->>ChatGPT: Updated Profile
     ChatGPT->>RAG: Comprehensive Skills Analysis
-    RAG-->>PythonTool: Comprehensive Skill Mapping
+    RAG-->>PythonTool: Search Results
+    PythonTool->>PythonTool: Detailed Skill Mapping
     PythonTool-->>ChatGPT: Updated Profile
     PythonTool->>PythonTool: Final Profile Synthesis, Save File
     PythonTool->>ChatGPT: Save Link
