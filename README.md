@@ -168,8 +168,8 @@ sequenceDiagram
 ```
 
 <p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/af8554ef-091f-41e3-9abc-2a1659c37efb" width="45%" height="800">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/cb06ee1e-7b9c-4caf-899a-99700ffbb96e" width="45%" height="800">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/af8554ef-091f-41e3-9abc-2a1659c37efb" width="45%" height="600">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/cb06ee1e-7b9c-4caf-899a-99700ffbb96e" width="45%" height="600">
 </p>
 
 ---
