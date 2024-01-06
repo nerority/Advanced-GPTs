@@ -36,14 +36,14 @@ Want me to build your dream GPT? Get in touch.
 
 ### Quick Nav
 1. [Automated Infinite Visual Progression with Fine-Grain Control](#automated-infinite-visual-progression-with-fine-grain-control)
-2. [Automated Career Profile Builder, Resume Optimizer, and Target Position Tailoring](#automated-career-profile-builder-resume-optimizer-and-target-position-tailoring)
+2. [Automated Career Profile Builder and Resume Optimizer](#automated-career-profile-builder-resume-optimizer-and-target-position-tailoring)
 3. [Automated High-Quality Document Analysis](#automated-high-quality-document-analysis)
 4. [Automated DALL-E Prompt Variation Testing](#automated-dall-e-prompt-variation-testing)
-5. [Automated Market Trend Analysis and Prediction for Target Company](#automated-market-trend-analysis-and-prediction-for-target-company)
-6. [Automated Prompt Refinement](#automated-prompt-refinement)
-7. [Automated Meta-Prompt Refinement](#automated-meta-prompt-refinement)
-8. [Botanical Growth Cycle Visualizer](#botanical-growth-cycle-visualizer)
-9. [Business Contract Analyzer](#business-contract-analyzer)
+5. [Automated Prompt Refinement](#automated-prompt-refinement)
+6. [Automated Meta-Prompt Refinement](#automated-meta-prompt-refinement)
+7. [Botanical Growth Cycle Visualizer](#botanical-growth-cycle-visualizer)
+8. [Business Contract Analyzer](#business-contract-analyzer)
+9. [Automated Market Trend Analysis and Prediction for Target Company](#automated-market-trend-analysis-and-prediction-for-target-company)
 10. [Advanced Competitive Analysis AI](#advanced-competitive-analysis-ai)
 11. [Automated Knowledge Distillation](#automated-knowledge-distillation)
 
@@ -285,76 +285,49 @@ sequenceDiagram
 
 ---
 
-## Automated Market Trend Analysis and Prediction for Target Company
+## Automated Prompt Refinement
 
-**Status**: Testing and Refinement for Public Use
+**Status**: Finalized for Release 💯
 
-**Description**: This GPT is designed to complete an advanced workflow that achieves a comprehensive market analysis for a user given company. First employs the browser tool to pull real-time information, which then passes through several iterations with the python tool to complete text and semantic analysis on the data. A basic predictive model is build and visualized in the first response, which can then be advanced upon with a simple hotkey in the next response. Works extremely well with user-provided data, for example apple stock prices for 2023 curtesy of kaggle.com.
+### Description
 
-**Input**: User-Specified Company
+This GPT is designed to achieve a multi-step process for taking an unrefined input prompt into its refined form for GPT-4. The prompt logic is distilled, and then run through numerous passes including analysis, enhancement, optimization, categorization, before being synthesized into its finalized form. This refinement process work excellently for complex tasks and creating consistently understood prompts. Also is a great way to convert random thoughts into well-structured prompts.
 
-`!start [company]`
+### User Commands
 
-**Workflow**:
+- `!start [prompt for refinement]` - Executes workflow based on user input prompt
+- `!refine [feedback]` - Executes a new workflow to refine the final prompt based on user feedback
+- `!demo` - Demonstrate the workflow for user with AI synthesized data
+
+### Workflow
 
 ```mermaid
 sequenceDiagram
     participant User
     participant ChatGPT
     participant PythonTool as Python Tool
-    participant Browser
 
-    User->>ChatGPT: Provide Company
-    ChatGPT->>PythonTool: Initiate Data Analysis Loop
-    loop Data Analysis Loop
-        PythonTool->>Browser: Fetch Financial Reports & News Sentiments
-        Browser-->>PythonTool: Provide Data
-        PythonTool->>PythonTool: Perform Text and Sentiment Analysis
+    User->>ChatGPT: Executes Workflow (!start)
+    ChatGPT->>PythonTool: Transform Prompt
+    PythonTool-->>ChatGPT: Transformed Prompt
+    ChatGPT->>PythonTool: Analyze Prompt
+    PythonTool-->>ChatGPT: Analysis Results
+    ChatGPT->>PythonTool: Enhance Prompt
+    PythonTool-->>ChatGPT: Enhanced Prompt
+    ChatGPT->>PythonTool: Optimize Prompt
+    PythonTool-->>ChatGPT: Optimized Prompt
+    ChatGPT->>PythonTool: Categorize Prompt
+    PythonTool-->>ChatGPT: Categorization Details
+		ChatGPT-->>ChatGPT: Synthesize Final Prompt
+    ChatGPT->>User: Present Final Prompt
+    loop User Interaction
+        User->>ChatGPT: User Commands
+        alt !start
+            ChatGPT->>User: Restarts Workflow with New Prompt
+        else !refine
+            ChatGPT->>User: Performs a Refinement Workflow
+        end
     end
-    PythonTool->>PythonTool: Identify and Summarize Market Trends
-    loop Impact Assessment Loop
-        PythonTool->>PythonTool: Assess Trend Impact on Stock Prices
-    end
-    PythonTool->>PythonTool: Prepare Insights and Predictions
-    PythonTool-->>ChatGPT: Compiled Data and Analysis
-    ChatGPT->>User: Present Structured Report
-
-```
-
-**Note**: Results comparison between no user-provided data, and with a dataset included for Apple Stock Prices in 2023.
-
-<p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/708c2caf-e700-4ece-9a54-835ab11bbdc0" width="48%" height="600">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/a881c549-1761-4b60-adf8-f5c972e26582" width="48%" height="600">
-</p>
-
----
-
-## Automated Prompt Refinement
-
-**Status**: Testing and Refinement for Public Use
-
-**Description**: This GPT is designed to achieve a multi-step process for taking an unrefined input prompt into its refined form for GPT-4. The prompt logic is distilled, and then run through numerous passes including analysis, enhancement, optimization, categorization, before being synthesized into its finalized form. This refinement process work excellently for complex tasks and creating consistently understood prompts. Also is a great way to convert random thoughts into well-structured prompts.
-
-**Input**: User-Provided Prompt to Refine
-
-```!executeWorkflow [prompt for analysis]```
-
-**Workflow (Single Response)**
-```mermaid
-sequenceDiagram
-    participant user as User
-    participant ChatGPT
-    participant PythonTool as Python Tool
-
-    user->>ChatGPT: Provide Initial Prompt
-    ChatGPT->>PythonTool: Prompt Transformation
-    PythonTool->>PythonTool: Prompt Analysis
-    PythonTool->>PythonTool: Prompt Enhancement
-    PythonTool->>PythonTool: Prompt Optimization
-    PythonTool->>PythonTool: Prompt Categorization
-    PythonTool-->>ChatGPT: Synthesis of the Final Prompt
-    ChatGPT->>user: Deliver Final Prompt
 ```
 
 <p align="center" style="display: flex; align-items: flex-start;">
@@ -442,6 +415,8 @@ sequenceDiagram
 
 *Need to design a GPT for Automated Testing and Screens xD*
 
+---
+
 ## Business Contract Analyzer
 
 **Status**: Initial Testing Done, Pending Refinement for Public Release
@@ -479,6 +454,53 @@ sequenceDiagram
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/2e5e1734-194e-4ece-820e-69b259e46ce6" width="40%" height="100%">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/df11eed1-a29e-42ee-ac4c-5f57a150dbee" width="40%" height="100%">
 </p>
+
+---
+
+## Automated Market Trend Analysis and Prediction for Target Company
+
+**Status**: Testing and Refinement for Public Use
+
+**Description**: This GPT is designed to complete an advanced workflow that achieves a comprehensive market analysis for a user given company. First employs the browser tool to pull real-time information, which then passes through several iterations with the python tool to complete text and semantic analysis on the data. A basic predictive model is build and visualized in the first response, which can then be advanced upon with a simple hotkey in the next response. Works extremely well with user-provided data, for example apple stock prices for 2023 curtesy of kaggle.com.
+
+**Input**: User-Specified Company
+
+`!start [company]`
+
+**Workflow**:
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant ChatGPT
+    participant PythonTool as Python Tool
+    participant Browser
+
+    User->>ChatGPT: Provide Company
+    ChatGPT->>PythonTool: Initiate Data Analysis Loop
+    loop Data Analysis Loop
+        PythonTool->>Browser: Fetch Financial Reports & News Sentiments
+        Browser-->>PythonTool: Provide Data
+        PythonTool->>PythonTool: Perform Text and Sentiment Analysis
+    end
+    PythonTool->>PythonTool: Identify and Summarize Market Trends
+    loop Impact Assessment Loop
+        PythonTool->>PythonTool: Assess Trend Impact on Stock Prices
+    end
+    PythonTool->>PythonTool: Prepare Insights and Predictions
+    PythonTool-->>ChatGPT: Compiled Data and Analysis
+    ChatGPT->>User: Present Structured Report
+
+```
+
+**Note**: Results comparison between no user-provided data, and with a dataset included for Apple Stock Prices in 2023.
+
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/708c2caf-e700-4ece-9a54-835ab11bbdc0" width="48%" height="600">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/a881c549-1761-4b60-adf8-f5c972e26582" width="48%" height="600">
+</p>
+
+---
 
 ## Advanced Competitive Analysis AI
 
@@ -521,6 +543,8 @@ sequenceDiagram
 ```
 
 **Screenshots**: *Placeholder*
+
+---
 
 ## Automated Knowledge Distillation
 
