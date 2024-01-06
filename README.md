@@ -209,6 +209,7 @@ sequenceDiagram
     PythonTool->>PythonTool: Final Profile Synthesis, Save File
     PythonTool->>ChatGPT: Save Link
     ChatGPT->>User: Present Link and Commands
+    note over User, ChatGPT: Pause
 
     note over User, ChatGPT: Phase 2
     User->>ChatGPT: Continue (C)
