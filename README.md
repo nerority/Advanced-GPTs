@@ -44,9 +44,9 @@ Want me to build your dream GPT? Get in touch.
 
 ### Quick Nav
 1. [Automated Infinite Visual Progression with Fine-Grain Control](#automated-infinite-visual-progression-with-fine-grain-control)
-2. [Automated Career Profile Builder and Resume Tailoring](#automated-career-profile-builder-and-resume-tailoring)
+2. [Automated Career Profile Builder, Resume Optimizer, and Target Position Tailoring](#automated-career-profile-builder-resume-optimizer-and-target-position-tailoring)
 3. [Automated High-Quality Document Analysis](#automated-high-quality-document-analysis)
-4. [Market Trend Analysis and Prediction for Target Company](#market-trend-analysis-and-prediction-for-target-company)
+4. [Automated Market Trend Analysis and Prediction for Target Company](#automated-market-trend-analysis-and-prediction-for-target-company)
 5. [Automated DALL-E Prompt Variation Testing](#automated-dall-e-prompt-variation-testing)
 6. [Automated Prompt Refinement](#automated-prompt-refinement)
 7. [Automated Meta-Prompt Refinement](#automated-meta-prompt-refinement)
@@ -113,7 +113,7 @@ sequenceDiagram
 
 ---
 
-## Automated Career Profile Builder and Resume Tailoring
+## Automated Career Profile Builder, Resume Optimizer, and Target Position Tailoring
 
 **Status**: Finalized for Release
 
@@ -239,7 +239,7 @@ sequenceDiagram
 
 ---
 
-## Market Trend Analysis and Prediction for Target Company
+## Automated Market Trend Analysis and Prediction for Target Company
 
 **Status**: Testing and Refinement for Public Use
 
