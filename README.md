@@ -279,7 +279,7 @@ sequenceDiagram
 
 <p align="center">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/10fc87a1-35b4-44c2-b710-9e7b2a8068d4" width="48%" height="1500">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/1db37da3-558e-47b7-a05e-caa41ffce0b3" width="48%" height="1500">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/609795f2-12fb-4f49-83ef-5afce79b0fe1" width="48%" height="1500">
 </p>
 
 ---
