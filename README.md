@@ -44,8 +44,8 @@ Want me to build your dream GPT? Get in touch.
 
 ### Quick Nav
 1. [Automated Infinite Visual Progression with Fine-Grain Control](#automated-infinite-visual-progression-with-fine-grain-control)
-2. [Automated High-Quality Document Analysis](#automated-high-quality-document-analysis)
-3. [Automated Career Profile Builder and Resume Tailoring](#automated-career-profile-builder-and-resume-tailoring)
+2. [Automated Career Profile Builder and Resume Tailoring](#automated-career-profile-builder-and-resume-tailoring)
+3. [Automated High-Quality Document Analysis](#automated-high-quality-document-analysis)
 4. [Market Trend Analysis and Prediction for Target Company](#market-trend-analysis-and-prediction-for-target-company)
 5. [Automated DALL-E Prompt Variation Testing](#automated-dall-e-prompt-variation-testing)
 6. [Automated Prompt Refinement](#automated-prompt-refinement)
