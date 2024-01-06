@@ -218,16 +218,16 @@ sequenceDiagram
     User->>ChatGPT: Uploads Document
     ChatGPT->>RAG: Initial Document Analysis
     RAG-->>PythonTool: Holistic Understanding of Content
-    PythonTool->>PythonTool: Create TOC Skeleton in JSON
+    PythonTool->>PythonTool: Create TOC
     PythonTool->>ChatGPT: Display TOC
     loop Detailed Section Analysis
         ChatGPT->>RAG: Analyze Specific Section
         RAG-->>PythonTool: Section Insights
-        PythonTool->>PythonTool: Synthesize Insights into TOC
+        PythonTool->>PythonTool: Synthesize Insights
     end
     PythonTool->>PythonTool: Compile Final Report
     PythonTool->>ChatGPT: Save and Provide Report Link
-    ChatGPT->>User: Offer User Commands (C, R, E)
+    ChatGPT->>User: Offer User Commands
 ```
 
 **Note**: This GPT has advanced resource management logic, and will create a checkpoint just before reaching the hard time-out. There is a hard time-out of ~ 6-8 minutes no matter what. Due to the complexity of this workflow, it will often timeout before finishing. When this happens, simply enter "C" in the next input to re-establish the workflow where it left off. After a recent update by OpenAI, this timeout can sometimes "freeze" the screen with an error, just refresh the page, and even if the prior analysis windows disappeared, just use C and it will pick up where it left off until complete.
@@ -303,14 +303,14 @@ sequenceDiagram
     participant DallE
 
     User->>ChatGPT: User Description Input
-    ChatGPT->>PythonTool: Prompt Set Design
-    loop Image Gen Loop x5
+    ChatGPT->>PythonTool: Prompt Design
+    loop Image Gen Loop
         PythonTool->>DallE: Request Image Generation
         DallE-->>PythonTool: Return Generated Image
     end
     PythonTool->>PythonTool: Compilation
     PythonTool->>ChatGPT: Present Results
-    ChatGPT->>User: Prompt Synthesis and Results
+    ChatGPT->>User: Prompt Synthesis
     ChatGPT->>User: Command Menu
 ```
 
@@ -325,7 +325,7 @@ sequenceDiagram
 
 **Status**: Testing and Refinement for Public Use
 
-**Description**: This GPT is designed to achieve a multi-step process for taking an unrefined input prompt into its refined form for GPT-4. The prompt is transformed into its JSON form, which is then run through numerous passes including analysis, enhancement, optimization, categorization, before being synthesized in its final form. This refinement process work excellently for complex tasks and creating consistently understood prompts. Also is a great way to convert random thoughts into well-structured prompts.
+**Description**: This GPT is designed to achieve a multi-step process for taking an unrefined input prompt into its refined form for GPT-4. The prompt logic is distilled, and then run through numerous passes including analysis, enhancement, optimization, categorization, before being synthesized into its finalized form. This refinement process work excellently for complex tasks and creating consistently understood prompts. Also is a great way to convert random thoughts into well-structured prompts.
 
 **Input**: User-Provided Prompt to Refine
 
@@ -339,7 +339,7 @@ sequenceDiagram
     participant PythonTool as Python Tool
 
     user->>ChatGPT: Provide Initial Prompt
-    ChatGPT->>PythonTool: Prompt Transformation to JSON
+    ChatGPT->>PythonTool: Prompt Transformation
     PythonTool->>PythonTool: Prompt Analysis
     PythonTool->>PythonTool: Prompt Enhancement
     PythonTool->>PythonTool: Prompt Optimization
@@ -384,7 +384,7 @@ sequenceDiagram
         PythonTool->>PythonTool: Step 7: Proactive Experimentation & Enhancement
     end
     PythonTool->>ChatGPT: Synthesize Final Prompt
-    ChatGPT->>User: Deliver Refined Prompt in Code Box
+    ChatGPT->>User: Deliver Refined Prompt
 ```
 
 <p align="center" style="display: flex; align-items: flex-start;">
@@ -414,7 +414,7 @@ sequenceDiagram
 
     User->>ChatGPT: User Input
     ChatGPT->>PythonTool: Data Synthesis and Planning
-    loop Image Gen Loop (x6)
+    loop Image Gen Loop
         PythonTool->>DallE: Request Image Generation
         DallE-->>PythonTool: Return Generated Image
     end
@@ -458,8 +458,8 @@ sequenceDiagram
     User->>ChatGPT: Uploads Document
     ChatGPT->>RAG: Initial Full Document Search
     RAG-->>PythonTool: Document Understanding
-    PythonTool->>PythonTool: Create Strategy for Knowledge Distillation
-    PythonTool-->>ChatGPT: Knowledge Distillation Strategy
+    PythonTool->>PythonTool: Planning Phase
+    PythonTool-->>ChatGPT: Document Strategy
     loop RAG Search Loop for Key Concepts
         ChatGPT->>RAG: Execute Focused Searches
         RAG-->>PythonTool: Search Results on Key Concepts
@@ -495,10 +495,10 @@ sequenceDiagram
     RAG-->>ChatGPT: Document Understanding
     ChatGPT->>PythonTool: Create Strategy for Deeper Searches
     PythonTool-->>ChatGPT: Deeper Search Strategy
-    loop RAG Search Loop x3
-        ChatGPT->>RAG: Execute Deeper Search (Analyze Contract, Key Clauses, Risk Assessment)
+    loop RAG Search Loop
+        ChatGPT->>RAG: Execute Deeper Search Strategy
         RAG-->>PythonTool: Search Results
-        PythonTool->>PythonTool: Synthesize Results in JSON
+        PythonTool->>PythonTool: Synthesize Results
     end
     PythonTool->>ChatGPT: Compile and Synthesize Analysis Report
     ChatGPT->>User: Present Analysis Report
@@ -529,9 +529,9 @@ sequenceDiagram
     participant Browser
 
     User->>ChatGPT: Provide Industry, Key Competitors, Areas of Interest
-    ChatGPT->>PythonTool: Plan Data Collection Queries and Prepare for Loop
-    PythonTool-->>ChatGPT: Search Queries and Plan
-    loop Data Collection and Analysis Loop (For each planned search)
+    ChatGPT->>PythonTool: Planning Phase
+    PythonTool-->>ChatGPT: Analysis Plan
+    loop Data Collection and Analysis Loop
         ChatGPT->>Browser: Search Competitors and Market Trends
         Browser-->>PythonTool: Gathered Data
         PythonTool->>PythonTool: Process and Analyze Data
@@ -539,12 +539,11 @@ sequenceDiagram
     PythonTool->>PythonTool: Identify Patterns and Strategic Insights
     PythonTool->>PythonTool: Generate Report and Recommendations
     PythonTool-->>ChatGPT: Compiled Report
-    ChatGPT->>User: Present Final Report in Code Box
+    ChatGPT->>User: Present Final Report
     loop User Feedback Loop
         User->>ChatGPT: Provide Feedback
         ChatGPT->>PythonTool: Refine Report Based on Feedback
     end
-
 ```
 
 **Screenshots**: *Placeholder*
