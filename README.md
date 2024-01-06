@@ -188,8 +188,8 @@ I went a little too hard on this one but the end result is pretty amazing. This 
 sequenceDiagram
     participant User
     participant ChatGPT
-    participant RAG as RAG Search
     participant PythonTool as Python Tool
+    participant RAG as RAG Search
     participant Browser as Browser Tool
 
     note over User, ChatGPT: Phase 1
@@ -209,14 +209,14 @@ sequenceDiagram
     ChatGPT->>User: Present Link and Commands
 
     note over User, ChatGPT: Phase 2
-    User->>ChatGPT: (C)
+    User->>ChatGPT: Continue (C)
     ChatGPT->>Browser: Job Market Research
     Browser-->>PythonTool: Job Listings and Requirements
     PythonTool->>PythonTool: Synthesize Search Findings and Strategize
     PythonTool-->>ChatGPT: Findings and Strategy
-    PythonTool->>PythonTool: Manually Write the Full Tailored Resume
+    ChatGPT->>PythonTool: Manually Write the Full Tailored Resume
     PythonTool-->>ChatGPT: New Text for Tailored Resume
-    PythonTool->>PythonTool: Save and Format Tailored Text
+    ChatGPT->>PythonTool: Save and Format Tailored Text
     PythonTool-->>ChatGPT: Present Final Resume and Command Menu
     ChatGPT->>User: Display Resume Link, Hotkeys for Navigation
 ```
