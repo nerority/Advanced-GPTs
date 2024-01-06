@@ -57,7 +57,7 @@ Want me to build your dream GPT? Get in touch.
 
 </br>
 
-## Automated Infinite Visual Progression with Fine-Grain Control
+## Automated Infinite Visual Progression with Fine-Grain Control (V2)
 
 ### Description
 
@@ -107,7 +107,7 @@ sequenceDiagram
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/fcca86b4-183f-408d-85cf-830290422196" alt="Second" width="30%" height="3000">
 </p>
 
-## Automated High-Quality Document Analysis
+## Automated High-Quality Document Analysis (V2)
 
 ### Description
 
@@ -162,11 +162,11 @@ sequenceDiagram
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/cbb597cd-2ce9-4104-b1db-ece0f00421c9" width="45%" height="800">
 </p>
 
-## Automated Career Profile Analyst and Resume Tailoring for Target Positions
+## Automated Career Profile Builder and Resume Tailoring (V2)
 
 ### Description
 
-This GPT automates tailored resume creation for target positions after building a user profile. It analyzes user-uploaded career documents, maps out professional trajectories, and crafts tailored resumes targeted towards specific job opportunities. This agent leverages a complex workflow integrating RAG Search, Python tooling, and Browser capabilities, orchestrated by ChatGPT's master model. It excels in understanding complex career narratives and aligning them with current market trends.
+I went a little too hard on this one but the end result is pretty amazing. This GPT is designed to execute an extremly complex workflow that automates the full process of user profile building in a multi-step process with strategic RAG searches, into browser searches for real-time job market information and finally creating an optimized, updated, tailored resume. All simply from an uploaded document. I have split it into two steps for many reasons. Saving the profile first allows seamless follow up and full resources dedicated to resume crafting. The profile is the "distilled knowledge" of your career profile. You can save it and use it in many different ways later. After the final resume is saved. You can use the following steps for automated tailoring for any position. Simply feed the description in and the comprehensive context is pre-framed for high-quality tailoring.
 
 ### User Commands
 
