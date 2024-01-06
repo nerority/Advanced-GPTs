@@ -62,8 +62,8 @@ This GPT was originally built by me as a joke project, however it wound up worki
 **Input**:
 
 - `!executeIP[description of base image, dimension to progress, direction, starting point, rate]`
-- `!demo` - Executes the workflow for ai synthesized data to demonstrate and test the workflow
-- `!commands` - Displays the command menu for the user
+- `!demo` - Demonstrates the workflow
+- `!commands` - Displays the command menu
 
 **Control**
 
