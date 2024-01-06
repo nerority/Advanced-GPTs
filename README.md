@@ -1,24 +1,15 @@
 <div align="center">
   <h1>Advanced Workflow GPTs <i>by Nerority</i></h1>
+  <h3><i>Showcase of my Custom GPTs, featuring advanced workflows and operational logic.</i></h3>
   <img src="https://skillicons.dev/icons?i=react,vite,ts" alt="Icons" />
   <br/>
-  <a href="https://www.linkedin.com/in/devin-pellegrino-gt/"><kbd>🔵 LinkedIn</kbd></a>
   <a href="https://nerority.com"><kbd>🟢 Website</kbd></a>
+  <a href="https://www.linkedin.com/in/devin-pellegrino-gt/"><kbd>🔵 LinkedIn </kbd></a>
 </div>
-<br/><br/>
 
-*Showcase of my Custom GPTs, featuring advanced workflows and operational logic.*
+</br>
 
-*I will be preparing public versions of all GPTs for the store release next week for free. This page will see constant updates over the weekend and links will be live by Monday (1/08/24).*
-
-<details>
-  <summary><b>Under active construction... (click to view changelog)</b></summary>
-  
-  ## Changelog
-  - Update 1: 3 New GPTs: Automated Knowledge Distillation, Business Contract Analyzer, Advanced Competitive Analysis AI. Pending SS
-  - Update 2: First 3 GPTs workflows massively updated and refined for public use. Final Testing.
-  <!-- Add more updates here -->
-</details>
+> **I will be preparing public versions of all GPTs for the store release next week for free. This page will see constant updates over the weekend and links will be live here by Monday (1/08/24).**
 
 ---
 
@@ -37,6 +28,7 @@ Want me to build your dream GPT? Get in touch.
 **Contact**: devinpellegrino@gmail.com
 
 **Site**: [nerority.com](https://www.nerority.com)
+
 
 <div align="center">
 <h1>The Lineup</h1>
