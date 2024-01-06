@@ -7,15 +7,20 @@
 </div>
 <br/><br/>
 
-Under active construction... 8 pending additions
+*Showcase of my Custom GPTs, featuring advanced workflows and operational logic.*
 
-**3 New GPTs**: Automated Knowledge Distillation, Business Contract Analyzer, Advanced Competitive Analysis AI
+*I will be preparing public versions of all GPTs for the store release next week for free. This page will see constant updates over the weekend and links will be live by Monday (1/08/24).*
 
-*I will be preparing public versions of all GPTs for the store release next week for free. All links will be shared here end of this weekend.*
+<details>
+  <summary><b>Under active construction... (click to view changelog)</b></summary>
+  
+  ## Changelog
+  - Update 1: 3 New GPTs: Automated Knowledge Distillation, Business Contract Analyzer, Advanced Competitive Analysis AI. Pending SS
+  - Update 2: First 3 GPTs workflows massively updated and refined for public use. Final Testing.
+  <!-- Add more updates here -->
+</details>
 
 ---
-
-*Showcase of my Custom GPTs, featuring advanced workflows and operational logic.*
 
 ![Nerority](https://github.com/nerority/Advanced-GPTs/assets/80237923/e99891a8-9645-4e9b-a22c-7fca73177882)
 
@@ -182,25 +187,31 @@ sequenceDiagram
     participant Browser as Browser Tool
 
     User->>ChatGPT: Uploads Career Documents
-    alt Initial Workflow Execution (S)
-        ChatGPT->>RAG: Analyze Uploaded Documents
-        RAG-->>PythonTool: Extracted Career Information
-        PythonTool->>PythonTool: Create User Profile Knowledge Token
-        PythonTool->>PythonTool: Map Career Progression
-        PythonTool->>Browser: Job Market Research
-        Browser-->>PythonTool: Job Listings and Requirements
-        PythonTool->>PythonTool: Tailor Resume in Markdown
-        PythonTool->>PythonTool: Create Word Document
-    else Resume Workflow (P)
-        PythonTool->>ChatGPT: Resume from Checkpoint
-    end
-    PythonTool->>ChatGPT: Present Final Resume and Command Menu
+    ChatGPT->>RAG: Initial Comprehensive Profile Analysis
+    RAG-->>PythonTool: Extracted Career Information
+    PythonTool->>PythonTool: High-Level Profile Knowledge Token Creation
+    ChatGPT->>RAG: Detailed Experience Analysis
+    RAG-->>PythonTool: Detailed Experience Mapping
+    ChatGPT->>RAG: Comprehensive Skills Analysis
+    RAG-->>PythonTool: Comprehensive Skill Mapping
+		%% Create Checkpoint and Pause
+    PythonTool->>PythonTool: Final Profile Synthesis, Save JSON Object as File
+		ChatGPT->>User: Present JSON File and Commands
+
+		User->>ChatGPT: (C)
+    ChatGPT->>Browser: Job Market Research
+    Browser-->>PythonTool: Job Listings and Requirements
+    PythonTool->>PythonTool: Synthesize Search Findings and Strategize
+		PythonTool-->>ChatGPT: Findings and Strategy
+		PythonTool->>PythonTool: Manually Write the Full Tailored Resume
+		PythonTool-->>ChatGPT: New Text for Tailored Resume
+    PythonTool->>PythonTool: Save and Format Tailored Text
+    PythonTool-->>ChatGPT: Present Final Resume and Command Menu
     ChatGPT->>User: Display Resume Link, Hotkeys for Navigation
 ```
 
 <p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/78d062bf-4b65-45a3-ade9-b63c1e149588" width="40%" height="100%">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/16bbb2fa-4117-475d-9ec7-a8b3b504eff6" width="40%" height="100%">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/af8554ef-091f-41e3-9abc-2a1659c37efb" width="60%" height="100%">
 </p>
 
 ## Market Trend Analysis and Prediction for Target Company
