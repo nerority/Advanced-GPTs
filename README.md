@@ -38,8 +38,8 @@ Want me to build your dream GPT? Get in touch.
 1. [Automated Infinite Visual Progression with Fine-Grain Control](#automated-infinite-visual-progression-with-fine-grain-control)
 2. [Automated Career Profile Builder, Resume Optimizer, and Target Position Tailoring](#automated-career-profile-builder-resume-optimizer-and-target-position-tailoring)
 3. [Automated High-Quality Document Analysis](#automated-high-quality-document-analysis)
-4. [Automated Market Trend Analysis and Prediction for Target Company](#automated-market-trend-analysis-and-prediction-for-target-company)
-5. [Automated DALL-E Prompt Variation Testing](#automated-dall-e-prompt-variation-testing)
+4. [Automated DALL-E Prompt Variation Testing](#automated-dall-e-prompt-variation-testing)
+5. [Automated Market Trend Analysis and Prediction for Target Company](#automated-market-trend-analysis-and-prediction-for-target-company)
 6. [Automated Prompt Refinement](#automated-prompt-refinement)
 7. [Automated Meta-Prompt Refinement](#automated-meta-prompt-refinement)
 8. [Botanical Growth Cycle Visualizer](#botanical-growth-cycle-visualizer)
@@ -232,6 +232,58 @@ sequenceDiagram
 
 ---
 
+## Automated DALL-E Prompt Variation Testing
+
+**Status**: Finalized for Release 💯
+
+### Description
+
+This is an excellent GPT for image generation ideation and mass testing of an idea. This GPT achieves an workflow leveraging multiple tools to streamline mass-testing of prompt variations of an idea. Initially uses the python tool to detail 5 DallE prompts with different strategies for visualization. Generates one-by-one, compiles and presents for display with navigation control.
+
+### User Commands
+
+- `!start [description]` - Executes workflow based on user input
+- `!demo` - Demonstrate the workflow for user with AI synthesized data
+- `1` - Indicate Picture #1 as user favorite
+- `2` - Indicate Picture #2 as user favorite
+- `3` - Indicate Picture #3 as user favorite
+- `4` - Indicate Picture #4 as user favorite
+- `5` - Indicate Picture #5 as user favorite
+
+### Workflow
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant ChatGPT
+    participant PythonTool as Python Tool
+    participant DallE as DALL-E
+
+    User->>ChatGPT: !start [description of desired image]
+    ChatGPT->>PythonTool: Generate 5 Distinct Prompts
+    loop Image Generation Loop x5
+        PythonTool-->>DallE: Request Image Generation for Each Prompt
+        DallE-->>ChatGPT: Return Generated Image
+    end
+    ChatGPT->>User: Synthesize Prompts in Code Boxes
+    ChatGPT->>User: Present User Command Hotkeys
+    loop User Command Interaction
+        User->>ChatGPT: Select Prompt or Other Commands
+        alt Selected Prompt
+            ChatGPT->>PythonTool: Execute New Workflow Based on Selected Prompt
+        else Other Commands
+            ChatGPT->>User: Execute Command Action (e.g., 1, 2, New Session, Learn More, etc.)
+        end
+    end
+```
+
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/10fc87a1-35b4-44c2-b710-9e7b2a8068d4" width="48%" height="1500">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/360eb1e6-31ea-4dac-94e8-be82846a58b7" width="48%" height="1500">
+</p>
+
+---
+
 ## Automated Market Trend Analysis and Prediction for Target Company
 
 **Status**: Testing and Refinement for Public Use
@@ -273,43 +325,6 @@ sequenceDiagram
 <p align="center">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/708c2caf-e700-4ece-9a54-835ab11bbdc0" width="48%" height="600">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/a881c549-1761-4b60-adf8-f5c972e26582" width="48%" height="600">
-</p>
-
----
-
-## Automated DALL-E Prompt Variation Testing
-
-**Status**: Testing and Refinement for Public Use
-
-**Description**: This is an excellent GPT for image generation ideation and mass testing of an idea. This GPT achieves an advanced workflow leveraging multiple tools to automate mass-testing of prompt variations of an idea. Initially uses the python tool to detail 5 DallE prompts with different strategies for visualization. Generates one-by-one, compiles and presents for display with navigation control.
-
-**Input**: User Description of Desired Image
-
-```!executeWorkflow [description of desired image]```
-
-**Workflow (Single Response)**:
-```mermaid
-sequenceDiagram
-    participant User
-    participant ChatGPT
-    participant PythonTool as Python Tool
-    participant DallE
-
-    User->>ChatGPT: User Description Input
-    ChatGPT->>PythonTool: Prompt Design
-    loop Image Gen Loop
-        PythonTool->>DallE: Request Image Generation
-        DallE-->>PythonTool: Return Generated Image
-    end
-    PythonTool->>PythonTool: Compilation
-    PythonTool->>ChatGPT: Present Results
-    ChatGPT->>User: Prompt Synthesis
-    ChatGPT->>User: Command Menu
-```
-
-<p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3d8e7799-1f9a-4383-b1cb-49bf3d7bce70" width="48%" height="1500">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/6deb9790-33a1-4a45-bdc9-0a806d0bb959" width="48%" height="1500">
 </p>
 
 ---
