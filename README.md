@@ -45,7 +45,7 @@ Want me to build your dream GPT? Get in touch.
 ### Quick Nav
 1. [Automated Infinite Visual Progression with Fine-Grain Control](#automated-infinite-visual-progression-with-fine-grain-control)
 2. [Automated High-Quality Document Analysis](#automated-high-quality-document-analysis)
-3. [Automated Career Profile Analyst and Resume Tailoring for Target Positions](#automated-career-profile-analyst-and-resume-tailoring-for-target-positions)
+3. [Automated Career Profile Builder and Resume Tailoring](#automated-career-profile-builder-and-resume-tailoring)
 4. [Market Trend Analysis and Prediction for Target Company](#market-trend-analysis-and-prediction-for-target-company)
 5. [Automated DALL-E Prompt Variation Testing](#automated-dall-e-prompt-variation-testing)
 6. [Automated Prompt Refinement](#automated-prompt-refinement)
@@ -57,7 +57,9 @@ Want me to build your dream GPT? Get in touch.
 
 </br>
 
-## Automated Infinite Visual Progression with Fine-Grain Control (V2)
+## Automated Infinite Visual Progression with Fine-Grain Control
+
+**Status**: Finalized for Release
 
 ### Description
 
@@ -107,7 +109,9 @@ sequenceDiagram
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/fcca86b4-183f-408d-85cf-830290422196" alt="Second" width="30%" height="3000">
 </p>
 
-## Automated High-Quality Document Analysis (V2)
+## Automated High-Quality Document Analysis
+
+**Status**: Finalized for Release
 
 ### Description
 
@@ -162,7 +166,9 @@ sequenceDiagram
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/cbb597cd-2ce9-4104-b1db-ece0f00421c9" width="45%" height="800">
 </p>
 
-## Automated Career Profile Builder and Resume Tailoring (V2)
+## Automated Career Profile Builder and Resume Tailoring
+
+**Status**: Finalized for Release
 
 ### Description
 
@@ -216,6 +222,8 @@ sequenceDiagram
 
 ## Market Trend Analysis and Prediction for Target Company
 
+**Status**: Testing and Refinement for Public Use
+
 **Description**: This GPT is designed to complete an advanced workflow that achieves a comprehensive market analysis for a user given company. First employs the browser tool to pull real-time information, which then passes through several iterations with the python tool to complete text and semantic analysis on the data. A basic predictive model is build and visualized in the first response, which can then be advanced upon with a simple hotkey in the next response. Works extremely well with user-provided data, for example apple stock prices for 2023 curtesy of kaggle.com.
 
 **Input**: User-Specified Company
@@ -257,6 +265,8 @@ sequenceDiagram
 
 ## Automated DALL-E Prompt Variation Testing
 
+**Status**: Testing and Refinement for Public Use
+
 **Description**: This is an excellent GPT for image generation ideation and mass testing of an idea. This GPT achieves an advanced workflow leveraging multiple tools to automate mass-testing of prompt variations of an idea. Initially uses the python tool to detail 5 DallE prompts with different strategies for visualization. Generates one-by-one, compiles and presents for display with navigation control.
 
 **Input**: User Description of Desired Image
@@ -290,6 +300,8 @@ sequenceDiagram
 
 ## Automated Prompt Refinement
 
+**Status**: Testing and Refinement for Public Use
+
 **Description**: This GPT is designed to achieve a multi-step process for taking an unrefined input prompt into its refined form for GPT-4. The prompt is transformed into its JSON form, which is then run through numerous passes including analysis, enhancement, optimization, categorization, before being synthesized in its final form. This refinement process work excellently for complex tasks and creating consistently understood prompts. Also is a great way to convert random thoughts into well-structured prompts.
 
 **Input**: User-Provided Prompt to Refine
@@ -319,6 +331,8 @@ sequenceDiagram
 </p>
 
 ## Automated Meta-Prompt Refinement
+
+**Status**: Testing and Refinement for Public Use
 
 **Description**: This workflow is tailored specifically for the refinement of meta-prompts. Meta-prompts are extremely important for various tasks, and require a different strategy for refinement in comparison to regular prompts. Input prompts undergo a 7-step refinement workflow with a focus on abstraction and active contextualization. Meta-prompts work to establish “operational context” for complex tasks, and thus need to account for various aspects of a response, while intentionally leaving other aspects open-ended.
 
@@ -354,6 +368,8 @@ sequenceDiagram
 </p>
 
 ## Botanical Growth Cycle Visualizer
+
+**Status**: Testing and Refinement for Public Use
 
 **Description**: This GPT is a specialized educational agent designed for high-quality visualizations of the growth cycle of a user selected plant species. 
 
@@ -392,6 +408,8 @@ sequenceDiagram
 
 ## Automated Knowledge Distillation
 
+**Status**: Initial Testing Done, Pending Refinement for Public Release
+
 **Description**: This GPT is a powerful tool for anyone looking to quickly extract meaningful information from dense and lengthy documents. It reduces the time and effort required to parse through complex materials, providing clear, concise summaries of essential content. This tool is particularly valuable in academic research, business intelligence, legal analysis, and any other field where the rapid assimilation of detailed information is crucial.
 
 **Input**: User uploads a document for analysis.
@@ -428,6 +446,8 @@ sequenceDiagram
 
 ## Business Contract Analyzer
 
+**Status**: Initial Testing Done, Pending Refinement for Public Release
+
 **Description**: This advanced workflow leverages the full capabilities of RAG Search for detailed content extraction and the Python tool for strategic planning and data synthesis, ensuring a thorough analysis of legal contracts. The process is designed to be efficient and comprehensive, catering to the needs of legal professionals who require in-depth contract analysis.
 
 **Input**: User-uploaded Legal Document for Strategic Analysis
@@ -460,6 +480,8 @@ sequenceDiagram
 **Screenshots**: *Placeholder*
 
 ## Advanced Competitive Analysis AI
+
+**Status**: Initial Testing Done, Pending Refinement for Public Release
 
 **Description**: In the realm of business, understanding the competitive landscape is crucial for strategic decision-making. This GPT is specifically tailored for quality real-time competitive analysis of a user defined scope. It serves as an essential tool for comprehensively understanding industry dynamics, competitive positioning, and emerging market trends. By leveraging the combined power of ChatGPT, Python, and the Browser tool, this workflow delivers deep insights into competitors’ strategies and market movements, enabling users to make informed decisions and stay ahead in their respective industries.
 
