@@ -43,9 +43,9 @@ Want me to build your dream GPT? Get in touch.
 6. [Automated Prompt Refinement](#automated-prompt-refinement)
 7. [Automated Meta-Prompt Refinement](#automated-meta-prompt-refinement)
 8. [Botanical Growth Cycle Visualizer](#botanical-growth-cycle-visualizer)
-9. [Automated Knowledge Distillation](#automated-knowledge-distillation)
-10. [Business Contract Analyzer](#business-contract-analyzer)
-11. [Advanced Competitive Analysis AI](#advanced-competitive-analysis-ai)
+9. [Business Contract Analyzer](#business-contract-analyzer)
+10. [Advanced Competitive Analysis AI](#advanced-competitive-analysis-ai)
+11. [Automated Knowledge Distillation](#automated-knowledge-distillation)
 
 ---
 
@@ -442,44 +442,6 @@ sequenceDiagram
 
 *Need to design a GPT for Automated Testing and Screens xD*
 
-## Automated Knowledge Distillation
-
-**Status**: Initial Testing Done, Pending Refinement for Public Release
-
-**Description**: This GPT is a powerful tool for anyone looking to quickly extract meaningful information from dense and lengthy documents. It reduces the time and effort required to parse through complex materials, providing clear, concise summaries of essential content. This tool is particularly valuable in academic research, business intelligence, legal analysis, and any other field where the rapid assimilation of detailed information is crucial.
-
-**Input**: User uploads a document for analysis.
-
-**Commands**:
-
-- `!start` to initiate the document upload and analysis.
-- `!refine [keywords]` for focused extraction on specific topics or concepts.
-
-**Workflow**:
-
-```mermaid
-sequenceDiagram
-    participant User
-    participant ChatGPT
-    participant RAG as RAG Search
-    participant PythonTool as Python Tool
-
-    User->>ChatGPT: Uploads Document
-    ChatGPT->>RAG: Initial Full Document Search
-    RAG-->>PythonTool: Document Understanding
-    PythonTool->>PythonTool: Planning Phase
-    PythonTool-->>ChatGPT: Document Strategy
-    loop RAG Search Loop for Key Concepts
-        ChatGPT->>RAG: Execute Focused Searches
-        RAG-->>PythonTool: Search Results on Key Concepts
-        PythonTool->>PythonTool: Synthesize Results in JSON
-    end
-    PythonTool->>ChatGPT: Compile and Synthesize Knowledge Summary
-    ChatGPT->>User: Present Knowledge Summary in Code Box
-```
-
-**Screenshots**: *Placeholder*
-
 ## Business Contract Analyzer
 
 **Status**: Initial Testing Done, Pending Refinement for Public Release
@@ -513,7 +475,10 @@ sequenceDiagram
     ChatGPT->>User: Present Analysis Report
 ```
 
-**Screenshots**: *Placeholder*
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/2e5e1734-194e-4ece-820e-69b259e46ce6" width="40%" height="100%">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/df11eed1-a29e-42ee-ac4c-5f57a150dbee" width="40%" height="100%">
+</p>
 
 ## Advanced Competitive Analysis AI
 
@@ -553,6 +518,44 @@ sequenceDiagram
         User->>ChatGPT: Provide Feedback
         ChatGPT->>PythonTool: Refine Report Based on Feedback
     end
+```
+
+**Screenshots**: *Placeholder*
+
+## Automated Knowledge Distillation
+
+**Status**: Initial Testing Done, Pending Refinement for Public Release
+
+**Description**: This GPT is a powerful tool for anyone looking to quickly extract meaningful information from dense and lengthy documents. It reduces the time and effort required to parse through complex materials, providing clear, concise summaries of essential content. This tool is particularly valuable in academic research, business intelligence, legal analysis, and any other field where the rapid assimilation of detailed information is crucial.
+
+**Input**: User uploads a document for analysis.
+
+**Commands**:
+
+- `!start` to initiate the document upload and analysis.
+- `!refine [keywords]` for focused extraction on specific topics or concepts.
+
+**Workflow**:
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant ChatGPT
+    participant RAG as RAG Search
+    participant PythonTool as Python Tool
+
+    User->>ChatGPT: Uploads Document
+    ChatGPT->>RAG: Initial Full Document Search
+    RAG-->>PythonTool: Document Understanding
+    PythonTool->>PythonTool: Planning Phase
+    PythonTool-->>ChatGPT: Document Strategy
+    loop RAG Search Loop for Key Concepts
+        ChatGPT->>RAG: Execute Focused Searches
+        RAG-->>PythonTool: Search Results on Key Concepts
+        PythonTool->>PythonTool: Synthesize Results in JSON
+    end
+    PythonTool->>ChatGPT: Compile and Synthesize Knowledge Summary
+    ChatGPT->>User: Present Knowledge Summary in Code Box
 ```
 
 **Screenshots**: *Placeholder*
