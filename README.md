@@ -246,10 +246,10 @@ This is an excellent GPT for image generation ideation and mass testing of an id
 - `!start [description]` - Executes workflow based on user input
 - `!demo` - Demonstrate the workflow for user with AI synthesized data
 - `1` - Indicate Picture #1 as user favorite
-- `2` - Indicate Picture #2 as user favorite
-- `3` - Indicate Picture #3 as user favorite
-- `4` - Indicate Picture #4 as user favorite
-- `5` - Indicate Picture #5 as user favorite
+- `2` - Indicate Picture #2
+- `3` - Indicate Picture #3
+- `4` - Indicate Picture #4
+- `5` - Indicate Picture #5
 
 ### Workflow
 
@@ -273,7 +273,7 @@ sequenceDiagram
         alt Selected Prompt
             ChatGPT->>PythonTool: Execute New Workflow Based on Selected Prompt
         else Other Commands
-            ChatGPT->>User: Execute Command Action (e.g., 1, 2, New Session, Learn More, etc.)
+            ChatGPT->>User: Execute Command Action
         end
     end
 ```
