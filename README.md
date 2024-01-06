@@ -166,10 +166,10 @@ sequenceDiagram
     Browser-->>PythonTool: Job Listings and Requirements
     PythonTool->>PythonTool: Synthesize Search Findings and Strategize
     PythonTool-->>ChatGPT: Findings and Strategy
-    ChatGPT->>PythonTool: Manually Write the Full Tailored Resume
-    PythonTool->>PythonTool: Save and Format Tailored Text
+    ChatGPT->>PythonTool: Resume Writing
+    PythonTool->>PythonTool: Save and Format
     PythonTool-->>ChatGPT: Save File 
-    ChatGPT->>User: Display Resume Link, Hotkeys for Navigation
+    ChatGPT->>User: Display Resume Link, Navigation
 ```
 
 <p align="center">
