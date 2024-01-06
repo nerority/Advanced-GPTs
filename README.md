@@ -55,8 +55,6 @@ Want me to build your dream GPT? Get in touch.
 10. [Business Contract Analyzer](#business-contract-analyzer)
 11. [Advanced Competitive Analysis AI](#advanced-competitive-analysis-ai)
 
-</br>
-
 ---
 
 ## Automated Infinite Visual Progression with Fine-Grain Control
