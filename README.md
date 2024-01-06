@@ -217,9 +217,8 @@ sequenceDiagram
     PythonTool->>PythonTool: Synthesize Search Findings and Strategize
     PythonTool-->>ChatGPT: Findings and Strategy
     ChatGPT->>PythonTool: Manually Write the Full Tailored Resume
-    PythonTool-->>ChatGPT: New Text for Tailored Resume
-    ChatGPT->>PythonTool: Save and Format Tailored Text
-    PythonTool-->>ChatGPT: Present Final Resume and Command Menu
+    PythonTool->>PythonTool: Save and Format Tailored Text
+    PythonTool-->>ChatGPT: Save File 
     ChatGPT->>User: Display Resume Link, Hotkeys for Navigation
 ```
 
