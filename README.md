@@ -35,11 +35,11 @@ Want me to build your dream GPT? Get in touch.
 </div>
 
 ### Quick Nav
-1. [Automated Infinite Visual Progression with Fine-Grain Control](#automated-infinite-visual-progression-with-fine-grain-control)
-2. [Automated Career Profile Builder and Resume Optimizer](#automated-career-profile-builder-resume-optimizer-and-target-position-tailoring)
-3. [Automated High-Quality Document Analysis](#automated-high-quality-document-analysis)
-4. [Automated DALL-E Prompt Variation Testing](#automated-dall-e-prompt-variation-testing)
-5. [Automated Prompt Refinement](#automated-prompt-refinement)
+1. [Automated Infinite Visual Progression with Fine-Grain Control ✔️](#automated-infinite-visual-progression-with-fine-grain-control)
+2. [Automated Career Profile Builder and Resume Optimizer ✔️](#automated-career-profile-builder-resume-optimizer-and-target-position-tailoring)
+3. [Automated High-Quality Document Analysis ✔️](#automated-high-quality-document-analysis)
+4. [Automated DALL-E Prompt Variation Testing ✔️](#automated-dall-e-prompt-variation-testing)
+5. [Automated Prompt Refinement ✔️](#automated-prompt-refinement)
 6. [Automated Meta-Prompt Refinement](#automated-meta-prompt-refinement)
 7. [Botanical Growth Cycle Visualizer](#botanical-growth-cycle-visualizer)
 8. [Business Contract Analyzer](#business-contract-analyzer)
