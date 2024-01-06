@@ -192,25 +192,30 @@ sequenceDiagram
     participant PythonTool as Python Tool
     participant Browser as Browser Tool
 
+    note over User, ChatGPT: Phase 1
     User->>ChatGPT: Uploads Career Documents
     ChatGPT->>RAG: Initial Comprehensive Profile Analysis
     RAG-->>PythonTool: Extracted Career Information
-    PythonTool->>PythonTool: High-Level Profile Knowledge Token Creation
+    PythonTool->>PythonTool: High-Level Profile Knowledge Distillation
+    PythonTool-->>ChatGPT: High-Level Profile
     ChatGPT->>RAG: Detailed Experience Analysis
     RAG-->>PythonTool: Detailed Experience Mapping
+    PythonTool-->>ChatGPT: Updated Profile
     ChatGPT->>RAG: Comprehensive Skills Analysis
     RAG-->>PythonTool: Comprehensive Skill Mapping
-		%% Create Checkpoint and Pause
-    PythonTool->>PythonTool: Final Profile Synthesis, Save JSON Object as File
-		ChatGPT->>User: Present JSON File and Commands
+    PythonTool-->>ChatGPT: Updated Profile
+    PythonTool->>PythonTool: Final Profile Synthesis, Save File
+    PythonTool->>ChatGPT: Save Link
+    ChatGPT->>User: Present Link and Commands
 
-		User->>ChatGPT: (C)
+    note over User, ChatGPT: Phase 2
+    User->>ChatGPT: (C)
     ChatGPT->>Browser: Job Market Research
     Browser-->>PythonTool: Job Listings and Requirements
     PythonTool->>PythonTool: Synthesize Search Findings and Strategize
-		PythonTool-->>ChatGPT: Findings and Strategy
-		PythonTool->>PythonTool: Manually Write the Full Tailored Resume
-		PythonTool-->>ChatGPT: New Text for Tailored Resume
+    PythonTool-->>ChatGPT: Findings and Strategy
+    PythonTool->>PythonTool: Manually Write the Full Tailored Resume
+    PythonTool-->>ChatGPT: New Text for Tailored Resume
     PythonTool->>PythonTool: Save and Format Tailored Text
     PythonTool-->>ChatGPT: Present Final Resume and Command Menu
     ChatGPT->>User: Display Resume Link, Hotkeys for Navigation
