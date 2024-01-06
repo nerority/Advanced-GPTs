@@ -113,7 +113,9 @@ I went a little too hard on this one but the end result is pretty amazing. This 
 
 After the first phase is complete, you should enter `C` and allow the workflow to finish the 2nd phase. After the final resume is saved, you can use the next steps for automated quality tailoring for any position. Simply feed the description in and the comprehensive context is pre-framed for high-quality tailoring.
 
-I know full well how annoying applying for jobs can be for the average person in the current day. With the level of expected tailoring and ATS systems to deal with, it is a full-time job and more on its own. This was intended from the start to shake things up once and for all. Make me proud 😎
+I know full well how annoying applying for jobs can be for the average person in the current day. With the level of expected tailoring and ATS systems to deal with, it is a full-time job and more on its own. This was intended from the start to shake things up once and for all. 
+
+Make me proud 😎
 
 ### User Commands
 
