@@ -57,6 +57,8 @@ Want me to build your dream GPT? Get in touch.
 
 </br>
 
+---
+
 ## Automated Infinite Visual Progression with Fine-Grain Control
 
 **Status**: Finalized for Release
@@ -108,6 +110,75 @@ sequenceDiagram
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/0a8c0673-8018-497c-8c58-e35402c39c95" alt="Second" width="30%" height="3000">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/fcca86b4-183f-408d-85cf-830290422196" alt="Second" width="30%" height="3000">
 </p>
+
+---
+
+## Automated Career Profile Builder and Resume Tailoring
+
+**Status**: Finalized for Release
+
+### Description
+
+I went a little too hard on this one but the end result is pretty amazing. This GPT is designed to execute an extremely complex workflow that automates the full process of user profile building in a multi-step process with strategic RAG searches, into browser searches for real-time job market information, and finally creating an optimized, updated, tailored general-purpsoe resume. All simply from an uploaded document of career-related context. I have added a pause to the workflow for many reasons after testing for public release. Saving the profile first allows seamless follow up and full resources dedicated to resume crafting. The profile saved in the first step is the "distilled knowledge" of your career profile. You can save it and use it in many different ways for AI-driven applications. Next update I will be adding logic to accept distilled profiles from the start, to execute a more advanced workflow.
+
+After the first phase is complete, you should enter `C` and allow the workflow to finish the 2nd phase. After the final resume is saved, you can use the following steps for automated quality tailoring for any position. Simply feed the description in and the comprehensive context is pre-framed for high-quality tailoring.
+
+I know full well how annoying applying for jobs can be for the average person in the current day. With the level of expected tailoring and ATS systems to deal with, it is a full-time job and more on its own. This was intended from the start to shake things up once and for all. Make me proud 😎
+
+### User Commands
+
+- `!start` - Initiates the advanced workflow based on the uploaded document
+- `!demo` - Demonstrate the workflow for user with AI synthesized data
+- `P` - Resume the workflow from the last saved checkpoint
+- `G` - Synthesize the refined resume with markdown formatting.
+- `J` - Complete a new tailored resume based on user provided job description or search
+
+### Workflow
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant ChatGPT
+    participant PythonTool as Python Tool
+    participant RAG as RAG Search
+    participant Browser as Browser Tool
+
+    note over User, ChatGPT: Phase 1
+    User->>ChatGPT: Uploads Career Documents
+    ChatGPT->>RAG: Initial Comprehensive Profile Analysis
+    RAG-->>PythonTool: Extracted Career Information
+    PythonTool->>PythonTool: High-Level Profile Knowledge Distillation
+    PythonTool-->>ChatGPT: High-Level Profile
+    ChatGPT->>RAG: Detailed Experience Analysis
+    RAG-->>PythonTool: Search Results
+    PythonTool->>PythonTool: Detailed Experience Mapping
+    PythonTool-->>ChatGPT: Updated Profile
+    ChatGPT->>RAG: Comprehensive Skills Analysis
+    RAG-->>PythonTool: Search Results
+    PythonTool->>PythonTool: Detailed Skill Mapping
+    PythonTool-->>ChatGPT: Updated Profile
+    PythonTool->>PythonTool: Final Profile Synthesis, Save File
+    PythonTool->>ChatGPT: Save Link
+    ChatGPT->>User: Present Link and Commands
+    note over User, ChatGPT: Pause
+
+    note over User, ChatGPT: Phase 2
+    User->>ChatGPT: Continue (C)
+    ChatGPT->>Browser: Job Market Research
+    Browser-->>PythonTool: Job Listings and Requirements
+    PythonTool->>PythonTool: Synthesize Search Findings and Strategize
+    PythonTool-->>ChatGPT: Findings and Strategy
+    ChatGPT->>PythonTool: Manually Write the Full Tailored Resume
+    PythonTool->>PythonTool: Save and Format Tailored Text
+    PythonTool-->>ChatGPT: Save File 
+    ChatGPT->>User: Display Resume Link, Hotkeys for Navigation
+```
+
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/af8554ef-091f-41e3-9abc-2a1659c37efb" width="60%" height="100%">
+</p>
+
+---
 
 ## Automated High-Quality Document Analysis
 
@@ -166,66 +237,7 @@ sequenceDiagram
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/cbb597cd-2ce9-4104-b1db-ece0f00421c9" width="45%" height="800">
 </p>
 
-## Automated Career Profile Builder and Resume Tailoring
-
-**Status**: Finalized for Release
-
-### Description
-
-I went a little too hard on this one but the end result is pretty amazing. This GPT is designed to execute an extremly complex workflow that automates the full process of user profile building in a multi-step process with strategic RAG searches, into browser searches for real-time job market information and finally creating an optimized, updated, tailored resume. All simply from an uploaded document. I have split it into two steps for many reasons. Saving the profile first allows seamless follow up and full resources dedicated to resume crafting. The profile is the "distilled knowledge" of your career profile. You can save it and use it in many different ways later. After the final resume is saved. You can use the following steps for automated tailoring for any position. Simply feed the description in and the comprehensive context is pre-framed for high-quality tailoring. I know full well how annoying applying for jobs can be for the average person in the current day, this was intended from the start to shake things up. Make me proud 😎
-
-### User Commands
-
-- `!start` - Initiates the advanced workflow based on the uploaded document
-- `!demo` - Demonstrate the workflow for user with AI synthesized data
-- `P` - Resume the workflow from the last saved checkpoint
-- `G` - Synthesize the refined resume with markdown formatting.
-- `J` - Complete a new tailored resume based on user provided job description or search
-
-### Workflow
-
-```mermaid
-sequenceDiagram
-    participant User
-    participant ChatGPT
-    participant PythonTool as Python Tool
-    participant RAG as RAG Search
-    participant Browser as Browser Tool
-
-    note over User, ChatGPT: Phase 1
-    User->>ChatGPT: Uploads Career Documents
-    ChatGPT->>RAG: Initial Comprehensive Profile Analysis
-    RAG-->>PythonTool: Extracted Career Information
-    PythonTool->>PythonTool: High-Level Profile Knowledge Distillation
-    PythonTool-->>ChatGPT: High-Level Profile
-    ChatGPT->>RAG: Detailed Experience Analysis
-    RAG-->>PythonTool: Search Results
-    PythonTool->>PythonTool: Detailed Experience Mapping
-    PythonTool-->>ChatGPT: Updated Profile
-    ChatGPT->>RAG: Comprehensive Skills Analysis
-    RAG-->>PythonTool: Search Results
-    PythonTool->>PythonTool: Detailed Skill Mapping
-    PythonTool-->>ChatGPT: Updated Profile
-    PythonTool->>PythonTool: Final Profile Synthesis, Save File
-    PythonTool->>ChatGPT: Save Link
-    ChatGPT->>User: Present Link and Commands
-    note over User, ChatGPT: Pause
-
-    note over User, ChatGPT: Phase 2
-    User->>ChatGPT: Continue (C)
-    ChatGPT->>Browser: Job Market Research
-    Browser-->>PythonTool: Job Listings and Requirements
-    PythonTool->>PythonTool: Synthesize Search Findings and Strategize
-    PythonTool-->>ChatGPT: Findings and Strategy
-    ChatGPT->>PythonTool: Manually Write the Full Tailored Resume
-    PythonTool->>PythonTool: Save and Format Tailored Text
-    PythonTool-->>ChatGPT: Save File 
-    ChatGPT->>User: Display Resume Link, Hotkeys for Navigation
-```
-
-<p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/af8554ef-091f-41e3-9abc-2a1659c37efb" width="60%" height="100%">
-</p>
+---
 
 ## Market Trend Analysis and Prediction for Target Company
 
@@ -270,6 +282,8 @@ sequenceDiagram
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/a881c549-1761-4b60-adf8-f5c972e26582" width="48%" height="600">
 </p>
 
+---
+
 ## Automated DALL-E Prompt Variation Testing
 
 **Status**: Testing and Refinement for Public Use
@@ -305,6 +319,8 @@ sequenceDiagram
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/6deb9790-33a1-4a45-bdc9-0a806d0bb959" width="48%" height="1500">
 </p>
 
+---
+
 ## Automated Prompt Refinement
 
 **Status**: Testing and Refinement for Public Use
@@ -336,6 +352,8 @@ sequenceDiagram
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3faf4c7e-fe9d-419b-aa32-1c012013a556" style="width: 40%; height: auto;">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/4799f739-ba0b-48c5-8396-f8c09c0b256f" style="width: 40%; height: auto;">
 </p>
+
+---
 
 ## Automated Meta-Prompt Refinement
 
@@ -373,6 +391,8 @@ sequenceDiagram
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/97051fef-c8c0-48c4-9665-a5952ad4c3ba" style="width: 40%; height: auto;">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/160f0764-53c5-486b-bcb4-d44f15d56b3d" style="width: 40%; height: auto;">
 </p>
+
+---
 
 ## Botanical Growth Cycle Visualizer
 
