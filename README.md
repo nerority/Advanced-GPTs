@@ -39,7 +39,7 @@ Want me to build your dream GPT? Get in touch.
 2. [Automated Career Profile Builder and Resume Optimizer ✔️](#automated-career-profile-builder-resume-optimizer-and-target-position-tailoring)
 3. [Automated High-Quality Document Analysis ✔️](#automated-high-quality-document-analysis)
 4. [Automated DALL-E Prompt Variation Testing ✔️](#automated-dall-e-prompt-variation-testing)
-5. [Automated Meta-Prompt Synthesis ✔️](#automated-meta-prompt-synthesis)
+5. [Advanced Meta-Prompt Engineer ✔️](#advanced-meta-prompt-engineer)
 6. [Automated Prompt Refinement ✔️](#automated-prompt-refinement)
 7. [Botanical Growth Cycle Visualizer 💫](#botanical-growth-cycle-visualizer)
 8. [Business Contract Analyzer 💫](#business-contract-analyzer)
@@ -285,13 +285,13 @@ sequenceDiagram
 
 ---
 
-## Automated Meta-Prompt Synthesis
+## Advanced Meta-Prompt Engineer
 
 **Status**: Finalized for Release 💯
 
 ### Description
 
-This GPT is a cutting-edge tool designed for the advanced generation and refinement of meta-prompts. These are complex prompts that serve as high-level instructions for AI models, guiding them towards achieving specific goals or tasks. This tool excels in transforming vague or abstract ideas into clear, actionable, and optimized meta-prompts, enhancing the efficiency and effectiveness of AI interactions. This is specifically only possible because of the depth of my prompt engineering expertise with GPT-4, and is designed to produce extremely precise "system prompts" based on any given prompt or idea. You will not find a better automated "meta-prompt" workflow around.
+This GPT is a cutting-edge tool designed for the advanced synthesis and refinement of meta-prompts. Meta-prompts are complex prompts that serve as high-level instructions for AI models, guiding them towards achieving specific goals or tasks. This tool excels in transforming vague or abstract ideas into clear, actionable, and optimized meta-prompts, enhancing the efficiency and effectiveness of AI interactions. This is specifically only possible due to the extent of my personal prompt engineering expertise with GPT-4, and is designed to produce extremely precise "system prompts" based on any given prompt or idea. After completion of the synthesis workflow, users can easily initiate an experimentation and testing loop where different versions are tested, or initiate a refinement workflow based on their feedback. You will not find a better "meta-prompt engineering" workflow around.
 
 ### Usage Instructions
 
@@ -393,9 +393,9 @@ sequenceDiagram
     end
 ```
 
-<p align="center" style="display: flex; align-items: flex-start;">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3faf4c7e-fe9d-419b-aa32-1c012013a556" style="width: 40%; height: auto;">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/4799f739-ba0b-48c5-8396-f8c09c0b256f" style="width: 40%; height: auto;">
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3faf4c7e-fe9d-419b-aa32-1c012013a556" width="45%" height="1300">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/4799f739-ba0b-48c5-8396-f8c09c0b256f" width="45%" height="1300">
 </p>
 
 ---
