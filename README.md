@@ -468,7 +468,7 @@ To utilize this GPT, users can input specific parameters such as the industry of
 
 - `!start [industry, competitors, specific areas of interest]` - Initiates the analysis process based on user-defined parameters. At least one field is required, with additional fields optional to refine the scope.
 - `!refine [feedback]` - Enables users to refine the analysis based on specific feedback
-- `!demo` - Provides a demonstration of the AI's capabilities using synthesized data, ideal for users unfamiliar with the tool or those who wish to see a sample analysis.
+- `!demo` - Demonstrates the workflow with synthesized data.
 
 ### Workflow
 
