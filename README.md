@@ -266,8 +266,8 @@ sequenceDiagram
         PythonTool-->>DallE: Request Image Generation for Each Prompt
         DallE-->>ChatGPT: Return Generated Image
     end
-    ChatGPT->>User: Synthesize Prompts in Code Boxes
-    ChatGPT->>User: Present User Command Hotkeys
+    ChatGPT->>User: Synthesize Prompts
+    ChatGPT->>User: Present User Commands
     loop User Command Interaction
         User->>ChatGPT: Select Prompt or Other Commands
         alt Selected Prompt
