@@ -64,13 +64,18 @@ Utilize this GPT to explore the realms of endless visual possibilities. Start by
 
 ### User Commands
 
-**Input Commands**
+**Initial Commands**
 
-- `!executeIP [base image description, dimension, direction, starting point, rate]`: Initiates the image progression.
-- `!demo`: Demonstrates the tool using an example progression.
-- `!commands`: Displays a detailed command menu for user guidance.
+> **THESE COMMANDS START NEW INFINITE PROGRESSIONS, PICK ONE AND START**
 
-**Control Commands**
+- `!start [description of base image, aspect to progress]` - Start start for new progression
+- `!advStart [base image description, dimension, direction, starting point, rate]` - Initiates the refined image progression.
+- `!demo` - Demonstrates the tool using an example progression.
+- `!commands` - Displays a detailed command menu for user guidance.
+
+**Follow-up Commands**
+
+> **THESE COMMANDS ARE USED TO FINE-TUNE THE ACTIVE PROGRESSION. USE/STACK AS DESIRED OR SIMPLY HIT N AND SIT BACK.**
 
 - `!addDimension [dimension, direction, starting point, progression rate]`: Adds a new dimension to the progression.
 - `!removeDimension [dimension]`: Removes an existing dimension.
