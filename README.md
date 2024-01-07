@@ -229,10 +229,12 @@ This GPT works best for documents with coherent structure, and will dive into ea
 
 ### User Commands
 
-- `!start` - Initiates the advanced analysis workflow based on the uploaded document.
-- `C` - Continues the workflow from the last saved checkpoint, a crucial feature for handling extensive documents.
-- `R` - Restarts the analysis with a new document.
-- `E` - Ends the current analysis session, providing a comprehensive summary of the findings.
+- `!start` - Initiates workflow based on user uploaded document.
+- `!demo` - Demonstrates the workflow with synthesized data
+- `!continue` - Continue the automated workflow.
+- `G` - Synthesize the final report outside of the python tool with well-formatted markdown
+- `R` - Restart the analysis with a new document.
+- `E` - End the current analysis session.
 
 ### Workflow
 
