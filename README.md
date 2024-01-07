@@ -56,24 +56,28 @@ Want me to build your dream GPT? Get in touch.
 
 ### Description
 
-This GPT was originally built by me as a joke project, however it wound up working so well, I decided to design a full-fletched GPT around this purpose. The results are nothing short of awesome. This GPT allows you to begin an infinite "progression" of a certain thing, that gradually progresses the image in a specified direction. Every response loops 5 times with DallE to complete 5 progressions. There is an extensive command and hotkey menu that is perfectly understood by the AI to allow seamless control of the progression in any way you desire. Super fun to use.
+This GPT is an exciting innovation in the world of AI-driven visual creativity. Originally born as a slight meme, it has evolved into a robust tool that allows users to embark on an endless journey of visual progression. This GPT facilitates the generation of a series of images, each evolving based on user-defined parameters, such as dimension, direction, and progression rate.
+
+### Usage Instructions
+
+Utilize this GPT to explore the realms of endless visual possibilities. Start by defining the base image and the desired progression parameters. The GPT will generate a series of images, each iterating on the previous one according to your specifications. This tool is perfect for artists, designers, or anyone looking to explore a dynamic visual narrative.
 
 ### User Commands
 
-**Input**
+**Input Commands**
 
-- `!executeIP [description of base image, dimension to progress, direction, starting point, rate]`
-- `!demo` - Demonstrates the workflow
-- `!commands` - Displays the command menu
-- `N` - Proceed with the next set of 5 progressions.
+- `!executeIP [base image description, dimension, direction, starting point, rate]`: Initiates the image progression.
+- `!demo`: Demonstrates the tool using an example progression.
+- `!commands`: Displays a detailed command menu for user guidance.
 
-**Control**
+**Control Commands**
 
-- `!addDimension [dimension, direction, starting point, progression rate]`
-- `!removeDimension [dimension]`
-- `!invertDirection [dimension]`
-- `!adjustRate [dimension, new progression rate]`
-- `!updateBase [context]`
+- `!addDimension [dimension, direction, starting point, progression rate]`: Adds a new dimension to the progression.
+- `!removeDimension [dimension]`: Removes an existing dimension.
+- `!invertDirection [dimension]`: Inverts the progression direction in a specified dimension.
+- `!adjustRate [dimension, new rate]`: Modifies the progression rate.
+- `!updateBase [new base context]`: Updates the base image for subsequent progressions.
+- `N`: Proceeds to the next set of five progressions.
 
 ### Workflow
 
