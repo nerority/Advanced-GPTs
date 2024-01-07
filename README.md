@@ -359,13 +359,13 @@ sequenceDiagram
 
 ### Description
 
-This GPT is designed to achieve a multi-step process for taking an unrefined input prompt into its refined form for GPT-4. The prompt logic is distilled, and then run through numerous passes including analysis, enhancement, optimization, categorization, before being synthesized into its finalized form. This refinement process work excellently for complex tasks and creating consistently understood prompts. Also is a great way to convert random thoughts into well-structured prompts.
+This GPT is designed to achieve a multi-step process for taking an unrefined task (non-system) prompt into its refined form for GPT-4. The prompt logic is distilled, and then run through numerous passes including analysis, enhancement, optimization, categorization, before being synthesized into its finalized form. This refinement process work excellently for complex tasks and creating consistently understood prompts. Also is a great way to convert random thoughts into well-structured prompts.
 
 ### User Commands
 
 - `!start [prompt for refinement]` - Executes workflow based on user input prompt
 - `!refine [feedback]` - Executes a new workflow to refine the final prompt based on user feedback
-- `!demo` - Demonstrate the workflow for user with AI synthesized data
+- `!demo` - Demonstrate the workflow
 
 ### Workflow
 
