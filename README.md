@@ -286,23 +286,25 @@ sequenceDiagram
 
 ---
 
-## Advanced Meta-Prompt Engineer
+## Advanced Meta-Prompt Engineering
 
 **Status**: Finalized for Release 💯
 
 ### Description
 
-This GPT is a cutting-edge tool designed for the advanced synthesis and refinement of meta-prompts. Meta-prompts are complex prompts that serve as high-level instructions for AI models, guiding them towards achieving specific goals or tasks. This tool excels in transforming vague or abstract ideas into clear, actionable, and optimized meta-prompts, enhancing the efficiency and effectiveness of AI interactions. After completion of the synthesis workflow, users can easily initiate an experimentation and testing loop where different versions are tested, or initiate a refinement workflow based on their feedback. 
+This GPT is a cutting-edge prompt engineering tool designed for the advanced synthesis and refinement of meta-prompts. Meta-prompts are complex prompts that serve as high-level instructions for AI models, guiding them towards achieving specific goals or tasks. This tool excels in transforming vague or abstract ideas into clear, actionable, and optimized meta-prompts, enhancing the efficiency and effectiveness of AI interactions. After completion of the synthesis workflow, users can easily initiate an experimentation and testing loop where different versions are tested, or initiate a refinement workflow based on their feedback. 
 
-This GPT is only possible due to the extent of my personal prompt engineering expertise with GPT-4, and is designed to produce extremely precise "system prompts" based on any given prompt or idea. You will not find a better prompt engineering workflow around that actually works to produce better prompts.
+This GPT exists as the culmination of my prompt engineering expertise with the GPT line, and is designed to produce extremely precise "system prompts" based on any given prompt or idea. You will not find a better prompt engineering workflow around that actually works to produce better prompts. I will probably regret putting this one out. 90% will not understand the point of this workflow or think this is a meme, yet the ones who know how to leverage this type of tool will appreciate the effort that went into making this. Remember, prompt engineering isn't worth learning 🤭🤭
 
 ### Usage Instructions
 
-> *This GPT is intended for the SYNTHESIS of Complex System Prompts, and thus is geared more for designers and developers compared to everyday users.. For the refinement of everyday "task prompts", the next GPT is tailored for that purpose.*
-
 To utilize this GPT, users can start with a basic idea or a prompt they wish to explore. The tool then employs a series of steps to expand, refine, and optimize the initial input into a detailed and actionable meta-prompt. Users can experiment with variations, refine based on feedback, or use a demonstration mode to understand the GPT's capabilities.
 
-**NOTE*: GPT can perfectly understand and execute JSON prompts, often times resulting in improved results compared to markdown syntax for complex tasks. JSON is easily convertable to Markdown which is the offical syntax for GPT prompts and what it is fine-tuned for. Markdown is the correct and proper syntax to use for 90% of prompts as a result. However, maintaining prompts in JSON allows you to easily make changes and adjustments to the logic in a coherant way. I'll add steps for markdown conversion in the next pass for those who prefer*
+### Important Notes
+
+> *This GPT is intended for the SYNTHESIS and REFINEMENT of Complex System Prompts, and thus is geared more for designers and developers compared to everyday users... For the refinement of everyday "task prompts", the next GPT is tailored specifically for that purpose.*
+
+*GPT can perfectly understand and execute JSON prompts, often times resulting in improved results compared to markdown syntax for complex tasks. JSON is easily convertable to Markdown which is the offical syntax for GPT prompts and what it is fine-tuned for. Markdown is the correct and proper syntax to use for 90% of prompts as a result. However, maintaining prompts in JSON allows you to easily make changes and adjustments to the logic in a coherant way. I'll add steps for markdown conversion in the next pass for those who prefer*
 
 ### User Commands
 
