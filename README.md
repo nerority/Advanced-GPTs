@@ -390,9 +390,9 @@ sequenceDiagram
     loop User Interaction
         User->>ChatGPT: User Commands
         alt !start
-            ChatGPT->>User: Restarts Workflow with New Prompt
+            ChatGPT->>PythonTool: Restarts Workflow with New Prompt
         else !refine
-            ChatGPT->>User: Performs a Refinement Workflow
+            ChatGPT->>PythonTool: Performs a Refinement Workflow
         end
     end
 ```
