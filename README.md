@@ -35,18 +35,32 @@ Want me to build your dream GPT? Get in touch.
 <h1>The Lineup</h1>
 </div>
 
-#### Quick Nav
-1. [Automated Infinite Visual Progression ✔️](#automated-infinite-visual-progression-with-fine-grain-control)
-2. [Automated Career Profile Builder and Resume Tailor ✔️](#automated-career-profile-builder-resume-optimizer-and-target-position-tailoring)
-3. [Automated High-Quality Document Analysis ✔️](#automated-high-quality-document-analysis)
-4. [Automated DALL-E Prompt Variation Testing ✔️](#automated-dall-e-prompt-variation-testing)
-5. [Advanced Meta-Prompt Engineer ✔️](#advanced-meta-prompt-engineer)
-6. [Automated Prompt Refinement ✔️](#automated-prompt-refinement)
-7. [Business Contract Analyzer ✔️](#business-contract-analyzer)
-8. [Advanced Competitive Analysis AI ✔️](#advanced-competitive-analysis-ai)
-9. [Automated Knowledge Distillation 💫](#automated-knowledge-distillation)
-10. [Botanical Growth Cycle Visualizer 💫](#botanical-growth-cycle-visualizer)
+### Quick Nav
 
+#### Image-Based
+
+- [Automated Infinite Visual Progression ✔️](#automated-infinite-visual-progression-with-fine-grain-control)
+- [Automated DALL-E Prompt Variation Testing ✔️](#automated-dall-e-prompt-variation-testing)
+- [Botanical Growth Cycle Visualizer 💫](#botanical-growth-cycle-visualizer)
+
+#### Document Analysis
+
+- [Automated High-Quality Document Analysis ✔️](#automated-high-quality-document-analysis)
+- [Automated Knowledge Distillation 💫](#automated-knowledge-distillation)
+
+#### Prompt Engineering
+
+- [Advanced Meta-Prompt Engineer ✔️](#advanced-meta-prompt-engineer)
+- [Automated Prompt Refinement ✔️](#automated-prompt-refinement)
+
+#### Career
+
+- [Automated Career Profile Builder and Resume Tailor ✔️](#automated-career-profile-builder-resume-optimizer-and-target-position-tailoring)
+
+#### Business
+
+- [Business Contract Analyzer ✔️](#business-contract-analyzer)
+- [Advanced Competitive Analysis AI ✔️](#advanced-competitive-analysis-ai)
 
 ---
 
