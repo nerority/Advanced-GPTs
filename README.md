@@ -12,7 +12,8 @@
 > **I will be preparing public versions of all GPTs for the store release next week for free. This page will see constant updates over the weekend and links will be live here by Monday (1/08/24).**
 
 > **Status: 10/10 GPTs Ready for Deployment. Finalized GPTs have been greatly augmented and refined for public use.**
-> **Final Testing Underway**
+
+> **Edge-case Testing Underway**
 
 ---
 
