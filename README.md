@@ -555,6 +555,13 @@ To harness the full potential of this GPT, simply upload the document you need t
 - `!start`: Initiates the analysis process using the user-uploaded document.
 - `!refine [keywords]`: Focuses the distillation process on specific topics or key terms provided by the user.
 
+### Important Notes
+
+- ENSURE the uploaded document shows DOCUMENT, and NOT PDF. This workflow requires RAG to operate correctly and currently only a small amount of PDFs actually work properly with RAG.
+- If the workflow starts with a call to the python tool instead of a RAG search, thats how you know that PDF is unable to be vectorized or searched with RAG and this workflow will NOT work in that case.
+- Doc and txt works perfects, you can use Adobe Acrobat to covert any pdf to a doc in about 3 seconds total.
+- This workflow just barely finishes around the same time of the response hard timeout currently. Sometimes it will reach that hard timeout. When this happens, simply refresh the window, and use !continue to finish up the workflow and continue. See the below images for example.
+
 ### Workflow
 
 ```mermaid
@@ -581,6 +588,7 @@ sequenceDiagram
 
 <p align="center">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/9dc5eb38-f8a4-434e-865c-88f938b8a352" width="40%" height="1500">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/c2b75637-4058-4b6d-929a-0833c1c31cb3" width="40%" height="1500">
 </p>
 
 ---
