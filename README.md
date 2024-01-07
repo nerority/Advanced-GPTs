@@ -115,21 +115,25 @@ sequenceDiagram
 
 ### Description
 
-I went a little too hard on this one but the end result is pretty amazing. This GPT is designed to execute an extremely complex workflow that automates the full process of user profile building with strategic RAG searches, into browser searches for real-time job market information, and finally creating an optimized, high-fidelity, tailored general-purpose resume aligned with current market trends. All simply from an uploaded document of career-related context. I have added a pause to the workflow for many reasons after testing for public release. Saving the profile first allows seamless follow-up and full resources dedicated to resume crafting. The profile saved in the first step is the "distilled knowledge" of your career profile. You can save it, edit or refine it, and use it in many different ways for AI-driven applications as a base knowledge source. Next update I will be adding logic to accept distilled profiles from the start, to execute a more advanced workflow.
+In today's highly competitive job market, standing out is more crucial than ever. This GPT, a masterpiece of my creation, tackles this challenge head-on. It's an advanced AI-driven tool that automates the intricate process of building a detailed career profile, optimizing resumes, and tailoring them for specific job roles. Leveraging the latest in AI, it analyzes market trends and job requirements, ensuring that your resume not only shines but also aligns perfectly with current market demands.
 
 After the first phase is complete, you should enter `C` and allow the workflow to finish the 2nd phase. After the final resume is saved, you can use the next steps for automated quality tailoring for any position. Simply feed the description in and the comprehensive context is pre-framed for high-quality tailoring.
 
-I know full well how annoying applying for jobs can be for the average person in the current day. With the level of expected tailoring and ATS systems to deal with, it is a full-time job and more on its own. This was intended from the start to shake things up once and for all. 
+I know full well how frustrating applying for jobs can be for the average person in the current day. With the level of expected tailoring and ATS systems to deal with, it can be a full-time job and more on its own. This was intended from the start to shake things up once and for all.
 
 Make me proud 😎
 
+### Usage Instructions
+
+This tool is a godsend for job seekers and professionals looking to give their careers a boost. Simply provide your career-related documents, and watch as the AI transforms them into a polished, market-aligned profile and a tailored resume. It's particularly adept at distilling complex career histories into compelling narratives that resonate with recruiters.
+
 ### User Commands
 
-- `!start` - Initiates the advanced workflow based on the uploaded document
-- `!demo` - Demonstrate the workflow for user with AI synthesized data
-- `C` - Resume the workflow from the last saved checkpoint
-- `G` - Synthesize the refined resume with markdown formatting.
-- `J` - Complete a new tailored resume based on user provided job description or search
+- `!start` - Initiates the advanced workflow using your uploaded career documents.
+- `!demo` - Demonstrates the tool's capabilities using synthesized data.
+- `C` - Resumes the workflow from the last saved checkpoint, a handy feature considering the depth of analysis involved.
+- `G` - Generates the refined resume with elegant markdown formatting.
+- `!tailor [job description]` - Performs tailored resume optimization based on a job description you provide. Feed the tool a job description, and it will craft a resume that speaks directly to that role's needs.
 
 ### Workflow
 
@@ -141,11 +145,10 @@ sequenceDiagram
     participant RAG as RAG Search
     participant Browser as Browser Tool
 
-    note over User, ChatGPT: Phase 1
     User->>ChatGPT: Uploads Career Documents
     ChatGPT->>RAG: Initial Comprehensive Profile Analysis
     RAG-->>PythonTool: Extracted Career Information
-    PythonTool->>PythonTool: High-Level Profile Knowledge Distillation
+    PythonTool->>PythonTool: Profile Knowledge Distillation
     PythonTool-->>ChatGPT: High-Level Profile
     ChatGPT->>RAG: Detailed Experience Analysis
     RAG-->>PythonTool: Search Results
@@ -154,22 +157,24 @@ sequenceDiagram
     ChatGPT->>RAG: Comprehensive Skills Analysis
     RAG-->>PythonTool: Search Results
     PythonTool->>PythonTool: Detailed Skill Mapping
-    PythonTool-->>ChatGPT: Updated Profile
     PythonTool->>PythonTool: Final Profile Synthesis, Save File
-    PythonTool->>ChatGPT: Save Link
+    PythonTool-->>ChatGPT: Save Link
     ChatGPT->>User: Present Link and Commands
-    note over User, ChatGPT: Pause
+    note over User, ChatGPT: Pause for User Review
 
-    note over User, ChatGPT: Phase 2
-    User->>ChatGPT: Continue (C)
+    User->>ChatGPT: Resumes with 'C'
     ChatGPT->>Browser: Job Market Research
     Browser-->>PythonTool: Job Listings and Requirements
-    PythonTool->>PythonTool: Synthesize Search Findings and Strategize
-    PythonTool-->>ChatGPT: Findings and Strategy
-    ChatGPT->>PythonTool: Resume Writing
-    PythonTool->>PythonTool: Save and Format
-    PythonTool-->>ChatGPT: Save File 
-    ChatGPT->>User: Display Resume Link, Navigation
+    PythonTool->>PythonTool: Market Trend Synthesis
+    PythonTool-->>ChatGPT: Tailoring Strategy
+    ChatGPT->>PythonTool: Resume Crafting
+    PythonTool->>PythonTool: Save and Format Resume
+    PythonTool-->>ChatGPT: Save File
+    ChatGPT->>User: Presents Optimized Resume
+
+    note over User, ChatGPT: Resume Tailoring
+    note over User, ChatGPT: Use this step as a Repeatable Input
+    User->>ChatGPT: Start Tailoring with "!tailor [job desc]"
 ```
 
 <p align="center">
