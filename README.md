@@ -190,25 +190,22 @@ sequenceDiagram
 
 ### Description
 
-Getting the AI to properly understand and summarize both the holistic and granular aspects of long and/or complex documents has been a long-standing frustration with ChatGPT. This GPT automates an advanced workflow, that leverages strategic RAG searches and the python tool to achieve highly-detailed and valuable analysis of complex documents. This has been incredibly difficult to automate with accuracy, I am proud to have now solved this issue.
+In the realm of information overload, the ability to swiftly and accurately dissect complex documents is more vital than ever. This GPT transcends the current barriers of RAG-based document analysis. This tool is not just a mere summarizer; it's an in-depth analyzer, capable of understanding and articulating the nuances of extensive documents by exploiting a complex tool chain. Designed for those who grapple with the daunting task of digesting lengthy reports, legal documents, or scholarly articles, this AI assistant ensures that no critical information slips through the cracks.
 
 ### Intended Usage
 
-Documents with coherent structure where high-fidelity analysis is required. This GPT will generate a TOC based on a first pass, and then start an analysis loop with seperate searches for every section sequentually. This is a long-horizon process, and can take multiple full response timeouts to complete depending on the complexity of the information and the ToC structure. For more strategic searching or faster processes, there are more specialized GPTs for that later in this portfolio.
+**Required Input**: User-Uploaded Document
 
-**Input**: User-Uploaded Document
+This GPT is engineered for scenarios requiring a deep dive into complex documents. Whether it's a lawyer analyzing legal texts, an academic researcher sifting through dense papers, or a business professional evaluating comprehensive reports, this tool stands as an indispensable ally. It excels in providing a clear, concise, and accurate summary of even the most intricate documents, transforming hours of reading into minutes of insightful comprehension.
+
+This GPT works best for documents with coherent structure, and will dive into each section of importance for a granular and comprehensive understanding. Due to the complexity of this workflow, it can take multiple full responses to finish for complex documents. For more efficient or strategic workflows there are GPTs later in this portfolio tailored for that purpose.
 
 ### User Commands
 
-- `!start` - Initiates workflow based on user uploaded document.
-- **`C` -** Re-establish the workflow where it left off.
-- **`R` -** Restart the analysis with a new document.
-- **`E` -** End the current analysis session.
-
-### Planned Improvements
-
-- Adding final pass to save in different formats without breaking fidelity
-- Expanding out command set and post-actions
+- `!start` - Initiates the advanced analysis workflow based on the uploaded document.
+- `C` - Continues the workflow from the last saved checkpoint, a crucial feature for handling extensive documents.
+- `R` - Restarts the analysis with a new document.
+- `E` - Ends the current analysis session, providing a comprehensive summary of the findings.
 
 ### Workflow
 
@@ -220,21 +217,18 @@ sequenceDiagram
     participant PythonTool as Python Tool
 
     User->>ChatGPT: Uploads Document
-    ChatGPT->>RAG: Initial Document Analysis
-    RAG-->>PythonTool: Holistic Understanding of Content
-    PythonTool->>PythonTool: Create TOC
-    PythonTool->>ChatGPT: Display TOC
+    ChatGPT->>RAG: Initial Holistic Document Analysis
+    RAG-->>PythonTool: Extracted Core Concepts
+    PythonTool->>PythonTool: Develops TOC and Analysis Strategy
+    PythonTool-->>ChatGPT: Outlines Document Structure
     loop Detailed Section Analysis
-        ChatGPT->>RAG: Analyze Specific Section
-        RAG-->>PythonTool: Section Insights
+        ChatGPT->>RAG: Delve into Specific Sections
+        RAG-->>PythonTool: Detailed Insights
         PythonTool->>PythonTool: Synthesize Insights
     end
-    PythonTool->>PythonTool: Compile Final Report
-    PythonTool->>ChatGPT: Save and Provide Report Link
-    ChatGPT->>User: Offer User Commands
+    PythonTool-->>ChatGPT: Compile and Synthesize Comprehensive Report
+    ChatGPT->>User: Present Final Report and Analysis
 ```
-
-**Note**: This GPT has advanced resource management logic, and will create a checkpoint just before reaching the hard time-out. There is a hard time-out of ~ 6-8 minutes no matter what. Due to the complexity of this workflow, it will often timeout before finishing. When this happens, simply enter "C" in the next input to re-establish the workflow where it left off. After a recent update by OpenAI, this timeout can sometimes "freeze" the screen with an error, just refresh the page, and even if the prior analysis windows disappeared, just use C and it will pick up where it left off until complete.
 
 <p align="center">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/02e2d031-48ac-4b3f-b56a-fb2bf14443c3" width="45%" height="800">
@@ -243,23 +237,23 @@ sequenceDiagram
 
 ---
 
-## Automated DALL-E Prompt Variation Testing
+### Automated DALL-E Prompt Variation Testing
 
 **Status**: Finalized for Release 💯
 
 ### Description
 
-This is an excellent GPT for image generation ideation and mass testing of an idea. This GPT achieves an workflow leveraging multiple tools to streamline mass-testing of prompt variations of an idea. Initially uses the python tool to detail 5 DallE prompts with different strategies for visualization. Generates one-by-one, compiles and presents for display with navigation control.
+In the realm of creative AI applications, this GPT shines as an essential tool. It's engineered to unlock the full potential of DALL-E's image generation prowess through systematic prompt variation testing. This GPT automates the process of ideation and prompt refinement, enabling users to explore an expansive array of visual possibilities swiftly and efficiently. This should be an asset for artists, designers, and anyone looking to push the boundaries of AI-assisted visual creation.
+
+### Usage Instructions
+
+To harness this tool's capabilities, users simply need to input a base idea or image concept. The GPT then intelligently generates multiple DALL-E prompts, each designed to explore different facets or interpretations of the initial idea. The result is a collection of diverse images, providing a visual brainstorming session that can inspire further creative exploration or be used to refine the concept to its most effective visual representation.
 
 ### User Commands
 
-- `!start [description]` - Executes workflow based on user input
-- `!demo` - Demonstrate the workflow for user with AI synthesized data
-- `1` - Indicate Picture #1 as user favorite
-- `2` - Indicate Picture #2
-- `3` - Indicate Picture #3
-- `4` - Indicate Picture #4
-- `5` - Indicate Picture #5
+- `!start [description]`: Kickstarts the workflow with a user-defined description of the desired image.
+- `!demo`: Runs a demonstration using AI-synthesized data, showcasing the tool's capabilities.
+- `1-5`: Selects the preferred image from the generated batch, facilitating focused refinement or further exploration based on the chosen prompt.
 
 ### Workflow
 
@@ -270,21 +264,16 @@ sequenceDiagram
     participant PythonTool as Python Tool
     participant DallE as DALL-E
 
-    User->>ChatGPT: !start [description of desired image]
-    ChatGPT->>PythonTool: Generate 5 Distinct Prompts
-    loop Image Generation Loop x5
-        PythonTool-->>DallE: Request Image Generation for Each Prompt
-        DallE-->>ChatGPT: Return Generated Image
+    User->>ChatGPT: Initiates with !start [description]
+    ChatGPT->>PythonTool: Generates 5 Unique Prompts
+    loop Image Generation Loop
+        PythonTool->>DallE: Requests Image Generation for Each Prompt
+        DallE-->>ChatGPT: Returns Generated Images
     end
-    ChatGPT->>User: Synthesize Prompts
-    ChatGPT->>User: Present User Commands
-    loop User Command Interaction
-        User->>ChatGPT: Select Prompt or Other Commands
-        alt Selected Prompt
-            ChatGPT->>PythonTool: Execute New Workflow Based on Selected Prompt
-        else Other Commands
-            ChatGPT->>User: Execute Command Action
-        end
+    ChatGPT->>User: Presents Images and User Command Options
+    loop User Feedback Interaction
+        User->>ChatGPT: Selects Preferred Image or Inputs Other Commands
+        ChatGPT->>PythonTool: Refines or Expands on Selected Prompt
     end
 ```
 
@@ -375,7 +364,7 @@ sequenceDiagram
 
 ### Description
 
-This GPT is designed to elevate the clarity and effectiveness of user-generated prompts for AI interactions. This tool transforms vague or broad initial inputs into precisely structured and optimized prompts. It's particularly adept at handling complex tasks, ensuring that the resulting prompts are highly coherent and tailored for GPT-4's capabilities.
+This GPT is designed to elevate the clarity and effectiveness of user (task) prompts for AI interactions. This tool transforms vague or broad initial inputs into precisely structured and optimized prompts. It's particularly adept at handling complex tasks, ensuring that the resulting prompts are highly coherent and tailored for GPT-4's capabilities.
 
 ### Usage Instructions
 
@@ -524,16 +513,22 @@ sequenceDiagram
 
 **Status**: Initial Testing Done, Pending Refinement for Public Release 💫
 
-**Description**: This GPT is a powerful tool for anyone looking to quickly extract meaningful information from dense and lengthy documents. It reduces the time and effort required to parse through complex materials, providing clear, concise summaries of essential content. This tool is particularly valuable in academic research, business intelligence, legal analysis, and any other field where the rapid assimilation of detailed information is crucial.
+### Description
 
-**Input**: User uploads a document for analysis.
+This GPT represents a significant leap in efficiently handling complex, information-dense documents. Designed for those who need to quickly grasp the essence of lengthy materials, it serves as a powerful assistant in distilling key knowledge from extensive texts. Whether you're navigating academic research, sifting through business reports, or delving into technical papers, this tool condenses volumes of information into clear, concise summaries, saving valuable time and effort.
 
-**Commands**:
+### Usage Instructions
 
-- `!start` to initiate the document upload and analysis.
-- `!refine [keywords]` for focused extraction on specific topics or concepts.
+**Required Input**: User-Uploaded Document
 
-**Workflow**:
+To harness the full potential of this GPT, simply upload the document you need to analyze. The tool then engages in a sophisticated process to extract the most pertinent information, synthesizing it into an easily digestible summary. This functionality is particularly useful for those who need to assimilate large amounts of data rapidly, whether for study, professional analysis, or personal interest.
+
+### User Commands
+
+- `!start`: Initiates the analysis process using the user-uploaded document.
+- `!refine [keywords]`: Focuses the distillation process on specific topics or key terms provided by the user.
+
+### Workflow
 
 ```mermaid
 sequenceDiagram
@@ -543,17 +538,18 @@ sequenceDiagram
     participant PythonTool as Python Tool
 
     User->>ChatGPT: Uploads Document
-    ChatGPT->>RAG: Initial Full Document Search
-    RAG-->>PythonTool: Document Understanding
-    PythonTool->>PythonTool: Planning Phase
-    PythonTool-->>ChatGPT: Document Strategy
+    ChatGPT->>RAG: Conducts Initial Document Search
+    RAG-->>PythonTool: Transfers Document Understanding
+    PythonTool->>PythonTool: Engages in Strategic Planning
+    PythonTool-->>ChatGPT: Outlines Document Analysis Strategy
     loop RAG Search Loop for Key Concepts
-        ChatGPT->>RAG: Execute Focused Searches
-        RAG-->>PythonTool: Search Results on Key Concepts
-        PythonTool->>PythonTool: Synthesize Results in JSON
+        ChatGPT->>RAG: Performs Focused Searches
+        RAG-->>PythonTool: Delivers Search Results
+        PythonTool->>PythonTool: Synthesizes Key Information
     end
-    PythonTool->>ChatGPT: Compile and Synthesize Knowledge Summary
-    ChatGPT->>User: Present Knowledge Summary in Code Box
+    PythonTool->>PythonTool: Compiles a Comprehensive Knowledge Summary
+    PythonTool-->>ChatGPT: Presents the Synthesized Summary
+    ChatGPT->>User: Displays Knowledge Summary
 ```
 
 **Screenshots**: *Placeholder*
@@ -562,25 +558,33 @@ sequenceDiagram
 
 ## Botanical Growth Cycle Visualizer
 
-**Status**: Testing and Refinement for Public Use 💫
+**Status**: Initial Testing Done, Pending Refinement for Public Release 💫
 
-**Description**: This GPT is a specialized educational agent designed for high-quality visualizations of the growth cycle of a user selected plant species. 
+### Description
 
-**Input**: User-Specified Plant Species
+The Botanical Growth Cycle Visualizer is a unique, specialized educational tool built for high-quality visualizations of the growth cycle of various plant species. It's designed for both educational purposes and plant enthusiasts who wish to understand and observe the intricate stages of plant growth in a visually engaging manner. This tool is particularly useful for botanists, educators, and anyone with a keen interest in botany.
 
-```!executeWorkflow [plant species]```
+### Usage Instructions
 
-**Workflow (Single Response)**
+To leverage this GPT, users simply need to specify the plant species they're interested in. The AI will then take over, synthesizing data and generating a series of images that depict the various stages of the plant's growth cycle, from seed germination to maturity. It's an interactive, user-friendly tool that brings the fascinating process of plant growth to life.
+
+### User Commands
+
+- `!start [plant species]` - This command initiates the workflow, triggering the AI to begin visualizing the growth cycle of the specified plant species.
+- `!demo` - A demonstration mode, showcasing the tool's capabilities with a pre-selected plant species.
+
+### Workflow
+
 ```mermaid
 sequenceDiagram
     participant User
     participant ChatGPT
     participant PythonTool as Python Tool
-    participant DallE as DallE-3
+    participant DallE as DALL-E
 
     User->>ChatGPT: User Input
     ChatGPT->>PythonTool: Data Synthesis and Planning
-    loop Image Gen Loop
+    loop Image Generation Loop
         PythonTool->>DallE: Request Image Generation
         DallE-->>PythonTool: Return Generated Image
     end
