@@ -286,7 +286,7 @@ sequenceDiagram
 
 ---
 
-## Advanced Meta-Prompt Engineering
+## Advanced Meta-Prompt Engineer
 
 **Status**: Finalized for Release 💯
 
@@ -487,7 +487,9 @@ sequenceDiagram
     end
 ```
 
-**Screenshots**: *Placeholder*
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/58fcce77-2cd7-4df5-9961-43713a4f69f0" width="60%" height="100%">
+</p>
 
 ---
 
