@@ -11,6 +11,8 @@
 
 > **I will be preparing public versions of all GPTs for the store release next week for free. This page will see constant updates over the weekend and links will be live here by Monday (1/08/24).**
 
+> **Status: 6/11 Ready for Deployement. Finalized GPTs have been greatly augmented and refined for public use.**
+
 ---
 
 ![Nerority](https://github.com/nerority/Advanced-GPTs/assets/80237923/e99891a8-9645-4e9b-a22c-7fca73177882)
