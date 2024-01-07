@@ -92,7 +92,7 @@ sequenceDiagram
     ChatGPT-->>ChatGPT: Compile Progression Status
     ChatGPT->>User: Displays Current Progression Status Menu
     ChatGPT->>User: Presents User Command Menu
-    User->>ChatGPT: Inputs Next Commands (e.g., N, O, E)
+    User->>ChatGPT: Inputs Next Commands
     Note over ChatGPT: Resource Management and Continuation Setup
 ```
 
