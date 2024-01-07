@@ -441,8 +441,7 @@ sequenceDiagram
 ```
 
 <p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/2e5e1734-194e-4ece-820e-69b259e46ce6" width="40%" height="100%">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/df11eed1-a29e-42ee-ac4c-5f57a150dbee" width="40%" height="100%">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/611bbc2b-b5cc-4cf5-be02-10f89563b052" width="40%" height="100%">
 </p>
 
 ---
