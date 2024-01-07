@@ -117,8 +117,6 @@ sequenceDiagram
 
 In today's highly competitive job market, standing out is more crucial than ever. This GPT, a masterpiece of my creation, tackles this challenge head-on. It's an advanced AI-driven tool that automates the intricate process of building a detailed career profile, optimizing resumes, and tailoring them for specific job roles. Leveraging the latest in AI, it analyzes market trends and job requirements, ensuring that your resume not only shines but also aligns perfectly with current market demands.
 
-After the first phase is complete, you should enter `C` and allow the workflow to finish the 2nd phase. After the final resume is saved, you can use the next steps for automated quality tailoring for any position. Simply feed the description in and the comprehensive context is pre-framed for high-quality tailoring.
-
 I know full well how frustrating applying for jobs can be for the average person in the current day. With the level of expected tailoring and ATS systems to deal with, it can be a full-time job and more on its own. This was intended from the start to shake things up once and for all.
 
 Make me proud 😎
@@ -126,6 +124,8 @@ Make me proud 😎
 ### Usage Instructions
 
 This tool is a godsend for job seekers and professionals looking to give their careers a boost. Simply provide your career-related documents, and watch as the AI transforms them into a polished, market-aligned profile and a tailored resume. It's particularly adept at distilling complex career histories into compelling narratives that resonate with recruiters.
+
+After the first phase is complete, you should enter `C` and allow the workflow to finish the 2nd phase. After the final resume is saved, you can use the next steps for automated quality tailoring for any position. Simply feed the description in and the comprehensive context is pre-framed for high-quality tailoring.
 
 ### User Commands
 
