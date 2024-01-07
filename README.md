@@ -11,7 +11,8 @@
 
 > **I will be preparing public versions of all GPTs for the store release next week for free. This page will see constant updates over the weekend and links will be live here by Monday (1/08/24).**
 
-> **Status: 8/10 GPTs Ready for Deployment. Finalized GPTs have been greatly augmented and refined for public use.**
+> **Status: 10/10 GPTs Ready for Deployment. Finalized GPTs have been greatly augmented and refined for public use.**
+> **Final Testing Underway**
 
 ---
 
@@ -41,12 +42,12 @@ Want me to build your dream GPT? Get in touch.
 
 - [Automated Infinite Visual Progression ✔️](#automated-infinite-visual-progression-with-fine-grain-control)
 - [Automated DALL-E Prompt Variation Testing ✔️](#automated-dall-e-prompt-variation-testing)
-- [Botanical Growth Cycle Visualizer 💫](#botanical-growth-cycle-visualizer)
+- [Botanical Growth Cycle Visualizer ✔️](#botanical-growth-cycle-visualizer)
 
 #### Document Analysis
 
 - [Automated High-Quality Document Analysis ✔️](#automated-high-quality-document-analysis)
-- [Automated Knowledge Distillation 💫](#automated-knowledge-distillation)
+- [Automated Knowledge Distillation ✔️](#automated-knowledge-distillation)
 
 #### Prompt Engineering
 
@@ -540,7 +541,7 @@ sequenceDiagram
 
 ## Automated Knowledge Distillation
 
-**Status**: Initial Testing Done, Pending Refinement for Public Release 💫
+**Status**: Finalized for Release 💯
 
 ### Description
 
@@ -597,7 +598,7 @@ sequenceDiagram
 
 ## Botanical Growth Cycle Visualizer
 
-**Status**: Initial Testing Done, Pending Refinement for Public Release 💫
+**Status**: Finalized for Release 💯
 
 ### Description
 
