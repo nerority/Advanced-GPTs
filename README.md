@@ -34,18 +34,18 @@ Want me to build your dream GPT? Get in touch.
 <h1>The Lineup</h1>
 </div>
 
-### Quick Nav
+#### Quick Nav
 1. [Automated Infinite Visual Progression with Fine-Grain Control ✔️](#automated-infinite-visual-progression-with-fine-grain-control)
 2. [Automated Career Profile Builder and Resume Optimizer ✔️](#automated-career-profile-builder-resume-optimizer-and-target-position-tailoring)
 3. [Automated High-Quality Document Analysis ✔️](#automated-high-quality-document-analysis)
 4. [Automated DALL-E Prompt Variation Testing ✔️](#automated-dall-e-prompt-variation-testing)
-5. [Automated Prompt Refinement ✔️](#automated-prompt-refinement)
-6. [Automated Meta-Prompt Synthesis ✔️](#automated-meta-prompt-synthesis)
-7. [Botanical Growth Cycle Visualizer](#botanical-growth-cycle-visualizer)
-8. [Business Contract Analyzer](#business-contract-analyzer)
-9. [Automated Market Trend Analysis and Prediction for Target Company](#automated-market-trend-analysis-and-prediction-for-target-company)
-10. [Advanced Competitive Analysis AI](#advanced-competitive-analysis-ai)
-11. [Automated Knowledge Distillation](#automated-knowledge-distillation)
+5. [Automated Meta-Prompt Synthesis ✔️](#automated-meta-prompt-synthesis)
+6. [Automated Prompt Refinement ✔️](#automated-prompt-refinement)
+7. [Botanical Growth Cycle Visualizer 💫](#botanical-growth-cycle-visualizer)
+8. [Business Contract Analyzer 💫](#business-contract-analyzer)
+9. [Automated Market Trend Analysis and Prediction for Target Company 💫](#automated-market-trend-analysis-and-prediction-for-target-company)
+10. [Advanced Competitive Analysis AI 💫](#advanced-competitive-analysis-ai)
+11. [Automated Knowledge Distillation 💫](#automated-knowledge-distillation)
 
 ---
 
