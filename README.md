@@ -66,11 +66,11 @@ Utilize this GPT to explore the realms of endless visual possibilities. Start by
 
 **Input Explanations**
 
-- **Base Image Description** = This should be a description of the part of the image that you do NOT want to progress. (E.g. normal image descriptions here)
-- **Dimension** = The aspect of the image that you want to progress over time. (E.g. Size, Gradually Taking over the World, Woman holding an increasing amount of bags, etc.)
-- **Direction** = The direction of the progression. (E.g. increasing, decreasing, etc. You can be creative here or keep it simple.)
-- **Starting Point** = This allows you to control the exact starting point of the progression. (E.g. If your base description is a man, your dimension is strength increasing, for the starting point you could set something like weak, or even strong to begin from that point)
-- **Rate** = This allows you to control the speed of the progression. (E.g. Slow, medium, fast, etc. Can be creative.)
+- **Base Image Description**: This should be a description of whatever aspects of the image you want to remain static. (E.g. normal image descriptions here)
+- **Dimension**: The aspect of the image that you want to progress over time. (E.g. Size, Gradually Taking over the World, Woman holding an increasing amount of bags, etc.)
+- **Direction**: The direction of the progression. (E.g. increasing, decreasing, etc. You can be creative here or keep it simple.)
+- **Starting Point**: This allows you to control the exact starting point of the progression. (E.g. If your base description is a man, your dimension is strength increasing, for the starting point you could set something like weak, or even strong to begin from that point)
+- **Rate**: This allows you to control the speed of the progression. (E.g. Slow, medium, fast, etc. Can be creative.)
 
 **Initial Commands**
 
