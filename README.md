@@ -552,7 +552,9 @@ sequenceDiagram
     ChatGPT->>User: Displays Knowledge Summary
 ```
 
-**Screenshots**: *Placeholder*
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/9dc5eb38-f8a4-434e-865c-88f938b8a352" width="40%" height="1500">
+</p>
 
 ---
 
