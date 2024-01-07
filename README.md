@@ -11,7 +11,7 @@
 
 > **I will be preparing public versions of all GPTs for the store release next week for free. This page will see constant updates over the weekend and links will be live here by Monday (1/08/24).**
 
-> **Status: 6/11 Ready for Deployement. Finalized GPTs have been greatly augmented and refined for public use.**
+> **Status: 6/10 Ready for Deployment. Finalized GPTs have been greatly augmented and refined for public use.**
 
 ---
 
@@ -31,23 +31,22 @@ Want me to build your dream GPT? Get in touch.
 
 **Site**: [nerority.com](https://www.nerority.com)
 
-
 <div align="center">
 <h1>The Lineup</h1>
 </div>
 
 #### Quick Nav
-1. [Automated Infinite Visual Progression with Fine-Grain Control ✔️](#automated-infinite-visual-progression-with-fine-grain-control)
-2. [Automated Career Profile Builder and Resume Optimizer ✔️](#automated-career-profile-builder-resume-optimizer-and-target-position-tailoring)
+1. [Automated Infinite Visual Progression ✔️](#automated-infinite-visual-progression-with-fine-grain-control)
+2. [Automated Career Profile Builder and Resume Tailor ✔️](#automated-career-profile-builder-resume-optimizer-and-target-position-tailoring)
 3. [Automated High-Quality Document Analysis ✔️](#automated-high-quality-document-analysis)
 4. [Automated DALL-E Prompt Variation Testing ✔️](#automated-dall-e-prompt-variation-testing)
 5. [Advanced Meta-Prompt Engineer ✔️](#advanced-meta-prompt-engineer)
 6. [Automated Prompt Refinement ✔️](#automated-prompt-refinement)
-7. [Botanical Growth Cycle Visualizer 💫](#botanical-growth-cycle-visualizer)
-8. [Business Contract Analyzer 💫](#business-contract-analyzer)
-9. [Automated Market Trend Analysis and Prediction for Target Company 💫](#automated-market-trend-analysis-and-prediction-for-target-company)
-10. [Advanced Competitive Analysis AI 💫](#advanced-competitive-analysis-ai)
-11. [Automated Knowledge Distillation 💫](#automated-knowledge-distillation)
+7. [Business Contract Analyzer 💫](#business-contract-analyzer)
+8. [Advanced Competitive Analysis AI 💫](#advanced-competitive-analysis-ai)
+9. [Automated Knowledge Distillation 💫](#automated-knowledge-distillation)
+10. [Botanical Growth Cycle Visualizer 💫](#botanical-growth-cycle-visualizer)
+
 
 ---
 
@@ -406,47 +405,6 @@ sequenceDiagram
 
 ---
 
-## Botanical Growth Cycle Visualizer
-
-**Status**: Testing and Refinement for Public Use
-
-**Description**: This GPT is a specialized educational agent designed for high-quality visualizations of the growth cycle of a user selected plant species. 
-
-**Input**: User-Specified Plant Species
-
-```!executeWorkflow [plant species]```
-
-**Workflow (Single Response)**
-```mermaid
-sequenceDiagram
-    participant User
-    participant ChatGPT
-    participant PythonTool as Python Tool
-    participant DallE as DallE-3
-
-    User->>ChatGPT: User Input
-    ChatGPT->>PythonTool: Data Synthesis and Planning
-    loop Image Gen Loop
-        PythonTool->>DallE: Request Image Generation
-        DallE-->>PythonTool: Return Generated Image
-    end
-    PythonTool->>ChatGPT: Compiled Images
-    ChatGPT->>User: Recap and Exploration
-```
-
-<p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/e63917ed-a231-48bf-853a-5a0d0fe209d5" width="40%" height="1500">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/228a4129-846c-4031-833c-ca443e9b29c3" width="40%" height="1500">
-</p>
-
----
-
-# Under Construction
-
-*Need to design a GPT for Automated Testing and Screens xD*
-
----
-
 ## Business Contract Analyzer
 
 **Status**: Initial Testing Done, Pending Refinement for Public Release
@@ -483,51 +441,6 @@ sequenceDiagram
 <p align="center">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/2e5e1734-194e-4ece-820e-69b259e46ce6" width="40%" height="100%">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/df11eed1-a29e-42ee-ac4c-5f57a150dbee" width="40%" height="100%">
-</p>
-
----
-
-## Automated Market Trend Analysis and Prediction for Target Company
-
-**Status**: Testing and Refinement for Public Use
-
-**Description**: This GPT is designed to complete an advanced workflow that achieves a comprehensive market analysis for a user given company. First employs the browser tool to pull real-time information, which then passes through several iterations with the python tool to complete text and semantic analysis on the data. A basic predictive model is build and visualized in the first response, which can then be advanced upon with a simple hotkey in the next response. Works extremely well with user-provided data, for example apple stock prices for 2023 curtesy of kaggle.com.
-
-**Input**: User-Specified Company
-
-`!start [company]`
-
-**Workflow**:
-
-```mermaid
-sequenceDiagram
-    participant User
-    participant ChatGPT
-    participant PythonTool as Python Tool
-    participant Browser
-
-    User->>ChatGPT: Provide Company
-    ChatGPT->>PythonTool: Initiate Data Analysis Loop
-    loop Data Analysis Loop
-        PythonTool->>Browser: Fetch Financial Reports & News Sentiments
-        Browser-->>PythonTool: Provide Data
-        PythonTool->>PythonTool: Perform Text and Sentiment Analysis
-    end
-    PythonTool->>PythonTool: Identify and Summarize Market Trends
-    loop Impact Assessment Loop
-        PythonTool->>PythonTool: Assess Trend Impact on Stock Prices
-    end
-    PythonTool->>PythonTool: Prepare Insights and Predictions
-    PythonTool-->>ChatGPT: Compiled Data and Analysis
-    ChatGPT->>User: Present Structured Report
-
-```
-
-**Note**: Results comparison between no user-provided data, and with a dataset included for Apple Stock Prices in 2023.
-
-<p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/708c2caf-e700-4ece-9a54-835ab11bbdc0" width="48%" height="600">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/a881c549-1761-4b60-adf8-f5c972e26582" width="48%" height="600">
 </p>
 
 ---
@@ -613,3 +526,40 @@ sequenceDiagram
 ```
 
 **Screenshots**: *Placeholder*
+
+---
+
+## Botanical Growth Cycle Visualizer
+
+**Status**: Testing and Refinement for Public Use
+
+**Description**: This GPT is a specialized educational agent designed for high-quality visualizations of the growth cycle of a user selected plant species. 
+
+**Input**: User-Specified Plant Species
+
+```!executeWorkflow [plant species]```
+
+**Workflow (Single Response)**
+```mermaid
+sequenceDiagram
+    participant User
+    participant ChatGPT
+    participant PythonTool as Python Tool
+    participant DallE as DallE-3
+
+    User->>ChatGPT: User Input
+    ChatGPT->>PythonTool: Data Synthesis and Planning
+    loop Image Gen Loop
+        PythonTool->>DallE: Request Image Generation
+        DallE-->>PythonTool: Return Generated Image
+    end
+    PythonTool->>ChatGPT: Compiled Images
+    ChatGPT->>User: Recap and Exploration
+```
+
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/e63917ed-a231-48bf-853a-5a0d0fe209d5" width="40%" height="1500">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/228a4129-846c-4031-833c-ca443e9b29c3" width="40%" height="1500">
+</p>
+
+---
