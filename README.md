@@ -413,15 +413,17 @@ sequenceDiagram
 
 ### Description
 
-This advanced workflow leverages the full capabilities of RAG Search for detailed content extraction and the Python tool for strategic planning and data synthesis, ensuring a thorough analysis of legal contracts. The process is designed to be efficient and comprehensive, catering to the needs of legal professionals who require in-depth contract analysis.
+The Business Contract Analyzer is a sophisticated tool designed to provide a comprehensive analysis of legal contracts. Strategically leveraging RAG Search for in-depth content extraction and the Python tool for planning and data synthesis, it offers a granular review of contractual documents. This tool is especially beneficial for legal professionals and businesses who require a thorough understanding and interpretation of contract terms, conditions, and implications.
+
+### Usage Instructions
+
+To utilize the Business Contract Analyzer, users should upload the legal document they wish to analyze. The tool then proceeds on a multi-faceted analysis process, dissecting the contract's content to provide insights on key clauses, potential legal implications, and areas of concern or interest. The advanced start can be used to refine the analysis based on user preferences.
 
 ### User Commands
 
-**Required Input**: User-uploaded Legal Document for Strategic Analysis
-
-- `!start` - Executes workflow based on user uploaded document
-- `!advStart [specific interests]` - In-depth analysis for user-defined interests
-- `!demo` - Demonstrates the workflow with synthesized data
+- `!start` - Initiates the analysis process based on the user-uploaded contract.
+- `!advStart [specific interests]` - Launches an in-depth analysis focusing on areas specified by the user, such as particular clauses, legal risks, or obligations.
+- `!demo` - Demonstrates the tool's capabilities using synthesized data for a better understanding of its functionality.
 
 ### Workflow
 
@@ -432,18 +434,19 @@ sequenceDiagram
     participant RAG as RAG Search
     participant PythonTool as Python Tool
 
-    User->>ChatGPT: Uploads Document
-    ChatGPT->>RAG: Initial Full Document Search
-    RAG-->>ChatGPT: Document Understanding
-    ChatGPT->>PythonTool: Create Strategy for Deeper Searches
-    PythonTool-->>ChatGPT: Deeper Search Strategy
-    loop RAG Search Loop
-        ChatGPT->>RAG: Execute Deeper Search Strategy
-        RAG-->>PythonTool: Search Results
-        PythonTool->>PythonTool: Synthesize Results
+    User->>ChatGPT: Uploads Contract Document
+    ChatGPT->>RAG: Conducts Initial Full Document Analysis
+    RAG-->>PythonTool: Extracts Key Contractual Elements
+    PythonTool->>PythonTool: Develops a Strategy for Deep Analysis
+    PythonTool-->>ChatGPT: Outlines Detailed Search Strategy
+    loop Detailed Analysis Loop
+        ChatGPT->>RAG: Executes Targeted Deep Searches Based on Strategy
+        RAG-->>PythonTool: Provides In-depth Search Results
+        PythonTool->>PythonTool: Synthesizes and Interprets Findings
     end
-    PythonTool->>ChatGPT: Compile and Synthesize Analysis Report
-    ChatGPT->>User: Present Analysis Report
+    PythonTool->>PythonTool: Compiles Comprehensive Analysis Report
+    PythonTool-->>ChatGPT: Finalizes and Formats Report
+    ChatGPT->>User: Presents Detailed Contract Analysis
 ```
 
 <p align="center">
