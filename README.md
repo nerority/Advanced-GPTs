@@ -488,7 +488,7 @@ sequenceDiagram
 ```
 
 <p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/58fcce77-2cd7-4df5-9961-43713a4f69f0" width="60%" height="100%">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/460d77e0-2599-4d3e-91d9-77f9893d81e9" width="60%" height="100%">
 </p>
 
 ---
