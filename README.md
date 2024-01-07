@@ -40,7 +40,7 @@ Want me to build your dream GPT? Get in touch.
 3. [Automated High-Quality Document Analysis ✔️](#automated-high-quality-document-analysis)
 4. [Automated DALL-E Prompt Variation Testing ✔️](#automated-dall-e-prompt-variation-testing)
 5. [Automated Prompt Refinement ✔️](#automated-prompt-refinement)
-6. [Automated Meta-Prompt Refinement](#automated-meta-prompt-refinement)
+6. [Automated Meta-Prompt Synthesis ✔️](#automated-meta-prompt-synthesis)
 7. [Botanical Growth Cycle Visualizer](#botanical-growth-cycle-visualizer)
 8. [Business Contract Analyzer](#business-contract-analyzer)
 9. [Automated Market Trend Analysis and Prediction for Target Company](#automated-market-trend-analysis-and-prediction-for-target-company)
@@ -285,6 +285,74 @@ sequenceDiagram
 
 ---
 
+## Automated Meta-Prompt Synthesis
+
+**Status**: Finalized for Release 💯
+
+### Description
+
+This GPT is a cutting-edge tool designed for the advanced generation and refinement of meta-prompts. These are complex prompts that serve as high-level instructions for AI models, guiding them towards achieving specific goals or tasks. This tool excels in transforming vague or abstract ideas into clear, actionable, and optimized meta-prompts, enhancing the efficiency and effectiveness of AI interactions. This is specifically only possible because of the depth of my prompt engineering expertise with GPT-4, and is designed to produce extremely precise "system prompts" based on any given prompt or idea. You will not find a better automated "meta-prompt" workflow around.
+
+### Usage Instructions
+
+To utilize this GPT, users can start with a basic idea or a prompt they wish to explore. The tool then employs a series of steps to expand, refine, and optimize the initial input into a detailed and actionable meta-prompt. Users can experiment with variations, refine based on feedback, or use a demonstration mode to understand the GPT's capabilities.
+
+*This GPT is intended for the SYNTHESIS of Complex System Prompts. For the refinement of everyday "task prompts", the next GPT is designed for that purpose.*
+
+### User Commands
+
+- `!start [prompt to refine]` - Initiates the workflow to transform and refine the user's initial prompt into a sophisticated meta-prompt.
+- `!experiment` - Engages the tool in a creative loop, generating a variety of prompt variations to explore different possibilities and perspectives.
+- `!refine [feedback]` - Uses user-provided feedback to further refine and enhance the meta-prompt, ensuring alignment with the user's intentions and goals.
+- `!demo` - Demonstrates the tool's capabilities using AI-generated data, providing insights into its potential applications and effectiveness.
+- `C` - Continues the workflow from the last checkpoint, useful in case of interruptions or for extended processing.
+
+### Workflow
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant ChatGPT
+    participant PythonTool as Python Tool
+
+	Note over User, ChatGPT: !start [prompt]
+    User->>ChatGPT: Provides Initial Prompt
+
+	Note over User, PythonTool: Refinement Workflow #E0FFFF
+    ChatGPT->>PythonTool: Understanding Analysis
+    PythonTool->>PythonTool: Adaptive Contextualization
+    PythonTool->>PythonTool: Chain of Thought (CoT) Expansion
+    PythonTool->>PythonTool: Universal Personalization
+    PythonTool->>PythonTool: Optimization
+    PythonTool->>PythonTool: Synthesize Final Prompt
+    PythonTool-->>ChatGPT: Final Refined Prompt
+    ChatGPT->>User: Present Final Refined Prompt
+
+    Note over User, PythonTool: Post-Actions
+    loop User Interaction
+        User->>ChatGPT: Issues Command
+        note over User, ChatGPT: !experiment
+        alt Prompt Variation Experimentation
+            ChatGPT-->>ChatGPT: Proceed with Experimentation Loop
+            loop Experimentation & Enhancement
+                ChatGPT->>PythonTool: Experiment with Prompt Variants
+                PythonTool-->>ChatGPT: Feedback and Learning
+            end
+            ChatGPT->>User: Present results
+        note over User, ChatGPT: !refine [feedback]
+        else Refine Workflow
+        ChatGPT-->>ChatGPT: Performs Refinement Workflow
+        end
+    end
+```
+
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/25eecba7-9f07-4178-8bce-38f8a2617358" width="45%" height="800">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/b71c976d-b8e0-4d7e-9f9e-29becc0d2d0a" width="45%" height="800">
+</p>
+
+---
+
 ## Automated Prompt Refinement
 
 **Status**: Finalized for Release 💯
@@ -309,16 +377,11 @@ sequenceDiagram
 
     User->>ChatGPT: Executes Workflow (!start)
     ChatGPT->>PythonTool: Transform Prompt
-    PythonTool-->>ChatGPT: Transformed Prompt
-    ChatGPT->>PythonTool: Analyze Prompt
-    PythonTool-->>ChatGPT: Analysis Results
-    ChatGPT->>PythonTool: Enhance Prompt
-    PythonTool-->>ChatGPT: Enhanced Prompt
-    ChatGPT->>PythonTool: Optimize Prompt
-    PythonTool-->>ChatGPT: Optimized Prompt
-    ChatGPT->>PythonTool: Categorize Prompt
-    PythonTool-->>ChatGPT: Categorization Details
-		ChatGPT-->>ChatGPT: Synthesize Final Prompt
+    PythonTool->>PythonTool: Analyze Prompt
+    PythonTool->>PythonTool: Enhance Prompt
+    PythonTool->>PythonTool: Optimize Prompt
+    PythonTool->>PythonTool: Categorize Prompt
+    PythonTool-->>ChatGPT: Synthesize Final Prompt
     ChatGPT->>User: Present Final Prompt
     loop User Interaction
         User->>ChatGPT: User Commands
@@ -333,45 +396,6 @@ sequenceDiagram
 <p align="center" style="display: flex; align-items: flex-start;">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/3faf4c7e-fe9d-419b-aa32-1c012013a556" style="width: 40%; height: auto;">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/4799f739-ba0b-48c5-8396-f8c09c0b256f" style="width: 40%; height: auto;">
-</p>
-
----
-
-## Automated Meta-Prompt Refinement
-
-**Status**: Testing and Refinement for Public Use
-
-**Description**: This workflow is tailored specifically for the refinement of meta-prompts. Meta-prompts are extremely important for various tasks, and require a different strategy for refinement in comparison to regular prompts. Input prompts undergo a 7-step refinement workflow with a focus on abstraction and active contextualization. Meta-prompts work to establish “operational context” for complex tasks, and thus need to account for various aspects of a response, while intentionally leaving other aspects open-ended.
-
-**Note**: Meta-Prompts can be understood as abstracted instructions that frame context in a way to control how the AI executes actual instructions that proceed.
-
-**Input**: User-Provided Meta-Prompt or Instructions
-
-**Workflow (Single Response)**
-```mermaid
-sequenceDiagram
-    participant User
-    participant ChatGPT
-    participant PythonTool as Python Tool
-
-    User->>ChatGPT: Provide Initial Prompt
-    ChatGPT->>PythonTool: Initiate Refinement Loop
-    loop Each Refinement Step
-        PythonTool->>PythonTool: Step 1: Comprehensive Understanding
-        PythonTool->>PythonTool: Step 2: Adaptive Contextualization
-        PythonTool->>PythonTool: Step 3: Thorough Refinement & Expansion
-        PythonTool->>PythonTool: Step 4: Intelligent Personalization
-        PythonTool->>PythonTool: Step 5: Uptake of AI Innovations
-        PythonTool->>PythonTool: Step 6: Optimization of Efficiency & Precision
-        PythonTool->>PythonTool: Step 7: Proactive Experimentation & Enhancement
-    end
-    PythonTool->>ChatGPT: Synthesize Final Prompt
-    ChatGPT->>User: Deliver Refined Prompt
-```
-
-<p align="center" style="display: flex; align-items: flex-start;">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/97051fef-c8c0-48c4-9665-a5952ad4c3ba" style="width: 40%; height: auto;">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/160f0764-53c5-486b-bcb4-d44f15d56b3d" style="width: 40%; height: auto;">
 </p>
 
 ---
