@@ -59,11 +59,12 @@ This GPT was originally built by me as a joke project, however it wound up worki
 
 ### User Commands
 
-**Input**:
+**Input**
 
-- `!executeIP[description of base image, dimension to progress, direction, starting point, rate]`
+- `!executeIP [description of base image, dimension to progress, direction, starting point, rate]`
 - `!demo` - Demonstrates the workflow
 - `!commands` - Displays the command menu
+- `N` - Proceed with the next set of 5 progressions.
 
 **Control**
 
@@ -72,7 +73,6 @@ This GPT was originally built by me as a joke project, however it wound up worki
 - `!invertDirection [dimension]`
 - `!adjustRate [dimension, new progression rate]`
 - `!updateBase [context]`
-- `N` - Proceed with the next set of 5 progressions.
 
 ### Workflow
 
