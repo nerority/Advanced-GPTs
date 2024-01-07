@@ -411,13 +411,19 @@ sequenceDiagram
 
 **Status**: Testing and Refinement for Public Use 💫
 
-**Description**: This advanced workflow leverages the full capabilities of RAG Search for detailed content extraction and the Python tool for strategic planning and data synthesis, ensuring a thorough analysis of legal contracts. The process is designed to be efficient and comprehensive, catering to the needs of legal professionals who require in-depth contract analysis.
+### Description
 
-**Input**: User-uploaded Legal Document for Strategic Analysis
+This advanced workflow leverages the full capabilities of RAG Search for detailed content extraction and the Python tool for strategic planning and data synthesis, ensuring a thorough analysis of legal contracts. The process is designed to be efficient and comprehensive, catering to the needs of legal professionals who require in-depth contract analysis.
 
-- `!start` to initiate the document upload and analysis.
+### User Commands
 
-### Sequence Diagram
+**Required Input**: User-uploaded Legal Document for Strategic Analysis
+
+- `!start` - Executes workflow based on user uploaded document
+- `!advStart [specific interests]` - In-depth analysis for user-defined interests
+- `!demo` - Demonstrates the workflow with synthesized data
+
+### Workflow
 
 ```mermaid
 sequenceDiagram
@@ -450,16 +456,21 @@ sequenceDiagram
 
 **Status**: Testing and Refinement for Public Use 💫
 
-**Description**: In the realm of business, understanding the competitive landscape is crucial for strategic decision-making. This GPT is specifically tailored for quality real-time competitive analysis of a user defined scope. It serves as an essential tool for comprehensively understanding industry dynamics, competitive positioning, and emerging market trends. By leveraging the combined power of ChatGPT, Python, and the Browser tool, this workflow delivers deep insights into competitors’ strategies and market movements, enabling users to make informed decisions and stay ahead in their respective industries.
+### Description
 
-**Input**: Users begin by providing key details such as their industry, main competitors, and specific areas of interest.
+In today's fast-paced business world, staying ahead in the competitive landscape is key to success. This GPT is a tool designed to provide in-depth, real-time analysis of competitive dynamics within various industries. This workflow combines the analytical prowess of ChatGPT, the data processing capabilities of Python, and the extensive information access of the Browser tool to deliver a comprehensive view of competitors' strategies, market trends, and potential opportunities for strategic positioning.
 
-Commands:
+### Usage Instructions
 
-- `!startAnalysis [industry] [competitors] [interest areas]` to initiate the analysis.
-- `!refineReport` to refine the report based on user feedback.
+To utilize this GPT, users can input specific parameters such as the industry of interest, key competitors, and specific areas they want to focus on. The AI then employs a strategic search and synthesis process, adapting its depth and focus based on the user-defined scope. This allows users to tailor the analysis to their unique needs, whether they seek a broad industry overview or a deep dive into specific competitive strategies.
 
-**Workflow**:
+### User Commands
+
+- `!start [industry, competitors, specific areas of interest]` - Initiates the analysis process based on user-defined parameters. At least one field is required, with additional fields optional to refine the scope.
+- `!refine [feedback]` - Enables users to refine the analysis based on specific feedback
+- `!demo` - Provides a demonstration of the AI's capabilities using synthesized data, ideal for users unfamiliar with the tool or those who wish to see a sample analysis.
+
+### Workflow
 
 ```mermaid
 sequenceDiagram
@@ -482,7 +493,7 @@ sequenceDiagram
     ChatGPT->>User: Present Final Report
     loop User Feedback Loop
         User->>ChatGPT: Provide Feedback
-        ChatGPT->>PythonTool: Refine Report Based on Feedback
+        ChatGPT->>PythonTool: Refinement Workflow
     end
 ```
 
