@@ -169,6 +169,11 @@ After the first phase is complete, you should enter `C` and allow the workflow t
 - `G` - Generates the refined resume with elegant markdown formatting.
 - `!tailor [job description]` - Performs tailored resume optimization based on a job description you provide. Feed the tool a job description, and it will craft a resume that speaks directly to that role's needs.
 
+### Important Notes
+
+- **ENSURE the uploaded document shows DOCUMENT, and NOT PDF**. This workflow requires RAG to operate correctly and currently only a small amount of PDFs actually work properly with RAG.
+- If the workflow starts with a call to the python tool instead of a RAG search, thats how you know that PDF is unable to be vectorized or searched with RAG and this workflow will NOT work in that case. Doc and txt files work perfectly, you can use Adobe Acrobat to covert any pdf to a doc in about 3 seconds total.
+
 ### Workflow
 
 ```mermaid
@@ -232,7 +237,7 @@ In the realm of information overload, the ability to swiftly and accurately diss
 
 This GPT is engineered for scenarios requiring a deep dive into complex documents. Whether it's a lawyer analyzing legal texts, an academic researcher sifting through dense papers, or a business professional evaluating comprehensive reports, this tool stands as an indispensable ally. It excels in providing a clear, concise, and accurate summary of even the most intricate documents, transforming hours of reading into minutes of insightful comprehension.
 
-This GPT works best for documents with coherent structure, and will dive into each section of importance for a granular and comprehensive understanding. Due to the complexity of this workflow, it can take multiple full responses to finish for complex documents. For more efficient or strategic workflows there are GPTs later in this portfolio tailored for that purpose.
+Works best for documents with coherent structure, and will dive into each section of importance for a granular and comprehensive understanding. Due to the complexity of this workflow, it can take multiple full responses to finish for complex documents. For more efficient or strategic workflows there are GPTs later in this portfolio tailored for that purpose.
 
 ### User Commands
 
@@ -242,6 +247,11 @@ This GPT works best for documents with coherent structure, and will dive into ea
 - `G` - Synthesize the final report outside of the python tool with well-formatted markdown
 - `R` - Restart the analysis with a new document.
 - `E` - End the current analysis session.
+
+### Important Notes
+
+- **ENSURE the uploaded document shows DOCUMENT, and NOT PDF**. This workflow requires RAG to operate correctly and currently only a small amount of PDFs actually work properly with RAG.
+- If the workflow starts with a call to the python tool instead of a RAG search, thats how you know that PDF is unable to be vectorized or searched with RAG and this workflow will NOT work in that case. Doc and txt files work perfectly, you can use Adobe Acrobat to covert any pdf to a doc in about 3 seconds total.
 
 ### Workflow
 
@@ -464,6 +474,11 @@ To utilize the Business Contract Analyzer, users should upload the legal documen
 - `!advStart [specific interests]` - Launches an in-depth analysis focusing on areas specified by the user, such as particular clauses, legal risks, or obligations.
 - `!demo` - Demonstrates the tool's capabilities using synthesized data for a better understanding of its functionality.
 
+### Important Notes
+
+- **ENSURE the uploaded document shows DOCUMENT, and NOT PDF**. This workflow requires RAG to operate correctly and currently only a small amount of PDFs actually work properly with RAG.
+- If the workflow starts with a call to the python tool instead of a RAG search, thats how you know that PDF is unable to be vectorized or searched with RAG and this workflow will NOT work in that case. Doc and txt files work perfectly, you can use Adobe Acrobat to covert any pdf to a doc in about 3 seconds total.
+
 ### Workflow
 
 ```mermaid
@@ -566,9 +581,8 @@ To harness the full potential of this GPT, simply upload the document you need t
 
 ### Important Notes
 
-- ENSURE the uploaded document shows DOCUMENT, and NOT PDF. This workflow requires RAG to operate correctly and currently only a small amount of PDFs actually work properly with RAG.
-- If the workflow starts with a call to the python tool instead of a RAG search, thats how you know that PDF is unable to be vectorized or searched with RAG and this workflow will NOT work in that case.
-- Doc and txt works perfects, you can use Adobe Acrobat to covert any pdf to a doc in about 3 seconds total.
+- **ENSURE the uploaded document shows DOCUMENT, and NOT PDF**. This workflow requires RAG to operate correctly and currently only a small amount of PDFs actually work properly with RAG.
+- If the workflow starts with a call to the python tool instead of a RAG search, thats how you know that PDF is unable to be vectorized or searched with RAG and this workflow will NOT work in that case. Doc and txt files work perfectly, you can use Adobe Acrobat to covert any pdf to a doc in about 3 seconds total.
 - This workflow just barely finishes around the same time of the response hard timeout currently. Sometimes it will reach that hard timeout. When this happens, simply refresh the window, and use !continue to finish up the workflow and continue. See the below images for example.
 
 ### Workflow
