@@ -120,7 +120,7 @@ sequenceDiagram
     participant ChatGPT
     participant DallE as DALL-E
 
-    User->>ChatGPT: Inputs Commands (e.g., !executeIP)
+    User->>ChatGPT: Inputs Commands
     ChatGPT->>DallE: Initial Image Generation
     DallE-->>ChatGPT: Initial Image
     loop Progressive Visualization Loops
