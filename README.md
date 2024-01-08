@@ -9,9 +9,9 @@
 
 </br>
 
-> **Status: 10/10 GPTs Ready for Deployment. Finalized GPTs have been greatly augmented and refined for public use.**
+⭐ **10 GPTs Released**: Links found below under each respective section.
 
-⭐ **GPTs Released**: Links found below for each respective one.
+⭐ **Important**: Please read the full instructions and notes before diving into a GPT. These are complex tools with streamlined control. Ensure documents are proper file type for RAG. If hitting a timeout,refresh and enter `!continue` to re-establish workflow.
 
 ⭐ **Join Nerority's Discord**: For feedback, suggestions, discussion, curated information and more. Please feel free to join the discord channel and interact. This is a new channel but it will be used as the communication base for future GPT development.
 
