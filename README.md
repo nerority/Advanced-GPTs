@@ -15,7 +15,7 @@
 
 ⭐ **Join Nerority's Discord**: For feedback, suggestions, discussion, curated information and more. Please feel free to join the discord channel and interact. This is a new channel but it will be used as the communication base for future GPT development.
 
-> I will respond to all pending messages tomorrow. Thank you everyone for the interest thus far, I hope you enjoy these GPTs. Expect constant improvements and new GPTS into the future.
+> I will respond to all pending messages tomorrow. Thank you everyone for the interest thus far, I hope you enjoy these GPTs. Expect constant improvements and new GPTs into the future.
 
 **Discord Link**: [Nerority Discord](https://discord.gg/dzsYnS5D)
 
