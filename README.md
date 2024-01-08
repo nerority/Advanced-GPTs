@@ -11,7 +11,7 @@
 
 ⭐ **10 GPTs Released**: Links found below under each respective section.
 
-⭐ **Important**: Please read the full instructions and notes before diving into a GPT. These are complex tools with streamlined control. Ensure documents are proper file type for RAG. If hitting a timeout,refresh and enter `!continue` to re-establish workflow.
+⭐ **Important**: Please read the full instructions and notes before diving into a GPT. These are complex tools with streamlined control. Ensure documents are proper file type for RAG. If you hit the hard timeout, refresh and enter `!continue` to re-establish workflow.
 
 ⭐ **Join Nerority's Discord**: For feedback, suggestions, discussion, curated information and more. Please feel free to join the discord channel and interact. This is a new channel but it will be used as the communication base for future GPT development.
 
