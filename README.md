@@ -16,7 +16,7 @@
 > **Links live here by morning** 😎
 
 <p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/0b35c52a-c3b2-4072-8843-9b1e6724dc89" alt="mid" width="30%" height="auto">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/0b35c52a-c3b2-4072-8843-9b1e6724dc89" alt="mid" width="18%" height="auto">
 </p>
 
 
