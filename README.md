@@ -653,8 +653,8 @@ sequenceDiagram
 ```
 
 <p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/e63917ed-a231-48bf-853a-5a0d0fe209d5" width="40%" height="1500">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/228a4129-846c-4031-833c-ca443e9b29c3" width="40%" height="1500">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/eaad7d5d-4e33-4fef-8584-34c6ef11a16c" width="40%" height="1500">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/27e35f2c-cecc-49f0-b949-433670ba53fc" width="40%" height="1500">
 </p>
 
 ---
