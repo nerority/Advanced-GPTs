@@ -46,34 +46,34 @@ Want me to build your dream GPT? Get in touch.
 
 #### Image-Based
 
-- [Automated Infinite Visual Progression ✔️](#automated-infinite-visual-progression-with-fine-grain-control)
-- [Automated DALL-E Prompt Variation Testing ✔️](#automated-dall-e-prompt-variation-testing)
-- [Botanical Growth Cycle Visualizer ✔️](#botanical-growth-cycle-visualizer)
+- [Automated Infinite Visual Progression](#automated-infinite-visual-progression-with-fine-grain-control)
+- [Automated DALL-E Prompt Variation Testing](#automated-dall-e-prompt-variation-testing)
+- [Botanical Growth Cycle Visualizer](#botanical-growth-cycle-visualizer)
 
 #### Document Analysis
 
-- [Automated High-Quality Document Analysis ✔️](#automated-high-quality-document-analysis)
-- [Automated Knowledge Distillation ✔️](#automated-knowledge-distillation)
+- [Automated High-Quality Document Analysis](#automated-high-quality-document-analysis)
+- [Automated Knowledge Distillation](#automated-knowledge-distillation)
 
 #### Prompt Engineering
 
-- [Advanced Meta-Prompt Engineer ✔️](#advanced-meta-prompt-engineer)
-- [Automated Prompt Refinement ✔️](#automated-prompt-refinement)
+- [Advanced Meta-Prompt Engineer](#advanced-meta-prompt-engineer)
+- [Automated Prompt Refinement](#automated-prompt-refinement)
 
 #### Career
 
-- [Automated Career Profile Builder and Resume Tailor ✔️](#automated-career-profile-builder-resume-optimizer-and-target-position-tailoring)
+- [Automated Career Profile Builder and Resume Tailor](#automated-career-profile-builder-resume-optimizer-and-target-position-tailoring)
 
 #### Business
 
-- [Business Contract Analyzer ✔️](#business-contract-analyzer)
-- [Advanced Competitive Analysis AI ✔️](#advanced-competitive-analysis-ai)
+- [Business Contract Analyzer](#business-contract-analyzer)
+- [Advanced Competitive Analysis AI](#advanced-competitive-analysis-ai)
 
 ---
 
 ## Automated Infinite Visual Progression with Fine-Grain Control
 
-**Status**: Finalized for Release 💯
+**GPT Public Link**: [Placeholder]
 
 ### Description
 
@@ -145,7 +145,7 @@ sequenceDiagram
 
 ## Automated Career Profile Builder, Resume Optimizer, and Target Position Tailoring
 
-**Status**: Finalized for Release 💯
+**GPT Public Link**: [Placeholder]
 
 ### Description
 
@@ -220,7 +220,7 @@ sequenceDiagram
 
 ## Automated High-Quality Document Analysis
 
-**Status**: Finalized for Release 💯
+**GPT Public Link**: [Placeholder]
 
 ### Description
 
@@ -275,7 +275,7 @@ sequenceDiagram
 
 ### Automated DALL-E Prompt Variation Testing
 
-**Status**: Finalized for Release 💯
+**GPT Public Link**: [Placeholder]
 
 ### Description
 
@@ -322,7 +322,7 @@ sequenceDiagram
 
 ## Advanced Meta-Prompt Engineer
 
-**Status**: Finalized for Release 💯
+**GPT Public Link**: [Placeholder]
 
 ### Description
 
@@ -396,7 +396,7 @@ sequenceDiagram
 
 ## Automated Prompt Refinement
 
-**Status**: Finalized for Release 💯
+**GPT Public Link**: [Placeholder]
 
 ### Description
 
@@ -448,7 +448,7 @@ sequenceDiagram
 
 ## Business Contract Analyzer
 
-**Status**: Finalized for Release 💯
+**GPT Public Link**: [Placeholder]
 
 ### Description
 
@@ -496,7 +496,7 @@ sequenceDiagram
 
 ## Advanced Competitive Analysis AI
 
-**Status**: Finalized for Release 💯
+**GPT Public Link**: [Placeholder]
 
 ### Description
 
@@ -547,7 +547,7 @@ sequenceDiagram
 
 ## Automated Knowledge Distillation
 
-**Status**: Finalized for Release 💯
+**GPT Public Link**: [Placeholder]
 
 ### Description
 
@@ -604,7 +604,7 @@ sequenceDiagram
 
 ## Botanical Growth Cycle Visualizer
 
-**Status**: Finalized for Release 💯
+**GPT Public Link**: [Placeholder]
 
 ### Description
 
