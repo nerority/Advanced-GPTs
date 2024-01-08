@@ -9,16 +9,13 @@
 
 </br>
 
-> **I will be preparing public versions of all GPTs for the store release next week for free.**
-
 > **Status: 10/10 GPTs Ready for Deployment. Finalized GPTs have been greatly augmented and refined for public use.**
 
-> **Links live here by morning** 😎
+⭐ **GPTs Released**: Links found below for each respective one.
 
-<p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/0b35c52a-c3b2-4072-8843-9b1e6724dc89" alt="mid" width="18%" height="auto">
-</p>
+⭐ **Join Nerority's Discord**: For feedback, suggestions, discussion, curated information and more. Please feel free to join the discord channel and interact. This is a new channel but it will be used as the communication base for future GPT development.
 
+**Discord Link**: [Nerority Discord](https://discord.gg/dzsYnS5D)
 
 ---
 
@@ -73,7 +70,7 @@ Want me to build your dream GPT? Get in touch.
 
 ## Automated Infinite Visual Progression with Fine-Grain Control
 
-**GPT Public Link**: [Placeholder]
+**GPT Public Link**: [Access GPT Here](https://chat.openai.com/g/g-2mCqBoLHD-infinite-chain-of-visualization-progression)
 
 ### Description
 
@@ -145,7 +142,7 @@ sequenceDiagram
 
 ## Automated Career Profile Builder, Resume Optimizer, and Target Position Tailoring
 
-**GPT Public Link**: [Placeholder]
+**GPT Public Link**: [Access GPT Here](https://chat.openai.com/g/g-GXHtNv7ez-automated-career-profile-analyst-and-resume-tailor)
 
 ### Description
 
@@ -225,7 +222,7 @@ sequenceDiagram
 
 ## Automated High-Quality Document Analysis
 
-**GPT Public Link**: [Placeholder]
+**GPT Public Link**: [Access GPT Here](https://chat.openai.com/g/g-1ZOsSmqWo-high-quality-document-analysis)
 
 ### Description
 
@@ -285,7 +282,7 @@ sequenceDiagram
 
 ### Automated DALL-E Prompt Variation Testing
 
-**GPT Public Link**: [Placeholder]
+**GPT Public Link**: [Access GPT Here](https://chat.openai.com/g/g-bnG57Uv4J-automated-image-prompt-variation-testing)
 
 ### Description
 
@@ -332,7 +329,7 @@ sequenceDiagram
 
 ## Advanced Meta-Prompt Engineer
 
-**GPT Public Link**: [Placeholder]
+**GPT Public Link**: [Access GPT Here](https://chat.openai.com/g/g-lxVORMQae-automated-meta-prompt-refinement)
 
 ### Description
 
@@ -406,7 +403,7 @@ sequenceDiagram
 
 ## Automated Prompt Refinement
 
-**GPT Public Link**: [Placeholder]
+**GPT Public Link**: [Access GPT Here](https://chat.openai.com/g/g-k0FVYxVdr-automated-prompt-refinement)
 
 ### Description
 
@@ -458,7 +455,7 @@ sequenceDiagram
 
 ## Business Contract Analyzer
 
-**GPT Public Link**: [Placeholder]
+**GPT Public Link**: [Access GPT Here](https://chat.openai.com/g/g-UGAw5ZABB-business-contract-analysis)
 
 ### Description
 
@@ -511,7 +508,7 @@ sequenceDiagram
 
 ## Advanced Competitive Analysis AI
 
-**GPT Public Link**: [Placeholder]
+**GPT Public Link**: [Access GPT Here](https://chat.openai.com/g/g-mMwIpGwE6-competitive-analysis-agent)
 
 ### Description
 
@@ -562,7 +559,7 @@ sequenceDiagram
 
 ## Automated Knowledge Distillation
 
-**GPT Public Link**: [Placeholder]
+**GPT Public Link**: [Access GPT Here](https://chat.openai.com/g/g-HwiNmcMGm-automated-knowledge-distillation)
 
 ### Description
 
@@ -618,7 +615,7 @@ sequenceDiagram
 
 ## Botanical Growth Cycle Visualizer
 
-**GPT Public Link**: [Placeholder]
+**GPT Public Link**: [Access GPT Here](https://chat.openai.com/g/g-PeuIZkion-botanical-growth-cycle-visualizer)
 
 ### Description
 
