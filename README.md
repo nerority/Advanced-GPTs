@@ -9,11 +9,16 @@
 
 </br>
 
-> **I will be preparing public versions of all GPTs for the store release next week for free. This page will see constant updates over the weekend and links will be live here by Monday (1/08/24).**
+> **I will be preparing public versions of all GPTs for the store release next week for free.**
 
 > **Status: 10/10 GPTs Ready for Deployment. Finalized GPTs have been greatly augmented and refined for public use.**
 
-> **Edge-case Testing Underway**
+> **Links live here by morning** 😎
+
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/0b35c52a-c3b2-4072-8843-9b1e6724dc89" alt="mid" width="30%" height="auto">
+</p>
+
 
 ---
 
