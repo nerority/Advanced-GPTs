@@ -80,11 +80,11 @@ Want me to build your dream GPT? Get in touch.
 
 ### Description
 
-This GPT is an exciting innovation in the world of AI-driven visual creativity. Originally born as a slight meme, it has evolved into a robust tool that allows users to embark on an endless journey of visual progression. This GPT facilitates the generation of a series of images, each evolving based on user-defined parameters, such as dimension, direction, and progression rate.
+This GPT is an exciting innovation in the world of AI-driven visual creativity. Originally born as a slight meme, it has evolved into a robust tool that allows users to embark on an endless journey of visual progression. This GPT facilitates the generation of a series of images, each evolving based on user-defined parameters, such as the aspect to progress, direction, and progression rate.
 
 ### Usage Instructions
 
-Utilize this GPT to explore the realms of endless visual possibilities. Start by defining the base image and the desired progression parameters. The GPT will generate a series of images, each iterating on the previous one according to your specifications. This tool is perfect for artists, designers, or anyone looking to explore a dynamic visual narrative.
+Utilize this GPT to explore the realms of endless visual possibilities. Start by defining the base image and the desired progression parameters. The GPT will generate a series of images, each iterating on the previous one according to your specifications. This tool is perfect for artists, redditors, designers, or anyone looking to explore a dynamic visual narrative.
 
 ### User Commands
 
