@@ -351,7 +351,7 @@ To utilize this GPT, users can start with a basic idea or a prompt they wish to 
 
 > *This GPT is intended for the SYNTHESIS and REFINEMENT of Complex System Prompts, and thus is geared more for designers and developers compared to everyday users... For the refinement of everyday "task prompts", the next GPT is tailored specifically for that purpose.*
 
-*GPT can perfectly understand and execute JSON prompts, often times resulting in improved results compared to markdown syntax for complex tasks. JSON is easily convertable to Markdown which is the offical syntax for GPT prompts and what it is fine-tuned for. Markdown is the correct and proper syntax to use for 95% of prompts as a result. However, maintaining prompts in JSON allows you to easily make changes and adjustments to the logic in a coherant way. I'll add steps for markdown conversion in the next pass for those who prefer*
+* Updated to output in Markdown for final step **
 
 ### User Commands
 
