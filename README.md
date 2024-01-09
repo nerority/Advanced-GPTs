@@ -9,7 +9,9 @@
 
 </br>
 
-⭐ **10 GPTs Released**: Links found below under each respective section.
+⭐ **11 GPTs Released**: Links found below under each respective section.
+
+> New GPT: Automated Quotations Essay Composer
 
 ⭐ **Important**: Please read the full instructions and notes before diving into a GPT. These are complex tools with streamlined control. Ensure documents are proper file type for RAG. If you hit the hard timeout, refresh and enter `!continue` to re-establish workflow.
 
@@ -65,6 +67,10 @@ Want me to build your dream GPT? Get in touch.
 
 - [Business Contract Analyzer](#business-contract-analyzer)
 - [Advanced Competitive Analysis AI](#advanced-competitive-analysis-ai)
+
+#### Content Creation
+
+- [Automated Quotations Essay Composer](##automated-quotations-essay-composer)
 
 ---
 
@@ -609,6 +615,61 @@ sequenceDiagram
 <p align="center">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/9dc5eb38-f8a4-434e-865c-88f938b8a352" width="40%" height="1500">
   <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/c2b75637-4058-4b6d-929a-0833c1c31cb3" width="40%" height="1500">
+</p>
+
+---
+
+## Automated Quotations Essay Composer
+
+**GPT Public Link**: [Access GPT Here](https://chat.openai.com/g/g-mVoMlnjwB-automated-quotations-essay-composer)
+
+### Description
+
+The Automated Quotations Essay Composer is an advanced GPT application designed to create insightful essays augmented with relevant quotations. This tool is ideal for academic, professional, or personal use, where the integration of quotes can enhance the depth and authority of written content. Users provide a topic, and the tool expertly curates quotes, constructs an essay, and ensures proper citation and formatting.
+
+The real perk of this GPT is what you can do with it after the essay composition, for creating high-value content. Gathering and creating a coherent essay composed solely of real-world recent quotes is by far a harder task compared to generating text for content. Using that essay as base for further transformations in your image, is a great way to get high-quality content for certain needs. 
+
+### Usage Instructions
+
+1. **Provide Essay Topic**: Start by giving the AI a specific topic or theme for your essay.
+2. **Wait for Planning and Compilation**: The AI will plan the essay structure and search for relevant quotes using its integrated tools.
+3. **Review and Interact**: Once the initial phase is complete, review the planned structure and provide any feedback or additional instructions if necessary.
+4. **Receive the Final Essay**: The AI will present a well-structured, markdown-formatted essay, complete with citations and a coherent narrative that ties the quotes together.
+
+### User Commands
+
+- `!start [topic]` - Command to initiate workflow based on user-provided topic/s
+- `G` - Continue with the essay synthesis after the planning and quote compilation phase.
+- `!feedback [suggestions]` - Execute refinement workflow to improve essay based on user feedback.
+- `!restart [new topic]` - Begin the process anew with a different topic.
+
+### Workflow
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant ChatGPT
+    participant Browser
+    participant PythonTool as Python Tool
+
+    User->>ChatGPT: Provide Topic
+    ChatGPT->>PythonTool: Plan for Essay and Searches
+    PythonTool-->>ChatGPT: Structured Essay Outline & Search Strategy
+    ChatGPT->>Browser: Initiate Quote Compilation
+    Browser-->>PythonTool: List of Relevant Quotes
+    loop Essay Construction Loop
+        PythonTool->>PythonTool: Organize and Structure Quotes
+    end
+    PythonTool-->>ChatGPT: Draft Essay with Unformatted Citations
+    ChatGPT->>ChatGPT: Apply Markdown Formatting & Finalize Citations
+    ChatGPT->>User: Present Commands & Pause
+    Note over User, ChatGPT: User Reviews and Gives Command to Proceed
+    User->>ChatGPT: `G' to continue
+    ChatGPT->>User: Synthesize Final Coherent Essay in Markdown
+```
+
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/bda12263-9d0f-4559-b23f-eaedd57aed97" width="60%" height="1500">
 </p>
 
 ---
