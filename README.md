@@ -15,7 +15,7 @@
 
 ⭐ **Important**: Please read the full instructions and notes before diving into a GPT. These are complex tools with streamlined control. Ensure documents are proper file type for RAG. If you hit the hard timeout, refresh and enter `!continue` to re-establish workflow.
 
-⭐ **Join Nerority's Discord**: For feedback, suggestions, discussion, curated information and more. Please feel free to join the discord channel and interact. This is a new channel but it will be used as the communication base for future GPT development.
+⭐ **Join Nerority's Discord**: For feedback, suggestions, discussion, curated information and more. Please feel free to join our discord channel and interact, this is an active server where you can learn more and discuss these topics amongst enthusiasts.
 
 **Discord Link**: [Nerority Discord](https://discord.gg/dzsYnS5D)
 
@@ -23,19 +23,21 @@
 
 ![Nerority](https://github.com/nerority/Advanced-GPTs/assets/80237923/e99891a8-9645-4e9b-a22c-7fca73177882)
 
-Hi my name is Devin. I specialize in engineering novel generative AI workflows that leverage meta-functionality control. I have been mastering prompt engineering as a hobby for a long time now, and am able to design GPT's to do pretty much anything.
+Hi my name is Devin. I specialize in engineering novel generative AI workflows that leverage meta-functionality control. I have been mastering prompt engineering for a long time now, and am able to design GPT's to do pretty much anything.
 
-- Did you know you can perfectly control >5 minutes of AI tool chaining with >30 different tool calls in the same response, with 100% accuracy? 
+- Did you know you can perfectly control >5 minutes of AI tool chaining with >30 different tool calls in the same response, with 100% accuracy?
 - Or that you can have ChatGPT generate >10 DallE-3 Images in a single response, with perfect control?
 - How about about having ChatGPT search a document with RAG, plan a tailored search strategy for that document in the python tool, execute a loop of sequentual in-depth RAG searches that synthesize their results in the python tool, plan broswer tool search queuries to align the distilled knowledge with real-time information, execute searches with the browser tool, synthesize the results in the python tool, compile all findings into a coherant report, and then present the user with the report, all in the same single response? 
 
-Yes, that has been possible to do with ChatGPT alone. The tool timeout threshold of 60 seconds, resets with each new tool call, allowing highly complex responses if you know how.
+Yes, that has been possible to do with ChatGPT alone. The tool timeout threshold of 60 seconds, resets with each new tool call, allowing highly complex assistance if you know how.
 
 Want me to build your dream GPT? Get in touch.
 
 **Contact**: devinpellegrino@gmail.com
 
 **Site**: [nerority.com](https://www.nerority.com)
+
+**Discord Link**: [Nerority Discord](https://discord.gg/dzsYnS5D)
 
 <div align="center">
 <h1>The Lineup</h1>
