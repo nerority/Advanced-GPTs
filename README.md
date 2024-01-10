@@ -44,34 +44,34 @@ Want me to build your dream GPT? Get in touch.
 
 ### Quick Nav
 
-#### Image-Based
+#### Business
 
-- [Automated Infinite Visual Progression](#automated-infinite-visual-progression-with-fine-grain-control)
-- [Automated DALL-E Prompt Variation Testing](#automated-dall-e-prompt-variation-testing)
-- [Botanical Growth Cycle Visualizer](#botanical-growth-cycle-visualizer)
+- [Business Contract Analyzer](#business-contract-analyzer)
+- [Advanced Competitive Analysis AI](#advanced-competitive-analysis-ai)
+
+#### Career
+
+- [Automated Career Profile Builder and Resume Tailor](#automated-career-profile-builder-resume-optimizer-and-target-position-tailoring)
+
+#### Content Creation
+
+- [Automated Quotations Essay Composer](##automated-quotations-essay-composer)
 
 #### Document Analysis
 
 - [Automated High-Quality Document Analysis](#automated-high-quality-document-analysis)
 - [Automated Knowledge Distillation](#automated-knowledge-distillation)
 
+#### Image-Based
+
+- [Automated Infinite Visual Progression](#automated-infinite-visual-progression-with-fine-grain-control)
+- [Automated DALL-E Prompt Variation Testing](#automated-dall-e-prompt-variation-testing)
+- [Botanical Growth Cycle Visualizer](#botanical-growth-cycle-visualizer)
+
 #### Prompt Engineering
 
 - [Advanced Meta-Prompt Engineer](#advanced-meta-prompt-engineer)
 - [Automated Prompt Refinement](#automated-prompt-refinement)
-
-#### Career
-
-- [Automated Career Profile Builder and Resume Tailor](#automated-career-profile-builder-resume-optimizer-and-target-position-tailoring)
-
-#### Business
-
-- [Business Contract Analyzer](#business-contract-analyzer)
-- [Advanced Competitive Analysis AI](#advanced-competitive-analysis-ai)
-
-#### Content Creation
-
-- [Automated Quotations Essay Composer](##automated-quotations-essay-composer)
 
 ---
 
