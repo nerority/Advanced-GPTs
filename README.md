@@ -24,7 +24,7 @@
 
 Hi my name is Devin. I specialize in engineering novel generative AI workflows that leverage meta-functionality control. I have been mastering prompt engineering for a long time now, and am able to design GPT's to do pretty much anything.
 
-- Did you know you can perfectly control >5 minutes of AI tool chaining with >30 different tool calls in the same response, with 100% accuracy?
+- Did you know you can perfectly control >5 minutes of AI tool chaining with >30 different tool calls in the same response, with 100% accuracy using natural language?
 - Or that you can have ChatGPT generate >10 DallE-3 Images in a single response, with perfect control?
 - How about about having ChatGPT search a document with RAG, plan a tailored search strategy for that document in the python tool, execute a loop of sequentual in-depth RAG searches that synthesize their results in the python tool, plan broswer tool search queuries to align the distilled knowledge with real-time information, execute searches with the browser tool, synthesize the results in the python tool, compile all findings into a coherant report, and then present the user with the report, all in the same single response? 
 
