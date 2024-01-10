@@ -17,7 +17,7 @@
 
 ⭐ **Join Nerority's Discord**: For feedback, suggestions, discussion, curated information and more. Please feel free to join our discord channel and interact, this is an active server where you can learn more and discuss these topics amongst enthusiasts.
 
-**Discord Link**: [Nerority Discord](https://discord.gg/dzsYnS5D)
+**Discord Invite**: [Nerority Discord](https://discord.gg/dzsYnS5D)
 
 ---
 
@@ -37,7 +37,7 @@ Want me to build your dream GPT? Get in touch.
 
 **Site**: [nerority.com](https://www.nerority.com)
 
-**Discord Link**: [Nerority Discord](https://discord.gg/dzsYnS5D)
+**Discord**: [Nerority Discord](https://discord.gg/dzsYnS5D)
 
 <div align="center">
 <h1>The Lineup</h1>
