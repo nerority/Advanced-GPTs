@@ -342,7 +342,7 @@ sequenceDiagram
 
 This GPT is a cutting-edge prompt engineering tool designed for the advanced synthesis and refinement of meta-prompts. Meta-prompts are complex prompts that serve as high-level instructions for AI models, guiding them towards achieving specific goals or tasks. This tool excels in transforming vague or abstract ideas into clear, actionable, and optimized meta-prompts, enhancing the efficiency and effectiveness of AI interactions. After completion of the synthesis workflow, users can easily initiate an experimentation and testing loop where different versions are tested, or initiate a refinement workflow based on their feedback. 
 
-This GPT exists as the culmination of my prompt engineering expertise with the GPT line, and is designed to produce extremely precise "system prompts" based on any given prompt or idea. You will not find a better prompt engineering workflow around that actually works to produce better prompts. I will probably regret putting this one out. The large majority of users will not understand the point of this workflow or think this is a meme, yet the ones who know how to leverage this type of tool will appreciate the effort that went into making this. Remember, prompt engineering isn't worth learning 🤭🤭
+This GPT exists as the culmination of my prompt engineering expertise with the GPT line, and is designed to produce extremely precise "system prompts" based on any given prompt or idea. You will not find a better prompt engineering workflow around that actually works to produce better prompts. I will probably regret putting this one out. The large majority of users will not understand the point of this workflow or think this is a meme, yet the ones who know how to leverage this type of tool will appreciate the effort that went into making this. Remember, prompt engineering isn't worth learning 🤭
 
 ### Usage Instructions
 
@@ -373,7 +373,7 @@ sequenceDiagram
 	Note over User, ChatGPT: !start [prompt]
     User->>ChatGPT: Provides Initial Prompt
 
-	Note over User, PythonTool: Refinement Workflow #E0FFFF
+	Note over User, PythonTool: Refinement Workflow
     ChatGPT->>PythonTool: Understanding Analysis
     PythonTool->>PythonTool: Adaptive Contextualization
     PythonTool->>PythonTool: Chain of Thought (CoT) Expansion
