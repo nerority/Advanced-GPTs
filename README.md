@@ -10,7 +10,7 @@
 
 </br>
 
-⭐ **11 GPTs Released**: Links found below under each respective section.
+⭐ **11 GPTs Released**: Links found below.
 
 > New GPT: Automated Quotations Essay Composer
 
