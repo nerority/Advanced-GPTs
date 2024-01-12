@@ -10,7 +10,7 @@
 
 </br>
 
-⭐ **11 GPTs Released**: Links found below.
+⭐ **12 GPTs Released**: Links found below.
 
 ⭐ **Important**: Please read the full instructions and notes before diving into a GPT. These are complex tools with streamlined control. Ensure documents are proper file type for RAG. If you hit the hard timeout, refresh and enter `!continue` to re-establish workflow.
 
@@ -55,7 +55,7 @@ Want me to build your dream GPT? Get in touch.
 
 #### Content Creation
 
-- [Automated Quotations Essay Composer](##automated-quotations-essay-composer)
+- [Automated Quotations Essay Composer](#automated-quotations-essay-composer)
 
 #### Document Analysis
 
