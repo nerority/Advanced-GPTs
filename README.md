@@ -10,7 +10,7 @@
 
 </br>
 
-⭐ **12 GPTs Released**: Links found below.
+⭐ **13 GPTs Released**: Links found below.
 
 ⭐ **Important**: Please read the full instructions and notes before diving into a GPT. These are complex tools with streamlined control. Ensure documents are proper file type for RAG. If you hit the hard timeout, refresh and enter `!continue` to re-establish workflow.
 
@@ -65,6 +65,7 @@ Want me to build your dream GPT? Get in touch.
 #### Educational
 
 - [Advanced Pedagogical Conversation AI](#advanced-pedagogical-conversation-ai)
+- [Advanced Topic Synthesis](#advanced-topic-synthesis)
 
 #### Image-Based
 
@@ -734,8 +735,81 @@ sequenceDiagram
 ```
 
 <p align="center">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/19bdd6a3-2851-40bc-ad74-67360691905c" width="43%" height="2000">
-  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/68c5a34d-2402-49dc-9b23-8ac6051ce83f" width="52%" height="2000">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/19bdd6a3-2851-40bc-ad74-67360691905c" width="60%" height="2000">
+</p>
+
+---
+
+## Advanced Topic Synthesis
+
+Public GPT Link: [Access GPT Here](https://chat.openai.com/g/g-13fQEYFp5-comprehensive-topic-exploration)
+
+### Description
+
+Advanced Topic Synthesis is a GPT tool designed for holistic and granular knowledge synthesis, grounded with real-time information. It serves as a tool for in-depth study and analysis of a wide range of topics. This tool methodically breaks down complex subjects into manageable subtopics, providing historical context, semantic mapping, and detailed comparative studies. It's ideal for researchers, students, and professionals seeking a thorough understanding of a specific subject area. The tool leverages multiple AI capabilities to deliver a nuanced, multi-faceted view of any given topic.
+
+### Usage Instructions
+
+To use this tool, start by initiating the workflow with a topic of interest with the `!start [topic]` command. The tool will guide you through a series of steps, each designed to deepen your understanding of the topic. You can influence the direction of the exploration through specific commands, allowing for customization of the analysis based on your unique interests and needs.
+
+### User Commands
+
+**Initial Inputs**
+
+- `!start [topic]` - Begin the exploration with a specific topic.
+- `!demo` - Run a demonstration using a predefined topic to showcase the tool's capabilities.
+- `!help` - Access instructions, command explanations, and additional resources.
+
+**For Final Synthesis**
+
+- `G` - Command to generate the comprehensive final report of the topic exploration.
+
+**Post Synthesis**
+
+- `!refine [feedback]` - Refine the report based on specific feedback or insights.
+- `!deepdive [subtopic]` - Conduct a detailed exploration into a chosen subtopic.
+- `!new [topic]` - Start a new exploration with a different topic.
+
+### Workflow
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant ChatGPT
+    participant PythonTool as Python Tool
+    participant Browser as Browser Tool
+
+    Note over User,ChatGPT: Workflow Initiation
+    User->>ChatGPT: Provide Topic & Focus Areas
+    ChatGPT->>PythonTool: Initial Topic Mapping
+    PythonTool-->>ChatGPT: Results
+    ChatGPT->>PythonTool: Subtopic Segmentation & Historical Context
+    PythonTool-->>ChatGPT: Results
+
+    Note over ChatGPT,Browser: Browsing
+    ChatGPT->>Browser: Comparative Analysis & Deep Dive
+    Browser->>Browser: Research Practical Applications
+    Browser-->>ChatGPT: Research Results
+
+    Note over ChatGPT, PythonTool: Synthesize Research Results
+    ChatGPT->>PythonTool: Synthesize the Findings from the Browser Tool Searches
+    PythonTool-->>ChatGPT: Synthesized Research
+
+    ChatGPT->>PythonTool: Compile Results
+    ChatGPT->>User: Commands
+    Note over User, ChatGPT: Pause
+
+    Note over User,ChatGPT: Final Synthesis
+    ChatGPT->>User: Final Report
+    ChatGPT->>User: Commands
+    loop Feedback Loop for Refinement
+        ChatGPT->>ChatGPT: Refine Content Based on User Feedback
+        ChatGPT-->>User: Updated Exploration Content
+    end
+```
+
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/b880b408-10e8-424c-b8ed-3c721da2f1b9" width="60%" height="2000">
 </p>
 
 ---
