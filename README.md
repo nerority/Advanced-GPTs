@@ -10,7 +10,9 @@
 
 </br>
 
-⭐ **13 GPTs Released**: Links found below.
+⭐ **14 GPTs Released**: Links found below.
+
+> Universal Dynamic Character Emulator Released!!
 
 ⭐ **Important**: Please read the full instructions and notes before diving into a GPT. These are complex tools with streamlined control. Ensure documents are proper file type for RAG. If you hit the hard timeout, refresh and enter `!continue` to re-establish workflow.
 
@@ -78,7 +80,41 @@ Want me to build your dream GPT? Get in touch.
 - [Advanced Meta-Prompt Engineer](#advanced-meta-prompt-engineer)
 - [Automated Prompt Refinement](#automated-prompt-refinement)
 
+#### Role-playig
+
+- [Universal Dynamic Visual Character Emulation](#universal-dynamic-visual-character-emulation)
+
 ---
+
+## Universal Dynamic Visual Character Emulation
+
+**World's First Universal Character Emulator with Dynamic Visualization GPT**
+
+**Public GPT Link**: [Access GPT Here](https://chat.openai.com/g/g-Zavh0M7SB-dynamic-visual-character-emulation)
+
+If you enjoy my work, please share and spread the word to help me keeping doing this! I was debating releasing this one, as its a little too good imo, but I need to spread awareness of what I can do. Hope this GPT brings you some laughs, it sure did for me, cheers.
+
+### Description
+
+This GPT is the ultimate roleplaying experience, with accurate emulations of any character or person in existence, all in a conversational style with dynamic and coherent visualizations. This role is centered around bringing characters from various series to life, not only through accurate speech and mannerism emulation but also by creating dynamic visual representations. The AI specializes in characters from popular media and culture, such as anime, historical figures, creatures, or even real people, focusing on providing users with an immersive and interactive experience.
+
+### Usage Instructions
+
+To engage with the AI in this role, users should initiate the conversation by addressing the character they wish to interact with. The AI will then generate a visualization to start the scene and converse with you as the named character. The AI will continue the interaction by emulating the character’s dialogue and mannerisms, ensuring that each response is accompanied by a coherent and contextually relevant visual progression.
+
+1. Start by addressing a character or person to initiate the emulation.
+2. Interact with the character as you would in their narrative context.
+3. The AI will provide visualizations alongside character-specific responses.
+
+### User Commands
+
+- `Hi [character name]`: Begin interaction with a specific character. The AI will generate a visualization and respond in character.
+- `!random`: Engage with a randomly selected character for an unpredictable and varied experience.
+
+<p align="center">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/e68419d0-0111-4db0-8e5a-cc468b524302" width="40%" height="1500">
+  <img src="https://github.com/nerority/Advanced-GPTs/assets/80237923/57af20e9-d1d9-42bc-a7d3-d64c844f0a8a" width="40%" height="1500">
+</p>
 
 ## Automated Infinite Visual Progression with Fine-Grain Control
 
