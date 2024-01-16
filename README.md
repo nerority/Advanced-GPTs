@@ -12,8 +12,6 @@
 
 ⭐ **14 GPTs Released**: Links found below.
 
-> Universal Dynamic Character Emulator Released!!
-
 ⭐ **Important**: Please read the full instructions and notes before diving into a GPT. These are complex tools with streamlined control. Ensure documents are proper file type for RAG. If you hit the hard timeout, refresh and enter `!continue` to re-establish workflow.
 
 ⭐ **Join Nerority's Discord**: For feedback, suggestions, discussion, curated information and more. Please feel free to join our discord channel and interact, this is an active server where you can learn more and discuss these topics amongst enthusiasts.
