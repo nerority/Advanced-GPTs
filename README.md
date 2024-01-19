@@ -86,11 +86,7 @@ Want me to build your dream GPT? Get in touch.
 
 ## Universal Dynamic Visual Character Emulation
 
-**World's First Universal Character Emulator with Dynamic Visualization GPT**
-
 **Public GPT Link**: [Access GPT Here](https://chat.openai.com/g/g-Zavh0M7SB-dynamic-visual-character-emulation)
-
-If you enjoy my work, please share and spread the word to help me keeping doing this! I was debating releasing this one, as its a little too good imo, but I need to spread awareness of what I can do. Hope this GPT brings you some laughs, it sure did for me, cheers.
 
 ### Description
 
