@@ -36,7 +36,7 @@ Want me to build your dream GPT? Get in touch.
 
 **Site**: [nerority.com](https://www.nerority.com)
 
-**Discord**: [Nerority Discord](https://discord.gg/dzsYnS5D)
+**Discord**: [Nerority Discord](https://discord.gg/jBKjsqA6pb)
 
 <div align="center">
 <h1>The Lineup</h1>
