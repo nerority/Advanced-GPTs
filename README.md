@@ -28,7 +28,28 @@ Hi my name is Devin. I specialize in engineering novel generative AI workflows t
 - Or that you can have ChatGPT generate >10 DallE-3 Images in a single response, with perfect control?
 - How about about having ChatGPT search a document with RAG, plan a tailored search strategy for that document in the python tool, execute a loop of sequentual in-depth RAG searches that synthesize their results in the python tool, plan broswer tool search queuries to align the distilled knowledge with real-time information, execute searches with the browser tool, synthesize the results in the python tool, compile all findings into a coherant report, and then present the user with the report, all in the same single response? 
 
-Yes, that has been possible to do with ChatGPT alone. The tool timeout threshold of 60 seconds, resets with each new tool call, allowing highly complex assistance if you know how.
+```mermaid
+sequenceDiagram
+    participant User
+    participant ChatGPT
+    participant RAG as RAG Search
+    participant PythonTool as Python Tool
+
+    User->>ChatGPT: Uploads Document
+    ChatGPT->>RAG: Initial Holistic Document Analysis
+    RAG-->>PythonTool: Extracted Core Concepts
+    PythonTool->>PythonTool: Develops TOC and Analysis Strategy
+    PythonTool-->>ChatGPT: Outlines Document Structure
+    loop Detailed Section Analysis
+        ChatGPT->>RAG: Delve into Specific Sections
+        RAG-->>PythonTool: Detailed Insights
+        PythonTool->>PythonTool: Synthesize Insights
+    end
+    PythonTool-->>ChatGPT: Compile and Synthesize Comprehensive Report
+    ChatGPT->>User: Present Final Report and Analysis
+```
+
+Yes, this has been possible to do with ChatGPT and advanced prompting alone. The tool timeout threshold of 60 seconds, resets with each new tool call, allowing highly complex assistance if you know how.
 
 Want me to build your dream GPT? Get in touch.
 
