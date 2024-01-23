@@ -114,7 +114,7 @@ Want me to build your dream GPT? Get in touch.
 
 ## Contact Me or Get Involved
 
-- [LinkedIn](https://www.linkedin.com/company/nerority/)
 - [Website](https://www.nerority.com/)
-- [Patreon](https://www.patreon.com/Nerority)
 - [Discord](https://discord.gg/jBKjsqA6pb)
+- [LinkedIn](https://www.linkedin.com/company/nerority/)
+- [Patreon](https://www.patreon.com/Nerority)
