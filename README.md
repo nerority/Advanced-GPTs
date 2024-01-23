@@ -114,9 +114,7 @@ Want me to build your dream GPT? Get in touch.
 
 ## Contact Me or Get Involved
 
-**Nerority Link Tree**
-
-- LinkedIn - [Nerority](https://www.linkedin.com/company/nerority/)
-- Website - [Nerority](https://www.nerority.com/)
-- Patreon - [Nerority](https://www.patreon.com/Nerority)
-- Discord - [Invite](https://discord.gg/jBKjsqA6pb)
+- [LinkedIn](https://www.linkedin.com/company/nerority/)
+- [Website](https://www.nerority.com/)
+- [Patreon](https://www.patreon.com/Nerority)
+- [Discord](https://discord.gg/jBKjsqA6pb)
