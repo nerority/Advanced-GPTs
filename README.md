@@ -111,3 +111,12 @@ Want me to build your dream GPT? Get in touch.
 ### Role-playing
 
 - [Universal Dynamic Visual Character Emulation](https://github.com/nerority/Advanced-GPTs/wiki/RP-%E2%80%90-Visual-Character-Emulator)
+
+## Get Involved
+
+**Nerority Link Tree**
+
+- LinkedIn - [Nerority](https://www.linkedin.com/company/nerority/)
+- Website - [Nerority](https://www.nerority.com/)
+- Patreon - [Nerority](https://www.patreon.com/Nerority)
+- Discord - [Invite](https://discord.gg/jBKjsqA6pb)
