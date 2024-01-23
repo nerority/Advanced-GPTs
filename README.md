@@ -78,7 +78,7 @@ Want me to build your dream GPT? Get in touch.
 - [Advanced Meta-Prompt Engineer](#advanced-meta-prompt-engineer)
 - [Automated Prompt Refinement](#automated-prompt-refinement)
 
-#### Role-playig
+#### Role-playing
 
 - [Universal Dynamic Visual Character Emulation](#universal-dynamic-visual-character-emulation)
 
