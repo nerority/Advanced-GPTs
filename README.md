@@ -16,7 +16,7 @@
 
 ⭐ **Join Nerority's Discord**: For feedback, suggestions, discussion, curated information and more. Please feel free to join our discord channel and interact, this is an active server where you can learn more and discuss these topics amongst enthusiasts.
 
-**Discord Invite**: [Nerority Discord](https://discord.gg/jBKjsqA6pb)
+**[Discord Invite](https://discord.gg/jBKjsqA6pb)**
 
 ---
 
