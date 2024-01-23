@@ -51,13 +51,7 @@ sequenceDiagram
 
 Yes, this has been possible to do with ChatGPT and advanced prompting alone. The tool timeout threshold of 60 seconds, resets with each new tool call, allowing highly complex assistance if you know how.
 
-Want me to build your dream GPT? Get in touch.
-
-**Contact**: devinpellegrino@gmail.com
-
-**Site**: [nerority.com](https://www.nerority.com)
-
-**Discord**: [Nerority Discord](https://discord.gg/jBKjsqA6pb)
+Want me to build your dream GPT? [Get in touch](#contact-me-or-get-involved).
 
 <div align="center">
 <h1>The Lineup</h1>
