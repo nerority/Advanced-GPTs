@@ -112,7 +112,7 @@ Want me to build your dream GPT? Get in touch.
 
 - [Universal Dynamic Visual Character Emulation](https://github.com/nerority/Advanced-GPTs/wiki/RP-%E2%80%90-Visual-Character-Emulator)
 
-## Get Involved
+## Contact Me or Get Involved
 
 **Nerority Link Tree**
 
