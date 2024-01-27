@@ -1,11 +1,12 @@
 <div align="center">
-  <h1>Advanced Workflow GPTs <i>by Nerority</i></h1>
-  <h3><i>Showcase of my Custom GPTs, featuring advanced workflows and operational logic.</i></h3>
+  <h1>Advanced Workflow GPTs</h1>
+  <h3><i>Featuring advanced workflows and operational logic.</i></h3>
   <h4><i>Every GPT presented here is achieved with nothing but a system prompt.</i></h4>
-  <img src="https://skillicons.dev/icons?i=react,vite,ts" alt="Icons" />
-  <br/>
   <a href="https://nerority.com"><kbd>🟢 Website</kbd></a>
   <a href="https://www.linkedin.com/in/devin-pellegrino-gt/"><kbd>🔵 LinkedIn </kbd></a>
+  <a href="https://www.patreon.com/Nerority"><kbd> 🔴 Patreon </kbd></a>
+  <a href="https://discord.gg/jBKjsqA6pb"><kbd> ⚪ Discord </kbd></a>
+  <h3><i>By Devin Pellegrino</i></h3>
 </div>
 
 </br>
@@ -14,9 +15,7 @@
 
 ⭐ **Important**: Please read the full instructions and notes before diving into a GPT. These are complex tools with streamlined control. Ensure documents are proper file type for RAG. If you hit the hard timeout, refresh and enter `!continue` to re-establish workflow.
 
-⭐ **Join Nerority's Discord**: For feedback, suggestions, discussion, curated information and more. Please feel free to join our discord channel and interact, this is an active server where you can learn more and discuss these topics amongst enthusiasts.
-
-**[Discord Invite](https://discord.gg/jBKjsqA6pb)**
+⭐ **Join Nerority's Discord**: For feedback, suggestions, discussion, curated information and more. Please feel free to join our [discord channel]([xxx](https://discord.gg/jBKjsqA6pb)) and interact. This is an active server where you can learn more and discuss these topics amongst enthusiasts and skilled prompters.
 
 ---
 
