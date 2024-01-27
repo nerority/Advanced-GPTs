@@ -7,8 +7,9 @@
   <a href="https://www.patreon.com/Nerority"><kbd> 🔴 Patreon </kbd></a>
   <a href="https://discord.gg/jBKjsqA6pb"><kbd> ⚪ Discord </kbd></a>
   <br>
-  <a href="https://github.com/nerority/Prompt-Engineering-Mastery"><kbd> Prompt Engineering Guides </kbd></a>
-  <a href="https://github.com/nerority/Advanced-GPTs"><kbd> Advanced GPT Showcase </kbd></a>
+  <a href="https://github.com/nerority/Prompt-Engineering-Mastery"><kbd>Prompt Engineering</kbd></a>
+  <a href="https://github.com/nerority/Advanced-GPTs"><kbd>Advanced GPTs</kbd></a>
+  <a href="https://github.com/nerority/AI-Library"><kbd>Template Library</kbd></a>
   <h3><i>By Devin Pellegrino</i></h3>
 </div>
 
