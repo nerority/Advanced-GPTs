@@ -15,7 +15,9 @@
 
 </br>
 
-⭐ **17 GPTs Released**: Links found below.
+⭐ **18 GPTs Released**: Links found below.
+
+⭐ GPTs can be CALLED mid-conversation now. My GPTs work seamlessly with this feature. I have released a "master" GPT that applies meta-sequence optimization techniques for any task with my GPT suite. Free to use. 
 
 ⭐ **Important**: Please read the full instructions and notes before diving into a GPT. These are complex tools with streamlined control. Ensure documents are proper file type for RAG. If you hit the hard timeout, refresh and enter `!continue` to re-establish workflow.
 
@@ -61,6 +63,10 @@ Want me to build your dream GPT? [Get in touch](#contact-me-or-get-involved).
 </div>
 
 *Access links, usage instructions, and guides can be found on each GPT’s respective page.*
+
+### Master GPTs
+
+- [Nerority AI: Meta-Sequence Optimizer](https://github.com/nerority/Advanced-GPTs/wiki/AI-%E2%80%90-Nerority-AI:-Meta%E2%80%90Sequence-Optimizer)
 
 ### Business
 
