@@ -100,14 +100,14 @@ Want me to build your dream GPT? [Get in touch](#contact-me-or-get-involved).
 - [Advanced Meta-Prompt Engineer](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Meta%E2%80%90Prompt-Engineer)
 - [Automated Prompt Refinement](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Prompt-Refinement)
 
+### Role-playing
+
+- [Universal Dynamic Visual Character Emulation](https://github.com/nerority/Advanced-GPTs/wiki/RP-%E2%80%90-Visual-Character-Emulator)
+
 ### Task Management
 
 - [AI Task Decomposer](https://github.com/nerority/Advanced-GPTs/wiki/TM-%E2%80%90-AI-Task-Decomposer)
 - [AI Task Manager](https://github.com/nerority/Advanced-GPTs/wiki/TM-%E2%80%90-AI-Task-Manager)
-
-### Role-playing
-
-- [Universal Dynamic Visual Character Emulation](https://github.com/nerority/Advanced-GPTs/wiki/RP-%E2%80%90-Visual-Character-Emulator)
 
 ---
 
