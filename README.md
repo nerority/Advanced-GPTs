@@ -60,9 +60,9 @@ Want me to build your dream GPT? [Get in touch](#contact-me-or-get-involved).
 
 <div align="center">
 <h1>The Lineup</h1>
+<h4><i>Access links, usage instructions, and guides can be found on each GPT’s respective page.</i></h4>
 </div>
 
-*Access links, usage instructions, and guides can be found on each GPT’s respective page.*
 
 ### Master GPTs
 
