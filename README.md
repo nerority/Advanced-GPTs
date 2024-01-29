@@ -117,9 +117,15 @@ Want me to build your dream GPT? [Get in touch](#contact-me-or-get-involved).
 
 ---
 
-## Contact Me or Get Involved
-
-- [Website](https://www.nerority.com/)
-- [Discord](https://discord.gg/jBKjsqA6pb)
-- [LinkedIn](https://www.linkedin.com/company/nerority/)
-- [Patreon](https://www.patreon.com/Nerority)
+<div align="center">
+  <h2>Contact or Involvement</h2>
+  <a href="https://nerority.com"><kbd>🟢 Website</kbd></a>
+  <a href="https://www.linkedin.com/in/devin-pellegrino-gt/"><kbd>🔵 LinkedIn </kbd></a>
+  <a href="https://www.patreon.com/Nerority"><kbd> 🔴 Patreon </kbd></a>
+  <a href="https://discord.gg/jBKjsqA6pb"><kbd> ⚪ Discord </kbd></a>
+  <br>
+  <a href="https://github.com/nerority/Prompt-Engineering-Mastery"><kbd>Prompt Engineering</kbd></a>
+  <a href="https://github.com/nerority/Advanced-GPTs"><kbd>Advanced GPTs</kbd></a>
+  <a href="https://github.com/nerority/AI-Library"><kbd>Template Library</kbd></a>
+  <h3><i>By Devin Pellegrino @ 2024</i></h3>
+</div>
