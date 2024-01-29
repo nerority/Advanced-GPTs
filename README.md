@@ -15,7 +15,7 @@
 
 </br>
 
-⭐ **18 GPTs Released**: Links found below.
+⭐ **21 GPTs Released**: Links found below.
 
 ⭐ **GPTs can be CALLED mid-conversation now**. My GPTs work seamlessly with this feature. I have released a "master" GPT that applies meta-sequence optimization techniques for any task with my GPT suite. Free to use. 
 
@@ -72,6 +72,7 @@ Want me to build your dream GPT? [Get in touch](#contact-me-or-get-involved).
 
 - [Advanced Competitive Analysis AI](https://github.com/nerority/Advanced-GPTs/wiki/BIZ-%E2%80%90-Competitive-Analysis-AI)
 - [Business Contract Analyzer](https://github.com/nerority/Advanced-GPTs/wiki/BIZ:-Business-Contract-Analyzer)
+- [Market Trend Analysis for Target Company](https://github.com/nerority/Advanced-GPTs/wiki/Market-Trend-Analysis-for-Target-Company)
 
 ### Career
 
@@ -99,6 +100,8 @@ Want me to build your dream GPT? [Get in touch](#contact-me-or-get-involved).
 ### Knowledge Representation
 
 - [Advanced Topic Synthesis](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Advanced-Topic-Synthesis)
+- [Hierarchical Topic Exploration](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Hierarchical-Topic-Exploration)
+- [Meta-Semantic Web Designer](https://github.com/nerority/Advanced-GPTs/wiki/Meta%E2%80%90Semantic-Web-Designer)
 - [Mind Map Architect with Markmap](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Mind-Map-Architect)
 
 ### Prompt Engineering
