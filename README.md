@@ -15,7 +15,7 @@
 
 </br>
 
-⭐ **Nerority Official Youtube Channel**: [Nerority Youtube](https://youtube.com/@DevinPellegrino))
+⭐ **Nerority Official Youtube Channel**: [Nerority Youtube](https://youtube.com/@DevinPellegrino)
 
 ⭐ **Universal Prompt Classification and Optimization GPT Released**: [Video Here](https://www.youtube.com/watch?v=FbnUx_N_x-A)
 
@@ -60,7 +60,7 @@ sequenceDiagram
 
 Yes, this has been possible to do with ChatGPT and advanced prompting alone. The tool timeout threshold of 60 seconds, resets with each new tool call, allowing highly complex assistance if you know how.
 
-Want me to build your dream GPT? [Get in touch](#contact-me-or-get-involved).
+Want me to build your dream GPT? [Get in touch](https://www.nerority.com/contact/).
 
 <div align="center">
 <h1>The Lineup</h1>
