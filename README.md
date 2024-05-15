@@ -15,7 +15,11 @@
 
 </br>
 
-⭐ **21 GPTs Released**: Links found below.
+⭐ **Nerority Official Youtube Channel**: [Nerority Youtube](https://youtube.com/@DevinPellegrino))
+
+⭐ **Universal Prompt Classification and Optimization GPT Released**: [Video Here](https://www.youtube.com/watch?v=FbnUx_N_x-A)
+
+⭐ **22 GPTs Released**: Links found below.
 
 ⭐ **GPTs can be CALLED mid-conversation now**. My GPTs work seamlessly with this feature. I have released a "master" GPT that applies meta-sequence optimization techniques for any task with my GPT suite. Free to use. 
 
@@ -67,6 +71,7 @@ Want me to build your dream GPT? [Get in touch](#contact-me-or-get-involved).
 ### Master GPTs
 
 - [Nerority AI: Meta-Sequence Optimizer](https://github.com/nerority/Advanced-GPTs/wiki/AI-%E2%80%90-Nerority-AI:-Meta%E2%80%90Sequence-Optimizer)
+- [Universal Prompt Classification & Optimization](https://chat.openai.com/g/g-Tm5lWIDub-anth-prompt-refiner)
 
 ### Business
 
