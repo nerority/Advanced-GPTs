@@ -80,7 +80,7 @@ Want me to build your dream GPT? [Get in touch](https://www.nerority.com/contact
 
 - [Advanced Meta-Prompt Engineer](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Meta%E2%80%90Prompt-Engineer)
 - [Automated Prompt Refinement](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Prompt-Refinement)
-- [Universal Prompt Classification & Refinemr](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Anthropic-Prompt-Refiner)
+- [Universal Prompt Classification & Refinement](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Anthropic-Prompt-Refiner)
 
 ### Business
 
