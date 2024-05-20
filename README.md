@@ -15,11 +15,11 @@
 
 </br>
 
+⭐ **All GPTs Massively Updated to V3**
+
 ⭐ **27 Advanced GPTs Released**: Links found below.
 
 ⭐ **Nerority Official Youtube Channel**: [Nerority Youtube](https://youtube.com/@DevinPellegrino)
-
-⭐ **Universal Prompt Classification and Optimization GPT Released**: [Video Here](https://www.youtube.com/watch?v=FbnUx_N_x-A)
 
 ⭐ **GPTs can be CALLED mid-conversation now**. My GPTs work seamlessly with this feature. I have released a "master" GPT that applies meta-sequence optimization techniques for any task with my GPT suite. Free to use. 
 
