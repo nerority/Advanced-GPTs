@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Advanced GPTs</h1>
+  <h1>Nerority's Advanced GPT Suite</h1>
   <h3><i>Featuring advanced agentic workflows and operational logic.</i></h3>
   <h4><i>Every GPT presented here is achieved with nothing but a system prompt.</i></h4>
   <a href="https://nerority.com"><kbd>🟢 Website</kbd></a>
