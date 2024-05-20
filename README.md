@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>Advanced Workflow GPTs</h1>
-  <h3><i>Featuring advanced workflows and operational logic.</i></h3>
+  <h1>Advanced GPTs</h1>
+  <h3><i>Featuring advanced agentic workflows and operational logic.</i></h3>
   <h4><i>Every GPT presented here is achieved with nothing but a system prompt.</i></h4>
   <a href="https://nerority.com"><kbd>🟢 Website</kbd></a>
   <a href="https://www.linkedin.com/in/devin-pellegrino-gt/"><kbd>🔵 LinkedIn </kbd></a>
