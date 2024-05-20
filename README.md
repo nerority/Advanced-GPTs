@@ -39,23 +39,27 @@ Hi my name is Devin. I specialize in engineering novel generative AI workflows t
 
 ```mermaid
 sequenceDiagram
-    participant User
-    participant ChatGPT
-    participant RAG as RAG Search
-    participant PythonTool as Python Tool
-
-    User->>ChatGPT: Uploads Document
-    ChatGPT->>RAG: Initial Holistic Document Analysis
-    RAG-->>PythonTool: Extracted Core Concepts
-    PythonTool->>PythonTool: Develops TOC and Analysis Strategy
-    PythonTool-->>ChatGPT: Outlines Document Structure
-    loop Detailed Section Analysis
-        ChatGPT->>RAG: Delve into Specific Sections
-        RAG-->>PythonTool: Detailed Insights
-        PythonTool->>PythonTool: Synthesize Insights
-    end
-    PythonTool-->>ChatGPT: Compile and Synthesize Comprehensive Report
-    ChatGPT->>User: Present Final Report and Analysis
+	participant User
+	participant ChatGPT
+	participant Python as Python Tool
+	participant DALLE as DALLE-3
+	
+	User->>ChatGPT: Provide Educational Topic
+	ChatGPT->>ChatGPT: Engage User
+	ChatGPT->>Python: Create comprehensive dataframe
+	Python-->>ChatGPT: Return Dataframe
+	ChatGPT->>ChatGPT: Explain Complex Concepts
+	ChatGPT->>Python: Generate Practical Example
+	Python-->>ChatGPT: Return Example
+	ChatGPT->>Python: Generate Relevant Visualization
+	Python-->>ChatGPT: Return Visualization
+	ChatGPT->>DALLE: Create relevant image for learning
+	DALLE-->>ChatGPT: Return Image
+	ChatGPT->>User: Present Final
+	loop Continuation and Resource Management
+		User->>ChatGPT: Provide Ongoing Feedback
+		ChatGPT->>ChatGPT: Refine and Update Educational Approach
+	end
 ```
 
 Yes, this has been possible to do with ChatGPT and advanced prompting alone. The tool timeout threshold of 60 seconds, resets with each new tool call, allowing highly complex assistance if you know how.
@@ -71,7 +75,12 @@ Want me to build your dream GPT? [Get in touch](https://www.nerority.com/contact
 ### Master GPTs
 
 - [Nerority AI: Meta-Sequence Optimizer](https://github.com/nerority/Advanced-GPTs/wiki/AI-%E2%80%90-Nerority-AI:-Meta%E2%80%90Sequence-Optimizer)
-- [Universal Prompt Classification & Optimization](https://chat.openai.com/g/g-Tm5lWIDub-anth-prompt-refiner)
+
+### Prompt Engineering
+
+- [Advanced Meta-Prompt Engineer](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Meta%E2%80%90Prompt-Engineer)
+- [Automated Prompt Refinement](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Prompt-Refinement)
+- [Universal Prompt Classification & Refinemr](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Anthropic-Prompt-Refiner)
 
 ### Business
 
@@ -108,11 +117,6 @@ Want me to build your dream GPT? [Get in touch](https://www.nerority.com/contact
 - [Hierarchical Topic Exploration](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Hierarchical-Topic-Exploration)
 - [Semantic Progression Modeling](https://github.com/nerority/Advanced-GPTs/wiki/KE-%E2%80%90-Semantic-Progression-Modeling)
 - [Mind Map Architect with Markmap](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Mind-Map-Architect)
-
-### Prompt Engineering
-
-- [Advanced Meta-Prompt Engineer](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Meta%E2%80%90Prompt-Engineer)
-- [Automated Prompt Refinement](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Prompt-Refinement)
 
 ### Role-playing
 
