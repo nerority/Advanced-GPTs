@@ -58,7 +58,11 @@ sequenceDiagram
 	end
 ```
 
+The Nerority GPT Suite is for Public Demonstration amd Usage
+
 For Strategic Consulting, AI Auditing, Solution Design, or Building your Dream GPT: [Get in touch](https://www.nerority.com/contact/).
+
+---
 
 <div align="center">
 <h1>The Lineup</h1>
