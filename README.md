@@ -29,11 +29,9 @@
 
 ---
 
-Hi my name is Devin. I specialize in engineering novel generative AI workflows that leverage meta-functionality control. I have been mastering prompt engineering for a long time now, and am able to design GPT's to do pretty much anything.
+Hi my name is Devin. I am an engineer pushing the boundaries of prompt engineering and meta-functional control of Large Language Models (LLMs). 
 
-- Did you know you can perfectly control >5 minutes of AI tool chaining with >30 different tool calls in the same response, with 100% accuracy using natural language?
-- Or that you can have ChatGPT generate >10 DallE-3 Images in a single response, with perfect control?
-- How about about having ChatGPT search a document with RAG, plan a tailored search strategy for that document in the python tool, execute a loop of sequentual in-depth RAG searches that synthesize their results in the python tool, plan broswer tool search queuries to align the distilled knowledge with real-time information, execute searches with the browser tool, synthesize the results in the python tool, compile all findings into a coherant report, and then present the user with the report, all in the same single response? 
+Did you know you can perfectly control over 5 minutes of AI tool chaining with >30 different tool calls in the same turn, with 100% accuracy and coherency, only using natural language?
 
 ```mermaid
 sequenceDiagram
@@ -60,15 +58,12 @@ sequenceDiagram
 	end
 ```
 
-Yes, this has been possible to do with ChatGPT and advanced prompting alone. The tool timeout threshold of 60 seconds, resets with each new tool call, allowing highly complex assistance if you know how.
-
-Want me to build your dream GPT? [Get in touch](https://www.nerority.com/contact/).
+For Strategic Consulting, AI Auditing, Solution Design, or Building your Dream GPT: [Get in touch](https://www.nerority.com/contact/).
 
 <div align="center">
 <h1>The Lineup</h1>
 <h4><i>Access links, usage instructions, and guides can be found on each GPT’s respective page.</i></h4>
 </div>
-
 
 ### Master GPTs
 
