@@ -107,7 +107,7 @@ For Strategic Consulting, AI Auditing, Solution Design, or Building your Dream G
 - [Advanced Pedagogical Conversation AI](https://github.com/nerority/Advanced-GPTs/wiki/EDU-%E2%80%90-Adv.-Pedagogical-Conversation-AI)
 - [Botanical Growth Cycle Visualizer](https://github.com/nerority/Advanced-GPTs/wiki/EDU-%E2%80%90-Botanical-Growth-Cycle-Visualizer)
 
-## Emergent Exploration
+### Emergent Exploration
 
 - [Advanced Topic Synthesis](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Advanced-Topic-Synthesis)
 - [Hierarchical Topic Exploration](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Hierarchical-Topic-Exploration)
