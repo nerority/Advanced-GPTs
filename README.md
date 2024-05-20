@@ -23,7 +23,7 @@
 
 ⭐ **GPTs can be CALLED mid-conversation now**. My GPTs work seamlessly with this feature. I have released a "master" GPT that applies meta-sequence optimization techniques for any task with my GPT suite. Free to use. 
 
-⭐ **Join Nerority's Discord**: For feedback, suggestions, discussion, curated information and more. Please feel free to join our [discord channel](https://discord.gg/jBKjsqA6pb) and interact. This is an active server where you can learn more and discuss these topics amongst enthusiasts and skilled prompters.
+⭐ **Join Nerority AI Communuity**: This is an active server where you can learn more and discuss these topics amongst enthusiasts and skilled AI developers. Please feel free to join our [discord channel](https://discord.gg/jBKjsqA6pb) and interact.
 
 ![Nerority](https://github.com/nerority/Advanced-GPTs/assets/80237923/e99891a8-9645-4e9b-a22c-7fca73177882)
 
