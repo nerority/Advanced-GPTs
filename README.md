@@ -76,6 +76,7 @@ For Strategic Consulting, AI Auditing, Solution Design, or Building your Dream G
 ### Prompt Engineering
 
 - [Advanced Meta-Prompt Engineer](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Meta%E2%80%90Prompt-Engineer)
+- [Automated Prompt Categorization](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Automated-Prompt-Categorization)
 - [Automated Prompt Refinement](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Prompt-Refinement)
 - [Custom Agent Meta-Program Generator](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-GPT%E2%80%904-Custom-Agent-Meta%E2%80%90Program-Creator)
 - [Prompt Example Curator](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Prompt-Optimization-and-Example-Curator)
