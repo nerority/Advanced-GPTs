@@ -102,11 +102,11 @@ Want me to build your dream GPT? [Get in touch](https://www.nerority.com/contact
 - [Automated Infinite Visual Progression](https://github.com/nerority/Advanced-GPTs/wiki/IMG-%E2%80%90-Inf.-Visual-Progression)
 - [Automated DALL-E Prompt Variation Testing](https://github.com/nerority/Advanced-GPTs/wiki/IMG-%E2%80%90-Image-Prompt-Variation-Testing)
 
-### Knowledge Representation
+### Knowledge Engineering
 
 - [Advanced Topic Synthesis](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Advanced-Topic-Synthesis)
 - [Hierarchical Topic Exploration](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Hierarchical-Topic-Exploration)
-- [Semantic Progression Modeling](https://github.com/nerority/Advanced-GPTs/wiki/Semantic-Progression-Modeling)
+- [Semantic Progression Modeling](https://github.com/nerority/Advanced-GPTs/wiki/KE-%E2%80%90-Semantic-Progression-Modeling)
 - [Mind Map Architect with Markmap](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Mind-Map-Architect)
 
 ### Prompt Engineering
