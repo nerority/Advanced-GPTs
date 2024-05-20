@@ -15,7 +15,7 @@
 
 </br>
 
-⭐ **23 Advanced GPTs Released**: Links found below.
+⭐ **26 Advanced GPTs Released**: Links found below.
 
 ⭐ **Nerority Official Youtube Channel**: [Nerority Youtube](https://youtube.com/@DevinPellegrino)
 
