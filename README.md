@@ -105,6 +105,11 @@ For Strategic Consulting, AI Auditing, Solution Design, or Building your Dream G
 - [Advanced Pedagogical Conversation AI](https://github.com/nerority/Advanced-GPTs/wiki/EDU-%E2%80%90-Adv.-Pedagogical-Conversation-AI)
 - [Botanical Growth Cycle Visualizer](https://github.com/nerority/Advanced-GPTs/wiki/EDU-%E2%80%90-Botanical-Growth-Cycle-Visualizer)
 
+## Emergent Exploration
+
+- [Advanced Topic Synthesis](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Advanced-Topic-Synthesis)
+- [Hierarchical Topic Exploration](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Hierarchical-Topic-Exploration)
+
 ### Image-Based
 
 - [Automated Infinite Visual Progression](https://github.com/nerority/Advanced-GPTs/wiki/IMG-%E2%80%90-Inf.-Visual-Progression)
@@ -112,8 +117,6 @@ For Strategic Consulting, AI Auditing, Solution Design, or Building your Dream G
 
 ### Knowledge Engineering
 
-- [Advanced Topic Synthesis](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Advanced-Topic-Synthesis)
-- [Hierarchical Topic Exploration](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Hierarchical-Topic-Exploration)
 - [Semantic Progression Modeling](https://github.com/nerority/Advanced-GPTs/wiki/KE-%E2%80%90-Semantic-Progression-Modeling)
 - [Mind Map Architect with Markmap](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Mind-Map-Architect)
 
