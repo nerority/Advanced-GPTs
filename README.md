@@ -106,7 +106,7 @@ Want me to build your dream GPT? [Get in touch](https://www.nerority.com/contact
 
 - [Advanced Topic Synthesis](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Advanced-Topic-Synthesis)
 - [Hierarchical Topic Exploration](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Hierarchical-Topic-Exploration)
-- [Meta-Semantic Web Designer](https://github.com/nerority/Advanced-GPTs/wiki/Meta%E2%80%90Semantic-Web-Designer)
+- [Semantic Progression Modeling](https://github.com/nerority/Advanced-GPTs/wiki/Semantic-Progression-Modeling)
 - [Mind Map Architect with Markmap](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Mind-Map-Architect)
 
 ### Prompt Engineering
