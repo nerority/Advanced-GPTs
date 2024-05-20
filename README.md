@@ -74,15 +74,6 @@ For Strategic Consulting, AI Auditing, Solution Design, or Building your Dream G
 - [Nerority Swarm: Meta-Sequence Optimizer](https://github.com/nerority/Advanced-GPTs/wiki/AI-%E2%80%90-Nerority-AI:-Meta%E2%80%90Sequence-Optimizer)
 - [Advanced AI Priming](https://github.com/nerority/Advanced-GPTs/wiki/AI-%E2%80%90-Advanced-AI-Priming)
 
-### Prompt Engineering
-
-- [Advanced Meta-Prompt Engineer](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Meta%E2%80%90Prompt-Engineer)
-- [Automated Prompt Categorization](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Automated-Prompt-Categorization)
-- [Automated Prompt Refinement](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Prompt-Refinement)
-- [Custom Agent Meta-Program Generator](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-GPT%E2%80%904-Custom-Agent-Meta%E2%80%90Program-Creator)
-- [Prompt Example Curator](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Prompt-Optimization-and-Example-Curator)
-- [Universal Prompt Classification & Refinement](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Anthropic-Prompt-Refiner)
-
 ### Business
 
 - [Advanced Competitive Analysis AI](https://github.com/nerority/Advanced-GPTs/wiki/BIZ-%E2%80%90-Competitive-Analysis-AI)
@@ -121,6 +112,15 @@ For Strategic Consulting, AI Auditing, Solution Design, or Building your Dream G
 
 - [Semantic Progression Modeling](https://github.com/nerority/Advanced-GPTs/wiki/KE-%E2%80%90-Semantic-Progression-Modeling)
 - [Mind Map Architect with Markmap](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Mind-Map-Architect)
+
+### Prompt Engineering
+
+- [Advanced Meta-Prompt Engineer](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Meta%E2%80%90Prompt-Engineer)
+- [Automated Prompt Categorization](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Automated-Prompt-Categorization)
+- [Automated Prompt Refinement](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Prompt-Refinement)
+- [Custom Agent Meta-Program Generator](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-GPT%E2%80%904-Custom-Agent-Meta%E2%80%90Program-Creator)
+- [Prompt Example Curator](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Prompt-Optimization-and-Example-Curator)
+- [Universal Prompt Classification & Refinement](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Anthropic-Prompt-Refiner)
 
 ### Role-playing
 
