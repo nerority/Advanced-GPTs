@@ -19,7 +19,7 @@
 
 ⭐ **Universal Prompt Classification and Optimization GPT Released**: [Video Here](https://www.youtube.com/watch?v=FbnUx_N_x-A)
 
-⭐ **22 GPTs Released**: Links found below.
+⭐ **23 GPTs Released**: Links found below.
 
 ⭐ **GPTs can be CALLED mid-conversation now**. My GPTs work seamlessly with this feature. I have released a "master" GPT that applies meta-sequence optimization techniques for any task with my GPT suite. Free to use. 
 
@@ -121,6 +121,10 @@ Want me to build your dream GPT? [Get in touch](https://www.nerority.com/contact
 ### Role-playing
 
 - [Universal Dynamic Visual Character Emulation](https://github.com/nerority/Advanced-GPTs/wiki/RP-%E2%80%90-Visual-Character-Emulator)
+
+### Simulations
+
+- [Linux Terminal Simulation](https://github.com/nerority/Advanced-GPTs/wiki/SIM-%E2%80%90-Linux-Terminal-Simulation)
 
 ### Task Management
 
