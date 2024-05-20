@@ -15,15 +15,13 @@
 
 </br>
 
+⭐ **23 Advanced GPTs Released**: Links found below.
+
 ⭐ **Nerority Official Youtube Channel**: [Nerority Youtube](https://youtube.com/@DevinPellegrino)
 
 ⭐ **Universal Prompt Classification and Optimization GPT Released**: [Video Here](https://www.youtube.com/watch?v=FbnUx_N_x-A)
 
-⭐ **23 GPTs Released**: Links found below.
-
 ⭐ **GPTs can be CALLED mid-conversation now**. My GPTs work seamlessly with this feature. I have released a "master" GPT that applies meta-sequence optimization techniques for any task with my GPT suite. Free to use. 
-
-⭐ **Important**: Please read the full instructions and notes before diving into a GPT. These are complex tools with streamlined control. Ensure documents are proper file type for RAG. If you hit the hard timeout, refresh and enter `!continue` to re-establish workflow.
 
 ⭐ **Join Nerority's Discord**: For feedback, suggestions, discussion, curated information and more. Please feel free to join our [discord channel](https://discord.gg/jBKjsqA6pb) and interact. This is an active server where you can learn more and discuss these topics amongst enthusiasts and skilled prompters.
 
