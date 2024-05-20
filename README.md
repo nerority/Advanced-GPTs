@@ -72,6 +72,7 @@ For Strategic Consulting, AI Auditing, Solution Design, or Building your Dream G
 ### Master GPTs
 
 - [Nerority Swarm: Meta-Sequence Optimizer](https://github.com/nerority/Advanced-GPTs/wiki/AI-%E2%80%90-Nerority-AI:-Meta%E2%80%90Sequence-Optimizer)
+- [Advanced AI Priming](https://github.com/nerority/Advanced-GPTs/wiki/AI-%E2%80%90-Advanced-AI-Priming)
 
 ### Prompt Engineering
 
