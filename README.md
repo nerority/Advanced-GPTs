@@ -88,7 +88,7 @@ For Strategic Consulting, AI Auditing, Solution Design, or Building your Dream G
 
 - [Automated Quotations Essay Composer](https://github.com/nerority/Advanced-GPTs/wiki/CC-%E2%80%90-Quotations-Essay-Composer)
 
-### Document Analysis
+### Distillation
 
 - [Automated High-Quality Document Analysis](https://github.com/nerority/Advanced-GPTs/wiki/DA-%E2%80%90-Quality-Document-Analysis)
 - [Automated Knowledge Distillation](https://github.com/nerority/Advanced-GPTs/wiki/DA-%E2%80%90-Knowledge-Distiller)
