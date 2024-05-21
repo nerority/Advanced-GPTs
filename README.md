@@ -17,7 +17,7 @@
 
 ⭐ **All GPTs Massively Updated to V4**
 
-⭐ **28 Advanced GPTs Released**: Links found below.
+⭐ **30 Advanced GPTs Released**: Links found below.
 
 ⭐ **Nerority Official Youtube Channel**: [Nerority Youtube](https://youtube.com/@DevinPellegrino)
 
@@ -86,7 +86,8 @@ For Strategic Consulting, AI Auditing, Solution Design, or Building your Dream G
 
 ### Content Creation
 
-- [Automated Quotations Essay Composer](https://github.com/nerority/Advanced-GPTs/wiki/CC-%E2%80%90-Quotations-Essay-Composer)
+- [Automated Ultimate Article Writer](https://github.com/nerority/Advanced-GPTs/wiki/CC-%E2%80%90-Automated-Ultimate-Article-Writer)
+- [Quotations Essay Composer](https://github.com/nerority/Advanced-GPTs/wiki/CC-%E2%80%90-Quotations-Essay-Composer)
 
 ### Distillation
 
