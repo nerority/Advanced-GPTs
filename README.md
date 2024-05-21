@@ -114,7 +114,7 @@ For Strategic Consulting, AI Auditing, Solution Design, or Building your Dream G
 - [Semantic Progression Modeling](https://github.com/nerority/Advanced-GPTs/wiki/KE-%E2%80%90-Semantic-Progression-Modeling)
 - [Mind Map Architect with Markmap](https://github.com/nerority/Advanced-GPTs/wiki/KREP-%E2%80%90-Mind-Map-Architect)
 
-## Marketing
+### Marketing
 
 - [Automated Marketing Copy Generation](https://github.com/nerority/Advanced-GPTs/wiki/MAR-%E2%80%90-Automated-Marketing-Copy-Generation)
 
