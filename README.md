@@ -132,7 +132,7 @@ For Strategic Consulting, AI Auditing, Solution Design, or Building your Dream G
 
 ### Simulations
 
-- [AI Research Simulator](https://github.com/nerority/Advanced-GPTs/wiki/AI-Research-Simulator)
+- [AI Research Simulator](https://github.com/nerority/Advanced-GPTs/wiki/SIM-%E2%80%90-AI-Research-Simulator)
 - [Linux Terminal Simulation](https://github.com/nerority/Advanced-GPTs/wiki/SIM-%E2%80%90-Linux-Terminal-Simulation)
 
 ### Task Management
