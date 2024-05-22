@@ -71,8 +71,9 @@ For Strategic Consulting, AI Auditing, Solution Design, or Building your Dream G
 
 ### Master GPTs
 
-- [Nerority Swarm: Meta-Sequence Optimizer](https://github.com/nerority/Advanced-GPTs/wiki/AI-%E2%80%90-Nerority-AI:-Meta%E2%80%90Sequence-Optimizer)
-- [Advanced AI Priming](https://github.com/nerority/Advanced-GPTs/wiki/AI-%E2%80%90-Advanced-AI-Priming)
+- [Nerority Agent Selector: Meta-Sequence Optimizer](https://github.com/nerority/Advanced-GPTs/wiki/AI-%E2%80%90-Nerority-AI:-Meta%E2%80%90Sequence-Optimizer)
+- [Self-Instructive AI Priming](https://github.com/nerority/Advanced-GPTs/wiki/AI-%E2%80%90-Advanced-AI-Priming)
+- [Universal Prompt Classifier & Optimizer](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Universal-Prompt-Classifier-and-Optimizer)
 
 ### Business
 
@@ -129,7 +130,6 @@ For Strategic Consulting, AI Auditing, Solution Design, or Building your Dream G
 - [Automated Prompt Refinement](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Prompt-Refinement)
 - [Custom Agent Meta-Program Generator](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-GPT%E2%80%904-Custom-Agent-Meta%E2%80%90Program-Creator)
 - [Prompt Example Curator](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Prompt-Optimization-and-Example-Curator)
-- [Universal Prompt Classification & Refinement](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Anthropic-Prompt-Refiner)
 
 ### Role-playing
 
