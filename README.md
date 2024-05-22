@@ -17,7 +17,7 @@
 
 ⭐ **All GPTs Massively Updated to V4**
 
-⭐ **31 Advanced GPTs Released**: Links found below.
+⭐ **32 Advanced GPTs Released**: Links found below.
 
 ⭐ **Nerority Official Youtube Channel**: [Nerority Youtube](https://youtube.com/@DevinPellegrino)
 
@@ -138,6 +138,7 @@ For Strategic Consulting, AI Auditing, Solution Design, or Building your Dream G
 ### Simulations
 
 - [AI Research Simulator](https://github.com/nerority/Advanced-GPTs/wiki/SIM-%E2%80%90-AI-Research-Simulator)
+- [Emergent Multi-Agent Farming Simulation](https://github.com/nerority/Advanced-GPTs/wiki/SIM-%E2%80%90-Emergent-Multi%E2%80%90Agent-Farming-Simulation)
 - [Linux Terminal Simulation](https://github.com/nerority/Advanced-GPTs/wiki/SIM-%E2%80%90-Linux-Terminal-Simulation)
 
 ### Task Management
