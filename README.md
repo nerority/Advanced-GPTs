@@ -123,6 +123,10 @@ For Strategic Consulting, AI Auditing, Solution Design, or Building your Dream G
 
 - [AI Persona Genesis](https://github.com/nerority/Advanced-GPTs/wiki/PER-%E2%80%90-AI-Persona-Genesis)
 
+### Programming
+
+- [CodeCraft - The DataFrame Wizard](https://github.com/nerority/Advanced-GPTs/wiki/PRG:-CodeCraft:-The-DataFrame-Wizard)
+
 ### Prompt Engineering
 
 - [Advanced Meta-Prompt Engineer](https://github.com/nerority/Advanced-GPTs/wiki/PE-%E2%80%90-Meta%E2%80%90Prompt-Engineer)
