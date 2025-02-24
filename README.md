@@ -5,7 +5,7 @@
   <a href="https://nerority.com"><kbd>🟢 Website</kbd></a>
   <a href="https://www.linkedin.com/in/devin-pellegrino-gt/"><kbd>🔵 LinkedIn </kbd></a>
   <a href="https://www.patreon.com/Nerority"><kbd> 🔴 Patreon </kbd></a>
-  <a href="https://discord.gg/jBKjsqA6pb"><kbd> ⚪ Discord </kbd></a>
+  <a href="https://discord.gg/PbEuXjB6pN"><kbd> ⚪ Discord </kbd></a>
   <br>
   <a href="https://github.com/nerority/Prompt-Engineering-Mastery"><kbd>Prompt Engineering</kbd></a>
   <a href="https://github.com/nerority/Advanced-GPTs"><kbd>Advanced GPTs</kbd></a>
@@ -157,7 +157,7 @@ For Strategic Consulting, AI Auditing, Solution Design, or Building your Dream G
   <a href="https://nerority.com"><kbd>🟢 Website</kbd></a>
   <a href="https://www.linkedin.com/in/devin-pellegrino-gt/"><kbd>🔵 LinkedIn </kbd></a>
   <a href="https://www.patreon.com/Nerority"><kbd> 🔴 Patreon </kbd></a>
-  <a href="https://discord.gg/jBKjsqA6pb"><kbd> ⚪ Discord </kbd></a>
+  <a href="https://discord.gg/PbEuXjB6pN"><kbd> ⚪ Discord </kbd></a>
   <br>
   <a href="https://github.com/nerority/Prompt-Engineering-Mastery"><kbd>Prompt Engineering</kbd></a>
   <a href="https://github.com/nerority/Advanced-GPTs"><kbd>Advanced GPTs</kbd></a>
